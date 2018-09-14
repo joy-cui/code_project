@@ -1,23 +1,11 @@
 package org.suirui.code.pojo;
 
-import javax.xml.bind.annotation.XmlType;
-
-@XmlType(propOrder = {
-        "id",
-        "prefix",
-        "code",
-        "reason",
-        "description",
-        "message",
-        "accept",
-        "codetype"
-})
 public class Errcode {
     private Integer id;
 
     private Integer prefix;
 
-    private Integer code;
+    private String code;
 
     private String reason;
 
@@ -45,12 +33,12 @@ public class Errcode {
         this.prefix = prefix;
     }
 
-    public Integer getCode() {
+    public String getCode() {
         return code;
     }
 
-    public void setCode(Integer code) {
-        this.code = code;
+    public void setCode(String code) {
+        this.code = code == null ? null : code.trim();
     }
 
     public String getReason() {

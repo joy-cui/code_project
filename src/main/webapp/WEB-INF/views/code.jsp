@@ -47,6 +47,7 @@
                                     <th>
                                         <input type="hidden" id="codetype" name="codetype" value="${codetype}" />
                                         <input type="hidden" id="prefix" name="prefix" value="${prefix}" />
+                                        <input id="PageContext" type="hidden" value="${pageContext.request.contextPath}" />
                                     </th>
 
                                 <tr>
@@ -146,7 +147,7 @@
                             <td align="center">
 
                                 <input type="Number" id="editcode"  name="code"   placeholder="请输入会议主题"
-                                       onKeyUp="value=value.replace(/[^\d]/g,'')" />
+                                       onKeyUp="value=value.replace(/[^\d]/g,'')"  maxlength="10" />
                             </td>
                         </tr>
                         <tr>
@@ -189,7 +190,7 @@
                                     <td align="center">错误编码</td>
                                     <td align="center">
                                         <input type="Number"   name="code" value=""  placeholder="请输入会议主题"
-                                                              onKeyUp="value=value.replace(/[^\d]/g,'')"   />
+                                                              onKeyUp="value=value.replace(/[^\d]/g,'')"   maxlength="10" />
                                     </td>
                                 </tr>
                                 <tr>

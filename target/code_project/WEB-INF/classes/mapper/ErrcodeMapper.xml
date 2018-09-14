@@ -4,7 +4,7 @@
   <resultMap id="BaseResultMap" type="org.suirui.code.pojo.Errcode">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="prefix" jdbcType="INTEGER" property="prefix" />
-    <result column="code" jdbcType="INTEGER" property="code" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
     <result column="reason" jdbcType="VARCHAR" property="reason" />
     <result column="description" jdbcType="VARCHAR" property="description" />
     <result column="message" jdbcType="VARCHAR" property="message" />
@@ -16,14 +16,14 @@
     insert into errcode (id, prefix,code, reason,
       description, message, accept, 
       codeType)
-    values (#{id,jdbcType=INTEGER}, #{prefix,jdbcType=INTEGER}, #{code,jdbcType=INTEGER}, #{reason,jdbcType=VARCHAR},
+    values (#{id,jdbcType=INTEGER}, #{prefix,jdbcType=INTEGER}, #{code,jdbcType=VARCHAR}, #{reason,jdbcType=VARCHAR},
       #{description,jdbcType=VARCHAR}, #{message,jdbcType=VARCHAR}, #{accept,jdbcType=VARCHAR}, 
       #{codetype,jdbcType=INTEGER})
   </insert>
   <select id="selectByCodeType" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select id, code,prefix, reason, description, message, accept,codeType
     from errcode
-    where codetype = #{codetype,jdbcType=INTEGER}
+    where codetype = #{codetype}
   </select>
 
   <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
@@ -76,7 +76,7 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
 
-  <select id="selectByCode" resultType="java.lang.Integer"   parameterType="java.lang.Integer">
+  <select id="selectByCode" resultType="java.lang.Integer"   parameterType="string">
     select count(*) from errcode where  code = #{code}
   </select>
 

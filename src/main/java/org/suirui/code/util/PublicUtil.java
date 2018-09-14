@@ -58,18 +58,18 @@ public class PublicUtil {
      return prefix;
     }
 
-    public static  int merge(int code,int prefix) throws Exception{
+    public static  String merge(String code,int prefix) throws Exception{
         String merger = String.valueOf(prefix)+String.valueOf(code) ;
-            return Integer.valueOf(merger);
+            return merger;
 
     }
 
-    public static  int part(int code,int prefix) throws Exception{
+    public static  String part(String code,int prefix) throws Exception{
         String prefix_str=String.valueOf(prefix);
         String code_str=String.valueOf(code);
         String code_= code_str.substring(prefix_str.length());
 //        String ss=code_str.replace(prefix_str,"");
-        return Integer.valueOf(code_);
+        return code_;
 
     }
 }

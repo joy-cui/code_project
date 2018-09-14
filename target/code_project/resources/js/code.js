@@ -8,7 +8,7 @@ function forward(codetype) {
     var jsonData={};
     jsonData.codetype=codetype;
     $.ajax({
-        url: "/code",        //后台url
+        url: $("#PageContext").val()+"/code",        //后台url
         data:jsonData,
         type: "POST",
         success: function (data) {      //成功，回调函数
@@ -34,7 +34,7 @@ function searchAjax() {
     jsonData.codetype=codetype;
     jsonData.searchTxt=searchTxt;
     $.ajax({
-        url: "/search",        //后台url
+        url: $("#PageContext").val()+"/search",        //后台url
         data:jsonData,
         type: "POST",
         success: function (data) {      //成功，回调函数
@@ -64,12 +64,12 @@ function exportToJson(isJson) {
         toUrl="/code/toXml";
     }
     $.ajax({
-        url: toUrl,        //后台url
+        url: $("#PageContext").val()+toUrl,        //后台url
         data:jsonData,
         type: "POST",
         success: function (data) {      //成功，回调函数
             if(data.status=="success"){
-                location.href="/downLoad?fileName="+data.fileName;
+                location.href=$("#PageContext").val()+"/downLoad?fileName="+data.fileName;
             }else{
                 alert("导出文件出错了");
             }
@@ -104,7 +104,7 @@ function deleteCode() {
     jsonData.codetype=codetype;
     jsonData.id=id;
     $.ajax({
-        url: "/deleteCode",        //后台url
+        url: $("#PageContext").val()+"/deleteCode",        //后台url
         data:jsonData,
         type: "POST",
         success: function (data) {      //成功，回调函数
@@ -129,7 +129,7 @@ function editErrorCode(id) {
     jsonData.codetype=codetype;
     jsonData.id=id;
     $.ajax({
-        url: "/findById",
+        url: $("#PageContext").val()+"/findById",
         data:jsonData,
         type: "POST",
         success: function (data) {
@@ -210,7 +210,7 @@ function editUI(errCode) {
         $('#editPrefix').removeAttr("disabled");
         $.ajax({
             type: "POST",//方法类型
-            url: "/editCode" ,//url
+            url: $("#PageContext").val()+"/editCode" ,//url
             data: $('#editCodeForm').serialize(),
             success: function (data) {
                 if(data.status==suc){
@@ -242,7 +242,7 @@ function editUI(errCode) {
         $('#insertPrefix').removeAttr("disabled");
         $.ajax({
             type: "POST",//方法类型
-            url: "/insert" ,//url
+            url: $("#PageContext").val()+"/insert" ,//url
             data: $('#insertCodeForm').serialize(),
             success: function (data) {
                 if(data.status==suc){

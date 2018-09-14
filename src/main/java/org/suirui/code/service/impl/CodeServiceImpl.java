@@ -49,7 +49,7 @@ public class CodeServiceImpl implements ICodeService {
     }
 
     @Override
-    public int selectByCode(Integer code) {
+    public int selectByCode(String code) {
         return errcodeMapper.selectByCode(code);
     }
 

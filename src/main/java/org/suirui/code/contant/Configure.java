@@ -73,6 +73,7 @@ public class Configure {
         public static class ERROR {
             public static final String ERROR_CODE_NOT_NULL = "错误码不能为空";
             public static final String  ERROR_CODE_REPETION= "错误编码重复";
+            public static final String EDIT_FAILER = "修改出错了";
         }
 
 }

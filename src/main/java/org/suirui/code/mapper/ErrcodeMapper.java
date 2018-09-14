@@ -21,7 +21,7 @@ public interface ErrcodeMapper {
     List<Errcode> findByAll();
     List<Errcode> findBySearch(String searchTxt);
 
-    int selectByCode(Integer code);
+    int selectByCode(String code);
 
 //    int insertSelective(Errcode record);
 //

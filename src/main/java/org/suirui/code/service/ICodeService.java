@@ -13,5 +13,5 @@ public interface ICodeService {
     void editErrorCode(Errcode errcode);
     List<Errcode> findByAll();
     List<Errcode> findBySearch(String searchTxt);
-    int selectByCode(Integer code);
+    int selectByCode(String code);
 }

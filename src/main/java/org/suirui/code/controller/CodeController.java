@@ -70,7 +70,7 @@ public class CodeController {
                 if(PublicUtil.isEmpty(errorCode.getCode()) || PublicUtil.isEmpty(errorCode.getPrefix())){
                     jsonObject.put(Configure.JSP.Attrible.STATUS,Configure.ERROR.ERROR_CODE_NOT_NULL);
                 }else {
-                    int code=PublicUtil.merge(errorCode.getCode(),errorCode.getPrefix());
+                    String code=PublicUtil.merge(errorCode.getCode(),errorCode.getPrefix());
                     errorCode.setCode(code);
                     int selectCount=codeService.selectByCode(code);
                     logger.error("insertCode.. 。。。。。。selectCount：" + selectCount);
@@ -112,7 +112,7 @@ public class CodeController {
             if (errcode != null) {
                 jsonObject.put(Configure.JSP.Attrible.CODE_TYPE,codetype);
                 //去除code中的prefix,显示用
-                int code=PublicUtil.part(errcode.getCode(),errcode.getPrefix());
+                String code=PublicUtil.part(errcode.getCode(),errcode.getPrefix());
                 logger.error("findById...code: "+code+" getCode：" +errcode.getCode()+" getPrefix："+errcode.getPrefix());
                 errcode.setCode(code);
                 jsonObject.put(Configure.JSP.Attrible.errorCodeObj,errcode);
@@ -145,7 +145,7 @@ public class CodeController {
                     jsonObject.put(Configure.JSP.Attrible.STATUS, Configure.ERROR.ERROR_CODE_NOT_NULL);
                 } else {
                     logger.error("editErrorCode...code....." + errorCode.getCode() + " codetype：" + errorCode.getCodetype()+" prefix:"+errorCode.getPrefix());
-                    int code=PublicUtil.merge(errorCode.getCode(),errorCode.getPrefix());
+                    String code=PublicUtil.merge(errorCode.getCode(),errorCode.getPrefix());
                     int selectCount=codeService.selectByCode(code);
                     if(selectCount>0){
                         jsonObject.put(Configure.JSP.Attrible.STATUS,Configure.ERROR.ERROR_CODE_REPETION);
@@ -162,8 +162,9 @@ public class CodeController {
                 jsonObject.put(Configure.JSP.Attrible.STATUS, Configure.ERROR.ERROR_CODE_NOT_NULL);
             }
         }catch (Exception e){
+            e.printStackTrace();
             logger.error("springTest.. mybatis。...error:"+e.getMessage().toString());
-            jsonObject.put(Configure.JSP.Attrible.STATUS,Configure.Staus.FAILER);
+            jsonObject.put(Configure.JSP.Attrible.STATUS,Configure.ERROR.EDIT_FAILER);
         }
         return jsonObject;
 
