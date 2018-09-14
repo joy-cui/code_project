@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.suirui.code.mapper.ErrcodeMapper">
+  <resultMap id="BaseResultMap" type="org.suirui.code.pojo.Errcode">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="prefix" jdbcType="INTEGER" property="prefix" />
+    <result column="code" jdbcType="INTEGER" property="code" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="message" jdbcType="VARCHAR" property="message" />
+    <result column="accept" jdbcType="VARCHAR" property="accept" />
+    <result column="codeType" jdbcType="INTEGER" property="codetype" />
+  </resultMap>
+
+  <insert id="insert" parameterType="org.suirui.code.pojo.Errcode" useGeneratedKeys="true" keyProperty="id">
+    insert into errcode (id, prefix,code, reason,
+      description, message, accept, 
+      codeType)
+    values (#{id,jdbcType=INTEGER}, #{prefix,jdbcType=INTEGER}, #{code,jdbcType=INTEGER}, #{reason,jdbcType=VARCHAR},
+      #{description,jdbcType=VARCHAR}, #{message,jdbcType=VARCHAR}, #{accept,jdbcType=VARCHAR}, 
+      #{codetype,jdbcType=INTEGER})
+  </insert>
+  <select id="selectByCodeType" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select id, code,prefix, reason, description, message, accept,codeType
+    from errcode
+    where codetype = #{codetype,jdbcType=INTEGER}
+  </select>
+
+  <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select id, code,prefix, reason, description, message, accept,codeType
+    from errcode
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="findByAll" resultMap="BaseResultMap" >
+    select id, code,prefix, reason, description, message, accept,codeType
+    from errcode
+  </select>
+
+  <select id="findBySearch"  resultMap="BaseResultMap" parameterType="string">
+    <bind name="pattern" value="'%' + _parameter + '%'" />
+    SELECT
+    *
+    FROM
+    errcode
+    <where>
+      <if test="_parameter != null and _parameter != ''">
+        and code like '%${_parameter}%'
+      </if>
+    </where>
+  </select>
+
+  <update id="editErrorCode" parameterType="org.suirui.code.pojo.Errcode" >
+
+    <!--update errcode-->
+
+    <!--<trim prefix="set" suffixOverrides=",">-->
+      <!--<if test="code != null">code=#{code},</if>-->
+      <!--<if test="codetype != null">codetype=#{codetype},</if>-->
+      <!--<if test="reason != null">reason=#{reason},</if>-->
+      <!--<if test="description != null">description=#{description}</if>-->
+      <!--<if test="message != null">message=#{message}</if>-->
+      <!--<if test="accept != null">accept=#{accept}</if>-->
+    <!--</trim>-->
+    <!--where id=#{id}-->
+
+    UPDATE errcode SET code = #{code} , prefix = #{prefix} ,codetype = #{codetype} , reason = #{reason} , description = #{description} , message = #{message}, accept = #{accept}
+
+
+    where id = #{id}
+
+
+
+  </update>
+  <delete id="deleteById" parameterType="java.lang.Integer" >
+    delete from errcode
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <select id="selectByCode" resultType="java.lang.Integer"   parameterType="java.lang.Integer">
+    select count(*) from errcode where  code = #{code}
+  </select>
+
+</mapper>

@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0;}
+*:focus{outline:0;}
+img{border:0;}
+ul,li{list-style-type:none;}
+.clearfix{*zoom:1;} 
+.clearfix:before,.clearfix:after{ 
+display:table; line-height:0; content: "";} 
+.clearfix:after{clear: both;}
+body{background:#f5f5f5;}
+
+.wrapper{width:100%; min-width:1440px; _width:1440px; margin:0 auto; font-family:"微软雅黑";}
+.nav{height:75px; background:#4772b7; margin-bottom:10px;}
+.left{width:280px; float:left; margin-bottom:10px; border:1px solid #ddd; background:#fff; overflow:auto; max-height:830px; overflow:auto;}
+.right{width:1150px; float:right; margin-bottom:10px; border:1px solid #ddd; background:#fff; max-height:830px;}
+.mainCon{margin-bottom:10px; border:1px solid #ddd; background:#fff; max-height:830px;}
+.footer{height:210px; border-top:1px solid #c9caca; background:#f5f8fd;}
+
+.left h3{font-size:16px; font-weight:normal; border-bottom:1px solid #dce2ed; position:relative;}
+.left h3 a{display:block; line-height:20px; padding:20px 25px;}
+.left h3.curCom a,.left h3.openCom a{background:#3b619f; border-bottom:1px solid #3b619f;}
+.left h3 i{width:9px; height:9px; position:absolute; right:20px; top:25px; cursor:pointer; background:url(../images/clsed.png) center center no-repeat;}
+.left h3.curCom i{background:url(../images/clsedW.png) center center no-repeat;}
+.left h3.openCom i{background:url(../images/opened.png) center center no-repeat;}
+.left h3 a:link,.left h3 a:visited,.left h3 a:hover{color:#7493cf; text-decoration:none;}
+.left h3.curCom a:link,.left h3.curCom a:visited,.left h3.curCom a:hover,.left h3.openCom a:link,.left h3.openCom a:visited,.left h3.openCom a:hover{color:#fff; text-decoration:none;}
+.comTeam{padding:15px 20px 35px 25px; border-bottom:1px solid #dce2ed; font-size:14px; line-height:30px; display:none;}
+.comTeam li{position:relative; color:#4772b7;}
+.comTeam li.allUser{font-size:16px;}
+.comTeam li span{display:inline-block; position:absolute; right:0px; top:-1px; background:#4772b7; color:#fff; padding:1px 7px; border-radius:3px; font-size:14px; cursor:pointer;}
+.comTeam li a:link,.comTeam li a:visited{color:#4772b7; text-decoration:none;}
+.comTeam li a:hover{color:#ff8a52; text-decoration:none}
+.comTeam li.curTeam a:link,.comTeam li.curTeam a:visited,.comTeam li.curTeam a:hover{color:#ff8a52; text-decoration:none;}
+
+.content{padding-left:50px ;padding-top: 10px;padding-bottom: 5px}
+.searchCon{border-bottom:1px solid #f5f5f5; padding-bottom:20px; margin-bottom:20px;}
+.btnGroup{float:left;}
+.btnGroup li{float:left; font-size:14px; margin-right:10px;}
+.btnGroup li a{display:inline-block; background:#4772b7; padding:7px 12px; border-radius:3px;}
+.btnGroup li a img{vertical-align:middle;}
+.btnGroup li a:link,.btnGroup li a:visited,.btnGroup li a:hover{color:#fff; text-decoration:none;}
+.search{}
+.search input{box-sizing:content-box; height:34px; float:left;}
+.iptText{font-family:"微软雅黑"; font-size:14px; color:#2b3953; padding:5px; border:1px solid #dce2ee; height:22px!important;}
+.searchBtn{width:34px; background:#4772b7 url(../images/searchW.png) center center no-repeat; cursor:pointer; border:0;}
+.fr{float:right;}
+.fr .iptText{width:220px; background:#f5f8fd}
+.pl{position:absolute; left:25px; top:14px;}
+.pl .iptText{width:220px; background:#f5f8fd}
+
+.listCon{margin-bottom:30px;}
+.listCon h3{font-size:16px; color:#fff; line-height:50px; background:#8399bc; font-weight:normal; padding-left:20px;}
+.listCon h3 img{vertical-align:middle;}
+.editGroup{cursor:pointer;}
+.tableSty1{border:1px solid #dce2ed; border-spacing:0; border-collapse:collapse;}
+.tableSty1 tr{}
+.tableSty1 tr:nth-child(odd){background:#f5f8fd;}
+.tableSty1 tr.hover{background:#5e8bd3;}
+.tableSty1 th{height:60px; font-size:16px; font-weight:normal; color:#2b3953; border-bottom:1px solid #dce2ed;}
+.tableSty1 td{height:44px; font-size:14px; color:#2b3953; border-bottom:1px solid #dce2ed;}
+.tableSty1 .hover td{font-size:16px; color:#fff;}
+.tableSty2{border:1px solid #dce2ed; border-spacing:0; border-collapse:collapse;}
+.tableSty2 tr{}
+.tableSty2 tr:nth-child(odd){background:#f5f8fd;}
+.tableSty2 th{height:60px; font-size:16px; font-weight:normal; color:#fff; border-bottom:1px solid #dce2ed; background:#8399bc;}
+.tableSty2 td{height:44px; font-size:14px; color:#2b3953; border-bottom:1px solid #dce2ed; text-align:center;}
+.tableSty2 a:link,.tableSty2 a:visited,.tableSty2 a:hover{color:#4772b7; text-decoration:underline;}
+.tableSty2 span {font-size:12px; display:inline-block; padding:1px 4px; border:1px solid #4772b7; border-radius:3px; vertical-align:middle;}
+.tableSty2 span a:link,.tableSty2 span a:visited,.tableSty2 span a:hover{color:#4772b7; text-decoration:none;}
+.tableSty3{border:1px solid #dce2ed; border-spacing:0; border-collapse:collapse;}
+.tableSty3 tr{}
+.tableSty3 tr:nth-child(even){background:#f5f8fd;}
+.tableSty3 th{height:50px; font-size:18px; font-weight:bold; font-weight:normal; color:#fff; border-bottom:1px solid #dce2ed; background:#8399bc;}
+.tableSty3 td{height:55px; font-size:14px; color:#2b3953; border-bottom:1px solid #dce2ed; text-align:center;}
+.tableSty3 .meetingUser a{display:inline-block; padding:1px 5px; margin:0 5px; border:1px solid #4772b7; border-radius:3px; vertical-align:middle; font-size:12px;}
+.tableSty3 .meetingUser a:link,.tableSty3 .meetingUser a:visited,.tableSty3 .meetingUser a:hover{color:#4772b7; text-decoration:none;}
+.tableSty3 .meetingSet a{display:inline-block; padding:7px 20px; margin:0 1px; background:#4772b7; border-radius:3px; vertical-align:middle; font-size:12px;}
+.tableSty3 .meetingSet a.delMeeting{background:#ff8a52;}
+.tableSty3 .meetingSet a:link,.tableSty3 .meetingSet a:visited,.tableSty3 .meetingSet a:hover{color:#fff; text-decoration:none;}
+.tableSty4{border:1px solid #bfbfbf; border-spacing:0; border-collapse:collapse; margin:20px auto 40px auto!important;}
+.tableSty4 th,.tableSty4 td{border:1px solid #bfbfbf;}
+.tableSty4 th{font-size:18px; font-weight:normal; color:#333; line-height:70px;}
+.tableSty4 td{font-size:14px; color:#333; padding:10px;}
+.tableSty4 li{width:33.3333333%; float:left; padding:10px 0; text-indent:40px;}
+.uncheck{width:16px; height:16px; display:inline-block; background:url(../images/unchecked.png) center center no-repeat; background-size:cover; cursor:pointer; overflow:hidden; vertical-align:middle;}
+.uncheck input{visibility:hidden; opacity:0;}
+.checked{background:url(../images/checked.png) center center no-repeat; background-size:cover;}
+.tableSty4 .uncheck{background:url(../images/unchecked2.png) center center no-repeat;}
+.tableSty4 .checked{background:url(../images/checked2.png) center center no-repeat;}
+.editUser{width:20px; height:20px; display:inline-block; background:url(../images/editB.png) center center no-repeat; background-size:cover; cursor:pointer; overflow:hidden; margin-right:10px; vertical-align:middle;}
+.hover .editUser{background:url(../images/editW.png) center center no-repeat; background-size:cover;}
+.delUser{width:20px; height:20px; display:inline-block; background:url(../images/delO.png) center center no-repeat; background-size:cover; cursor:pointer; overflow:hidden; vertical-align:middle;}
+.adminLog{width:20px; height:22px; display:inline-block; background:url(../images/logB.png) center center no-repeat; background-size:cover; cursor:pointer; overflow:hidden; vertical-align:middle;}
+.hover .adminLog{background:url(../images/logW.png) center center no-repeat; background-size:cover;}
+.editAuthority{width:20px; height:22px; display:inline-block; background:url(../images/authorityB.png) center center no-repeat; background-size:cover; cursor:pointer; overflow:hidden; vertical-align:middle;}
+.hover .editAuthority{background:url(../images/authorityW.png) center center no-repeat; background-size:cover;}
+.moveGrp{display:inline-block; background:#4772b7; padding:7px 12px; border-radius:3px; margin:10px 0;}
+.moveGrp img{vertical-align:middle;}
+.moveGrp:link,.moveGrp:visited,.moveGrp:hover{color:#fff; text-decoration:none;}
+.page{text-align:center; margin:10px 0;}
+.page span{display:inline-block; width:32px; height:32px; line-height:32px; background:#f5f8fd; margin:0 3px;}
+.page span a{display:block;}
+.page span a:link,.page span a:visited{color:#5a6a89; text-decoration:none;}
+.page span a:hover{color:#fff; text-decoration:none; background:#4772b7;}
+.page span a.curP:link,.page span a.curP:visited,.page span a.curP:hover{color:#fff; text-decoration:none; background:#4772b7;}
+.page span.preP,.page span.nextP,.page span.lastP{width:auto;}
+.page span.preP a,.page span.nextP a,.page span.lastP a{padding:0 10px;}
+
+.meetingSelectOpts{float:left; font-size:15px; color:#212e48;}
+.meetingSelectOpts td{position:relative}
+.meetingSelectOpts input{width:100px; height:20px; padding:3px 10px; margin-right:40px; font-family:"微软雅黑"; font-size:12px; color:#304269; border:1px solid #d9e0ed; background:#f1f4f9 url(../images/selectDwnS.png) right center no-repeat; box-sizing:content-box; cursor:pointer;}
+.mSelectOpt{position:absolute; width:94px; font-size:12px; color:#304269; top:28px; left:0; border:1px solid #d9e0ed; background:#eee; max-height:270px; overflow:auto; display:none;}
+.mSelectOpt li{line-height:27px; padding:0 10px;}
+.mSelectOpt li:hover{background:#f1f4f9;}
+
+.headWrapper{height:68px; border-bottom:1px solid #c9caca; background:#f5f8fd;}
+.headMain{width:1440px; margin:0 auto; background:#f5f8fd;}
+.logo{float:left; padding:13px 25px 0 30px; font-size:28px; color:#4772b7;}
+.logo img{vertical-align:top;}
+.nav ul{width:1440px; margin:0 auto;}
+.nav li{float:left; line-height:71px;}
+.nav li a{display:block; width:120px; text-align:center;}
+.nav li a:link,.nav li a:visited{color:#fff; text-decoration:none; background:#4772b7; border-bottom:4px solid #4772b7;}
+.nav li a:hover{color:#fff; text-decoration:none; background:#3b619f; border-bottom:4px solid #ff8a52;}
+.nav li.cur a:link,.nav li.cur a:visited,.nav li.cur a:hover{color:#fff; text-decoration:none; background:#3b619f; border-bottom:4px solid #ff8a52;}
+.loginArea{float:right; line-height:68px; color:#4772b7; padding-right:20px; font-size:14px;}
+.loginArea a:link,.loginArea a:visited,.loginArea a:hover{color:#4772b7; text-decoration:none;}
+
+.footMain{width:1240px; margin:0 auto; background:#f7f8f8;}
+.footMain ul{width:1020px; margin:40px auto;}
+.footMain li{float:left; line-height:19px; border-right:1px solid #5a6a89; padding:0 60px; margin:13px 0; font-size:14px; color:#5a6a89; text-align:center;}
+.footMain li a:link,.footMain li a:visited{color:#5a6a89; text-decoration:none;}
+.footMain li a:hover{color:#5a6a89; text-decoration:underline;}
+.footMain li.hotLine{line-height:0; border:0; margin-top:-10px;}
+.hotLine h3{font-size:30px; line-height:39px; color:#5a6a89; margin-bottom:2px; font-weight:bold;}
+.hotLine span{font-size:10px; line-height:14px;}
+.copyRight{font-size:12px; color:#5a6a89; text-align:center;}
+
+/*login*/
+.login{background:#127baf url(../images/loginBodyBg.jpg) top center no-repeat; background-size:cover;}
+.loginCon{position:absolute; top:240px; left:50%; margin-left:-450px; width:900px; background:url(../images/loginBg.png) bottom center no-repeat;}
+.loginCon h1{font-family:"微软雅黑"; font-size:52px; font-weight:normal; color:#fff; text-align:center; padding-bottom: 30px;}
+.loginCon h1 img{vertical-align:bottom;}
+.loginForm{height:355px; font-family:"微软雅黑"; font-size:20px; color:#055aa5; padding-top:70px;}
+.loginForm table{margin:0 auto;}
+.loginForm input{width:100%; box-sizing:border-box; border:2px solid #117dda; background:none; border-radius:5px; height:40px; font-family:"微软雅黑"; font-size:20px; color:#055aa5; margin:10px 0; padding:5px;}
+.loginForm input:focus{outline:0;}
+
+#vertical_box {
+                width:100%;
+                display:table;
+                height:400px;
+				position:fixed;
+				top:0;
+				background:url(../images/bg.png) repeat;
+				z-index:999;
+				display:none;
+                *position:relative; /*针对IE的hack*/
+}
+#vertical_box_sub {
+                display: table-cell;
+                vertical-align: middle;
+                *position:absolute; /*针对IE的hack*/
+                *top:50%;
+}
+#vertical_box_container {
+                font-family:"宋体";
+                *position:relative; /*针对IE的hack*/
+                *top:-50%;
+                margin:0 auto;
+                width:100%;
+}
+			
+.popOut{width:400px; background:#fff; overflow:hidden; display:none; margin:0 auto;}
+.popOut h3{font-family:"微软雅黑"; font-size:20px; font-weight:normal; line-height:60px; color:#2b3953; text-align:center; position:relative; background:#f5f8fd; border-bottom:1px solid #dce2ed;}
+.popOut h3 i{position:absolute; top:0px; right:25px; font-style:normal; font-size:22px; cursor:pointer; color:#2b3953!important;}
+.popContent{padding:0;}
+.popContent p{color: #959595; font-size:18px; font-family:"微软雅黑";}
+.popContent em{color:#a4a4a4; font-size:14px; font-style:normal;}
+.popContent table{margin:50px auto 0 auto; font-family:"微软雅黑"; font-size:14px; }
+.popContent table td{color: #212121;padding-bottom:10px ;padding-top:10px;}
+.btns{text-align:center; padding:40px 0 30px 0;}
+.btns a{display:inline-block; font-size:18px; font-family:"微软雅黑"; padding:5px 20px; border-radius:3px; margin:0 -1px;}
+.btns a.define{background:#4772b7;}
+.btns a.cancel{background:#ff8a52;}
+.btns a:link,.btns a:visited,.btns a:hover{color:#fff; text-decoration:none;}
+.delTip{margin:0 auto; font-size:16px; line-height:30px;}
+#moveGrp{width:400px;}
+#moveGrp table{margin:0;}
+#moveGrp tr{line-height:45px; font-family:"微软雅黑"; font-size:14px; color:#2b3953;}
+#moveGrp td{border-bottom:1px solid #dce2ed;}
+#moveGrp tr:nth-child(even){background:#f5f8fd;}
+#addGroup,#editGroup,#addCom,#editCom,#editMeetingN{width:400px;}
+#addGroup input,#editGroup input,#addCom input,#editCom input,#editMeetingN input{width:300px; height:28px; border:1px solid #dce2ee; padding:10px; box-sizing:content-box; font-family:"微软雅黑"; font-size:16px; color:#c0cadd;}
+#addGroup input:focus,#editGroup input:focus,#addCom input:focus,#editCom input:focus,#editMeetingN input:focus{border:1px solid #4772b7;}
+#addUser,#editUser,#addServer,#editServer,#editAdmin,#addDevice,#editDevice{width:400px;}
+#addUser table,#editUser table,#addServer table,#editServer table,#editAdmin table,#addDevice table,#editDevice table{margin-top:30px;}
+#addUser td,#editUser td,#addServer td,#editServer td,#editAdmin td,#addDevice td,#editDevice td{position:relative;}
+#addUser input,#editUser input,#addServer input,#editServer input,#editAdmin input,#addDevice input,#editDevice input{width:300px; height:28px; border:1px solid #dce2ee; padding:10px; box-sizing:content-box; font-family:"微软雅黑"; font-size:16px; color:#c0cadd; margin:5px;}
+#addUser input:focus,#editUser input:focus,#addServer input:focus,#editServer input:focus,#editAdmin input:focus,#addDevice input:focus,#editDevice input:focus{border:1px solid #4772b7;}
+#addUser i,#editUser i{font-style:normal; font-size:20px; color:#ff8a52;}
+.disIpt{color:#2b3953!important; cursor:auto;}
+.selectIpt{background:url(../images/selectDwn.png) right center no-repeat; cursor:pointer;}
+.selectOpt{width:320px; border:1px solid #dce2ee; box-sizing:content-box; position:absolute; bottom:55px; margin:0 5px; display:none;}
+#addServer .selectOpt,#editServer .selectOpt{bottom:auto; top:55px; z-index:99;}
+.selectOpt li{line-height:40px; font-size:16px; color:#2b3953; padding:0 10px; background:#fff;}
+.selectOpt li:hover{color:#fff; background:#4772b7;}
+#loginRecord table{margin-top:0;} 
+#downloadMeeting table{margin:50px auto;}
+#meetingLog,#moreMeetingU,#editAuthority,#authority{width:1060px;}
+#meetingLog table,#moreMeetingU table{margin-top:0;} 
+#shareMeeting{width:945px;}
+.shareMCon{padding:30px; font-family:"微软雅黑";}
+.userCom,.userList,.selectUser,.timeLimit{float:left; background:#f5f8fd; border-radius:8px; overflow:auto;}
+.userCom,.userList{width:220px; margin-right:30px; height:420px;}
+.userCom{padding:15px;}
+.userCom h3{font-size:16px; font-weight:normal; border-bottom:1px solid #dce2ed; text-align:center;}
+.userCom h3 a{line-height:45px;}
+.userCom h3 a:link,.userCom h3 a:visited,.userCom h3 a:hover{color:#1a3e76; text-decoration:none;}
+.userCom ul{padding:10px 20px 20px 20px; border-bottom:1px solid #dce2ed; font-size:14px; line-height:30px; display:none;}
+.userCom li{position:relative; color:#4772b7;}
+.userCom li.allUser{font-size:16px;}
+.userCom li a:link,.userCom li a:visited{color:#4772b7; text-decoration:none;}
+.userCom li a:hover{color:#ff8a52; text-decoration:none}
+.userCom li.curTeam a:link,.userCom li.curTeam a:visited,.userCom li.curTeam a:hover{color:#ff8a52; text-decoration:none;}
+.userList{padding:10px 20px; width:200px;}
+.userList ul{padding:30px 0 0 50px;}
+.userList li{padding:5px;}
+.userList a{display:inline-block; padding-left:10px; border-left:2px solid #f5f8fd;}
+.userList a:link,.userList a:visited{color:#4772b7; text-decoration:none;}
+.userList a:hover{color:#78a3e8; text-decoration:none; border-left:2px solid #fe915d;}
+.selectUser,.timeLimit{width:305px;}
+.selectUser{height:360px; margin-bottom:10px; padding:15px;}
+.selectUser li{float:left; width:100px; height:38px; line-height:38px; padding-left:10px; margin:15px; border:1px solid #c1e1f1; border-radius:3px; background:url(../images/closeB.png) right center no-repeat; cursor:pointer; color:#4772b7;}
+.timeLimit{height:28px; padding:10px 15px; color:#212e48; overflow:visible;}
+.timeLimit table{margin-top:0}
+.timeLimit td{position:relative;}
+.timeLimit input{width:55px; height:20px; padding:3px 10px; margin-right:10px; font-family:"微软雅黑"; font-size:12px; color:#212e48; border:1px solid #d9e0ed; background:#f1f4f9 url(../images/selectDwnS.png) right center no-repeat; box-sizing:content-box; cursor:pointer;}
+.tSelectOpt{position:absolute; width:75px; font-size:12px; color:#212e48; top:28px; left:0; border:1px solid #d9e0ed; background:#eee; max-height:270px; overflow:auto; display:none;}
+.tSelectOpt li{line-height:27px; padding:0 10px;}
+.tSelectOpt li:hover{background:#f1f4f9;}
+.shareCopy{padding-bottom:30px; text-align:center;}
+.shareCopy a{display:inline-block; line-height:55px; background:#4772b7; font-size:20px; color:#fff; padding:0 40px; border-radius:7px;}
+.shareCopy a:link,.shareCopy a:visited,.shareCopy a:hover{color:#fff; text-decoration:none;}
