@@ -131,10 +131,10 @@
             </div>
             <!-- 编辑-->
             <div class="popOut" id="editMeetingN">
-                <h3>编辑会议主题<i class="closePop">×</i></h3>
+                <h3>编辑错误编码<i class="closePop">×</i></h3>
                 <form id="editCodeForm" onsubmit="return false" action="##" method="post" >
                 <div class="popContent">
-                    <input type="hidden" id="editCodeType" name="codetype" value="${codetype}" />
+                    <input type="text" id="editCodeType" name="codetype" value="${codetype}" />
                     <input type="hidden" id="editid" name="id" />
                     <table width="380" border="0" cellspacing="0" cellpadding="0" class="">
                         <tbody>
@@ -146,8 +146,9 @@
                             <td align="center">错误编码</td>
                             <td align="center">
 
-                                <input type="Number" id="editcode"  name="code"   placeholder="请输入会议主题"
-                                       onKeyUp="value=value.replace(/[^\d]/g,'')"  maxlength="10" />
+                                <input type="text" id="editcode"  name="code"   placeholder="请输入错误编码"
+                                         maxlength="16" />
+                                <!-- onKeyUp="value=value.replace(/[^\d]/g,'')"-->
                             </td>
                         </tr>
                         <tr>
@@ -189,8 +190,10 @@
                                 <tr>
                                     <td align="center">错误编码</td>
                                     <td align="center">
-                                        <input type="Number"   name="code" value=""  placeholder="请输入会议主题"
-                                                              onKeyUp="value=value.replace(/[^\d]/g,'')"   maxlength="10" />
+                                        <%--<input type="Number"   name="code" value=""  placeholder="请输入会议主题"--%>
+                                                              <%--onKeyUp="value=value.replace(/[^\d]/g,'')"   maxlength="10" />--%>
+                                            <input type="text"   name="code"   placeholder="请输入错误编码"
+                                                   maxlength="16" />
                                     </td>
                                 </tr>
                                 <tr>

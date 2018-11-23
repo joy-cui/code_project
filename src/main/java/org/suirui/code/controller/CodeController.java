@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.suirui.code.ErrorCodeEntry;
 import org.suirui.code.contant.Configure;
 import org.suirui.code.pojo.Errcode;
 import org.suirui.code.service.impl.CodeServiceImpl;
@@ -17,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -137,7 +139,7 @@ public class CodeController {
     @RequestMapping(value = "/editCode")
     public  @ResponseBody  JSONObject editErrorCode( Errcode errorCode)
     {
-        logger.error("editErrorCode.....");
+        logger.error("editErrorCode.....getCodetype:"+errorCode.getCodetype()+" getCode:"+errorCode.getCode());
         JSONObject jsonObject=new JSONObject();
         try {
             if(errorCode!=null) {
@@ -147,7 +149,7 @@ public class CodeController {
                     logger.error("editErrorCode...code....." + errorCode.getCode() + " codetype：" + errorCode.getCodetype()+" prefix:"+errorCode.getPrefix());
                     String code=PublicUtil.merge(errorCode.getCode(),errorCode.getPrefix());
                     int selectCount=codeService.selectByCode(code);
-                    if(selectCount>0){
+                    if(selectCount>1){
                         jsonObject.put(Configure.JSP.Attrible.STATUS,Configure.ERROR.ERROR_CODE_REPETION);
                     }else {
                         errorCode.setCode(code);
@@ -255,8 +257,28 @@ public class CodeController {
         logger.error("....exportXml....codeType: "+codetype);
         JSONObject xmlObj=new JSONObject();
         try{
+//              id;  prefix;  code; reason;  description;message; accept; codetype;
+
             List<Errcode> errcodeList=codeService.findByAll();
-            String xmlStr=XmlUtil.ListToXml(errcodeList);
+            List<ErrorCodeEntry> codeList=new ArrayList<>();
+            ErrorCodeEntry errorCodeEntry=null;
+            for (Errcode errcode:errcodeList) {
+                errorCodeEntry=new ErrorCodeEntry();
+//                errorCodeEntry.setId(errcode.getId());
+                errorCodeEntry.setPrefix(errcode.getPrefix());
+                errorCodeEntry.setErrorCode(PublicUtil.hexToInt(errcode.getPrefix(),errcode.getCode()));
+                errorCodeEntry.setCode(errcode.getCode());
+                errorCodeEntry.setReason(errcode.getReason());
+                errorCodeEntry.setDescription(errcode.getDescription());
+                errorCodeEntry.setMessage(errcode.getMessage());
+                errorCodeEntry.setAccept(errcode.getAccept());
+//                errorCodeEntry.setCodetype(errcode.getCodetype());
+                codeList.add(errorCodeEntry);
+                errorCodeEntry=null;
+            }
+
+
+          String xmlStr=XmlUtil.ListToXml(codeList);
 //            logger.error(xmlStr);
             String path=request.getSession().getServletContext().getRealPath(filePath);
             XmlUtil.fileToXml(xmlStr,path,fileName);

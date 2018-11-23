@@ -72,4 +72,21 @@ public class PublicUtil {
         return code_;
 
     }
+
+    public static Integer hexToInt(int prefix,String hexStr){
+        int data=0;
+        try{
+
+            if(hexStr!=null){
+                String errorCode= part(hexStr,prefix);
+                String code=errorCode.replaceAll("^0[x|X]","");
+                data=Integer.parseInt(code,16);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return data;
+
+    }
 }

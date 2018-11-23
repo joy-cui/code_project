@@ -1,0 +1,403 @@
+{
+	"data":[
+		{
+			"reason":"消息参数错误,拒绝加入会议","code":"1020x040000","prefix":102,"description":"msg param error","errorCode":262144,"message":"参数错误加入会议失败（40000）","accept":"ter"
+		},{
+			"reason":"获取会议信息超时,拒绝加入会议","code":"1020x040001","prefix":102,"description":"devmgr confinfo timeout","errorCode":262145,"message":"获取信息超时加入会议失败（40001）","accept":"ter"
+		},{
+			"reason":"当前系统负载参数为空或加密长度错误,拒绝加入会议","code":"1020x040002","prefix":102,"description":"systemload param is null","errorCode":262146,"message":"加入会议失败（40002）","accept":"ter"
+		},{
+			"reason":"当前系统负载信息解密失败,拒绝加入会议","code":"1020x040003","prefix":102,"description":"decrypt cursystemload error","errorCode":262147,"message":"加入会议失败（40003）","accept":"ter"
+		},{
+			"reason":"授权时间已经到期,拒绝加入会议","code":"1020x040004","prefix":102,"description":"licence time expring","errorCode":262148,"message":"授权时间到期加入会议失败（40004）","accept":"ter"
+		},{
+			"reason":"超出sr终端系统授权数,拒绝加入会议","code":"1020x040005","prefix":102,"description":"exceed srcount licence","errorCode":262149,"message":"超出终端授权数加入会议失败（40005，40006）","accept":"ter"
+		},{
+			"reason":"超出标准终端系统授权数,拒绝加入会议","code":"1020x040006","prefix":102,"description":"exceed stdcount licence","errorCode":262150,"message":"超出终端授权数加入会议失败（40005，40006）","accept":"ter"
+		},{
+			"reason":"密码错误,拒绝加入会议","code":"1020x040007","prefix":102,"description":"password wrong","errorCode":262151,"message":"密码错误加入会议失败（40007）","accept":"ter"
+		},{
+			"reason":"会议被设定自动录制,但系统没有录制授权,拒绝加入会议","code":"1020x040008","prefix":102,"description":"sys not have rec licence","errorCode":262152,"message":"无录制授权加入会议失败（40008）","accept":"ter"
+		},{
+			"reason":"主席（会议创建者）未入会,拒绝加入会议","code":"1020x040009","prefix":102,"description":"chair first","errorCode":262153,"message":"主持人未入会加入会议失败（40009）","accept":"ter"
+		},{
+			"reason":"会议被锁定,拒绝加入会议","code":"1020x04000A","prefix":102,"description":"conf is locked","errorCode":262154,"message":"会议锁定加入会议失败（4000A）","accept":"ter"
+		},{
+			"reason":"会议的通道已经分配完,拒绝加入会议","code":"1020x04000B","prefix":102,"description":"channelid full","errorCode":262155,"message":"加入会议失败（4000B）","accept":"ter"
+		},{
+			"reason":"超出单会议最大终端数授权限制,拒绝加入会议","code":"1020x04000C","prefix":102,"description":"exceed maxternumperconf licence","errorCode":262156,"message":"超出授权数加入会议失败（4000C）","accept":"ter"
+		},{
+			"reason":"超出会议最大终端数配置,拒绝加入会议","code":"1020x04000D","prefix":102,"description":"exceed maxternum config","errorCode":262157,"message":"加入会议失败（4000D）","accept":"ter"
+		},{
+			"reason":"召开会议时没有可用的netmp,拒绝加入会议","code":"1020x04000E","prefix":102,"description":"less netmp1","errorCode":262158,"message":"加入会议失败（4000E）","accept":"ter"
+		},{
+			"reason":"没有可用的mp","code":"1020x04000F","prefix":102,"description":"less mp","errorCode":262159,"message":"没有可用的MP服务（4000F）","accept":"ter"
+		},{
+			"reason":"netmp创建会议成功,但媒体处理实例还未创建","code":"1020x040010","prefix":102,"description":"netmprsp isok but mpi not create","errorCode":262160,"message":"媒体处理实例未创建（40010）","accept":"ter"
+		},{
+			"reason":"netmp创建会议成功,但未找到媒体处理实例","code":"1020x040011","prefix":102,"description":"netmprsp isok not find mpi","errorCode":262161,"message":"未找到媒体处理实例（40011）","accept":"ter"
+		},{
+			"reason":"netmp创建会议超时,该netmp可能已经断开链接","code":"1020x040012","prefix":102,"description":"offline netmp create conf timeout","errorCode":262162,"message":"创建会议超时（40012）","accept":"ter"
+		},{
+			"reason":"netmp创建会议超时","code":"1020x040013","prefix":102,"description":"online netmp create conf timeout","errorCode":262163,"message":"创建会议超时（40013）","accept":"ter"
+		},{
+			"reason":"mp创建媒体处理实例超时","code":"1020x040014","prefix":102,"description":"mp create mpi timeout","errorCode":262164,"message":"创建媒体处理实例超时（40014）","accept":"ter"
+		},{
+			"reason":"会议还未召开(标准终端)","code":"1020x040015","prefix":102,"description":"conf not start","errorCode":262165,"message":"标准终端)（40015）","accept":"ter"
+		},{
+			"reason":"会议正在结束","code":"1020x040016","prefix":102,"description":"conf is ending","errorCode":262166,"message":"会议正在结束（40016）","accept":"ter"
+		},{
+			"reason":"crs正在停止录制","code":"1020x040017","prefix":102,"description":"crs stopping rec","errorCode":262167,"message":"录制服务正在停止录制（40017）","accept":"ter"
+		},{
+			"reason":"终端入会时mp已经成功创建mpi,但未找到媒体处理实例","code":"1020x040018","prefix":102,"description":"less mpi","errorCode":262168,"message":"未找到媒体处理实例（40018）","accept":"ter"
+		},{
+			"reason":"会议已经在netmp上召开,但未能找到合适的netmp接受该终端加入此混会议","code":"1020x040019","prefix":102,"description":"not find netmp to join this mixconf","errorCode":262169,"message":"加入会议失败（40019）","accept":"ter"
+		},{
+			"reason":"会议已经在netmp上召开,但未能找到合适的netmp接受该终端加入此普通会议","code":"1020x04001A","prefix":102,"description":"not find netmp to join this normalconf","errorCode":262170,"message":"加入会议失败（4001A）","accept":"ter"
+		},{
+			"reason":"会议已经召开,请求入会时没有可用的netmp","code":"1020x04001B","prefix":102,"description":"less netmp4","errorCode":262171,"message":"没有可用的netmp服务（4001B）","accept":"ter"
+		},{
+			"reason":"没有该会议(会议不存在)","code":"1020x04001C","prefix":102,"description":"mc has no confid","errorCode":262172,"message":"会议不存在（4001C）","accept":"ter"
+		},{
+			"reason":"请求消息没有发起者类型","code":"1020x04001D","prefix":102,"description":"req msg has no sponsortype","errorCode":262173,"message":"没有发起者类型（4001D）","accept":"ter"
+		},{
+			"reason":"请求消息中发起者类型错误","code":"1020x04001E","prefix":102,"description":"req msg sponsortype error","errorCode":262174,"message":"发起者类型错误（4001E）","accept":"ter"
+		},{
+			"reason":"请求消息中终端id号错误","code":"1020x04001F","prefix":102,"description":"req msg terid error","errorCode":262175,"message":"终端ID号错误（4001F）","accept":"ter"
+		},{
+			"reason":"会议录制状态：crs服务故障迁移超时","code":"1020x040020","prefix":102,"description":"crs reopen timeout","errorCode":262176,"message":"录制服务故障迁移超时（40020）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：crs创建会议超时","code":"1020x040021","prefix":102,"description":"crs create conf timeout","errorCode":262177,"message":"录制服务创建会议超时（40021）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：开启录制超时","code":"1020x040022","prefix":102,"description":"start rec timeout","errorCode":262178,"message":"开启录制超时（40022）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：正常结束录制超时","code":"1020x040023","prefix":102,"description":"stop rec timeout","errorCode":262179,"message":"结束录制超时（40023）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：结束会议时结束录制超时","code":"1020x040024","prefix":102,"description":"end conf stop rec timeout","errorCode":262180,"message":"结束录制超时（40024）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：服务异常时结束录制超时","code":"1020x040025","prefix":102,"description":"dev error stop rec timeout","errorCode":262181,"message":"结束录制超时（40025）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：会议为空时结束录制超时","code":"1020x040026","prefix":102,"description":"conf empty stop rec timeout","errorCode":262182,"message":"结束录制超时（40026）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：crs故障迁移失败","code":"1020x040027","prefix":102,"description":"crs reopen error","errorCode":262183,"message":"录制服务故障迁移失败（40027）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：crs创建会议失败","code":"1020x040028","prefix":102,"description":"crs create conf failed","errorCode":262184,"message":"录制服务创建会议失败（40028）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：crs服务网络异常","code":"1020x040029","prefix":102,"description":"crs closed socket","errorCode":262185,"message":"录制服务网络异常（40029）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：系统不支持录制(没有录制授权)","code":"1020x04002A","prefix":102,"description":"sys not sup rec","errorCode":262186,"message":"没有录制授权（4002A）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：超出录制授权","code":"1020x04002B","prefix":102,"description":"exceed reccount licence","errorCode":262187,"message":"超出录制授权（4002B）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：没有媒体处理实例","code":"1020x04002C","prefix":102,"description":"not have mpiinfo","errorCode":262188,"message":"录制没有媒体处理实例（4002C）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：没有录制屏","code":"1020x04002D","prefix":102,"description":"not have rec scr","errorCode":262189,"message":"没有录制屏（4002D）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：crs创建会议失败，无法开启录制(开启直播时设置开启录制)","code":"1020x04002E","prefix":102,"description":"crs create conf failed can't start rec","errorCode":262190,"message":"录制服务创建失败（4002E）","accept":"ter、ccs"
+		},{
+			"reason":"会议录制状态：没有可用的crs创建会议","code":"1020x04002F","prefix":102,"description":"not find crs create conf","errorCode":262191,"message":"没有可用的录制服务创建会议（4002F）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：crs服务故障迁移超时","code":"1020x040030","prefix":102,"description":"crs reopen timeout","errorCode":262192,"message":"直播服务故障迁移超时（40030）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：crs创建会议超时","code":"1020x040031","prefix":102,"description":"crs create conf timeout","errorCode":262193,"message":"直播创建会议超时（40031）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：开启直播超时","code":"1020x040032","prefix":102,"description":"start live timeout","errorCode":262194,"message":"开启直播超时（40032）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：crs故障迁移失败","code":"1020x040033","prefix":102,"description":"crs reopen error","errorCode":262195,"message":"故障迁移失败（40033）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：crs创建会议失败","code":"1020x040034","prefix":102,"description":"crs create conf failed","errorCode":262196,"message":"创建会议失败（40034）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：crs服务网络异常","code":"1020x040035","prefix":102,"description":"crs closed socket","errorCode":262197,"message":"服务网络异常（40035）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：系统不支持直播(没有直播授权)","code":"1020x040036","prefix":102,"description":"sys not sup live","errorCode":262198,"message":"没有直播授权（40036）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：超出直播授权","code":"1020x040037","prefix":102,"description":"exceed livecount licence","errorCode":262199,"message":"超出直播授权（40037）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：没有媒体处理实例","code":"1020x040038","prefix":102,"description":"not have mpiinfo","errorCode":262200,"message":"没有媒体处理实例（40038）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：没有直播屏","code":"1020x040039","prefix":102,"description":"not have live scr","errorCode":262201,"message":"没有直播屏（40039）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：srs服务不在线","code":"1020x04003A","prefix":102,"description":"srssvr is offline","errorCode":262202,"message":"直播服务不在线（4003A）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：没有可选的srs服务","code":"1020x04003B","prefix":102,"description":"choose srssvr failed","errorCode":262203,"message":"没有可用的直播服务（4003B）","accept":"ter、ccs"
+		},{
+			"reason":"会议直播状态：没有可用的crs创建会议","code":"1020x04003C","prefix":102,"description":"not find crs create conf","errorCode":262204,"message":"没有可用的录制服务（4003C）","accept":"ter、ccs"
+		},{
+			"reason":"回复终端获取双流令牌结果：获取令牌超时","code":"1020x04003D","prefix":102,"description":"timeout","errorCode":262205,"message":"获取超时（4003D）","accept":"ter"
+		},{
+			"reason":"回复终端获取双流令牌结果：令牌已经在你手上","code":"1020x04003E","prefix":102,"description":"request itself","errorCode":262206,"message":"令牌已存在（4003E）","accept":"ter"
+		},{
+			"reason":"回复终端获取双流令牌结果：当前令牌在网关侧(标准终端)，不管此刻申请终端是标准终端还是SR终端都直接拒绝","code":"1020x04003F","prefix":102,"description":"stdter is being shared","errorCode":262207,"message":"令牌在网关侧申请终端被拒绝（4003F）","accept":"ter"
+		},{
+			"reason":"回复终端获取双流令牌结果：当前已经有人在申请令牌","code":"1020x040040","prefix":102,"description":"another is request","errorCode":262208,"message":"当前已有人申请（40040）","accept":"ter"
+		},{
+			"reason":"回复终端获取双流令牌结果：当前令牌回复拒绝转移令牌消息中没有明确描述拒绝原因时mc自行填入原因","code":"1020x040041","prefix":102,"description":"reject","errorCode":262209,"message":"拒绝转移（40041）","accept":"ter"
+		},{
+			"reason":"终端请求创建的屏，mp创建屏幕超时","code":"1020x040042","prefix":102,"description":"mp creat screen timeout","errorCode":262210,"message":"创建屏幕超时（40042）","accept":"ter"
+		},{
+			"reason":"终端请求创建的屏，屏幕数已经分配完","code":"1020x040043","prefix":102,"description":"mp screen full","errorCode":262211,"message":"屏幕数已经分配完（40043）","accept":"ter"
+		},{
+			"reason":"告诉其它终端，某终端离开会议原因：网络异常","code":"1020x040044","prefix":102,"description":"client network error","errorCode":262212,"message":"网络异常终端离会（40044）","accept":"ter、ccs"
+		},{
+			"reason":"告诉其它终端，某终端离开会议原因：netmp故障迁移超时,再次迁移失败","code":"1020x040045","prefix":102,"description":"reopen netmp timeout, transfer again error","errorCode":262213,"message":"故障再次迁移失败（40045）","accept":"ter、ccs"
+		},{
+			"reason":"告诉其它终端，某终端离开会议原因：netmp故障迁移失败","code":"1020x040046","prefix":102,"description":"netmp error,reopen error","errorCode":262214,"message":"故障迁移失败（40046）","accept":"ter、ccs"
+		},{
+			"reason":"主动告诉某终端自行下线原因：ccs会控删除参会人","code":"1020x040047","prefix":102,"description":"ccs del participants","errorCode":262215,"message":"会控删除参会人（40047）","accept":"ter"
+		},{
+			"reason":"主动告诉某终端自行下线原因：主席删除参会人","code":"1020x040048","prefix":102,"description":"chair del participants","errorCode":262216,"message":"主持人删除参会人（40048）","accept":"ter"
+		},{
+			"reason":"主动告诉某终端自行下线原因：ccs会控挂断终端","code":"1020x040049","prefix":102,"description":"ccs drop ter","errorCode":262217,"message":"会控移除终端（40049）","accept":"ter"
+		},{
+			"reason":"主动告诉某终端自行下线原因：主席挂断终端","code":"1020x04004A","prefix":102,"description":"Chair drop ter","errorCode":262218,"message":"主持人移除终端（4004A）","accept":"ter"
+		},{
+			"reason":"主动告诉某终端自行下线原因：同名终端入会","code":"1020x04004B","prefix":102,"description":"ter Join Conf twice","errorCode":262219,"message":"同名终端入会（4004B）","accept":"ter"
+		},{
+			"reason":"ccs会控结束某会议","code":"1020x04004C","prefix":102,"description":"ccs close conf","errorCode":262220,"message":"会控结束该会议（4004C）","accept":"ter"
+		},{
+			"reason":"(devmgr连接断开)mc结束(所有)会议","code":"1020x04004D","prefix":102,"description":"mc close conf","errorCode":262221,"message":"设备管理器断开，结束会议（4004D）","accept":"ter"
+		},{
+			"reason":"主席结束某会议","code":"1020x04004E","prefix":102,"description":"chair close conf","errorCode":262222,"message":"主持人结束会议（4004E）","accept":"ter"
+		},{
+			"reason":"relayserver处理终端入会请求超时","code":"1020x04004F","prefix":102,"description":"relaysvr proc tjc timeout","errorCode":262223,"message":"relayserver服务处理终端入会请求超时（4004F）","accept":"ter"
+		},{
+			"reason":"没有可用的relayserver","code":"1020x040050","prefix":102,"description":"less relaysvr","errorCode":262224,"message":"没有可用的relayserver服务（40050）","accept":"ter"
+		},{
+			"reason":"mp成功创建mpi,等待mp队列的终端所关联netmp错误","code":"1020x040051","prefix":102,"description":"in waitmpters this ter relatednetmpid error","errorCode":262225,"message":"关联MP服务错误（40051）","accept":"ter"
+		},{
+			"reason":"直播推送失败","code":"1080x0A0000","prefix":108,"description":"The current live url may be wrong","errorCode":655360,"message":"直播推送失败（A0000）","accept":"mc"
+		},{
+			"reason":"录制参数错误","code":"1090x0D0000","prefix":109,"description":"Record ChannelParameter Error","errorCode":851968,"message":"录制参数错误（D0000）","accept":"ter"
+		},{
+			"reason":"直播参数错误","code":"1090x0D0001","prefix":109,"description":"Live ChannelParameter Error","errorCode":851969,"message":"直播参数错误（D0001）","accept":"ter"
+		},{
+			"reason":"直播设置地址错误","code":"1090x0D0002","prefix":109,"description":"Live URL Error","errorCode":851970,"message":"直播设置地址错误（D0002）","accept":"ter"
+		},{
+			"reason":"请求终端列表超时","code":"1090x0D0003","prefix":109,"description":"ReqConfTermList timeout","errorCode":851971,"message":"终端列表请求超时（D0003）","accept":"ter"
+		},{
+			"reason":"同账号终端加入被踢","code":"1090x0D0004","prefix":109,"description":"ter Join Conf twice","errorCode":851972,"message":"账号重复登陆下线（D0004）","accept":"ter"
+		},{
+			"reason":"加入会议超时","code":"1090x0D0005","prefix":109,"description":"OnRspJoinConf timeout","errorCode":851973,"message":"加入会议超时（D0005）","accept":"ter"
+		},{
+			"reason":"请求桌面共享超时","code":"1090x0D0006","prefix":109,"description":"ReqSendAssistantVideo Timeout","errorCode":851974,"message":"请求桌面共享超时（D0006）","accept":"ter"
+		},{
+			"reason":"redis连接异常","code":"1010x030000","prefix":101,"description":"redis disconnect","errorCode":196608,"message":"redis连接异常（30000）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"序列号错误","code":"1010x030001","prefix":101,"description":"serial error","errorCode":196609,"message":"序列号错误（30001）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"更新数据库设备参数失败","code":"1010x030002","prefix":101,"description":"update device db param error","errorCode":196610,"message":"数据库设备参数失败（30002）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"分配设备编号失败","code":"1010x030003","prefix":101,"description":"generate deviceid error","errorCode":196611,"message":"分配设备编号失败（30003）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"获取设备编号失败","code":"1010x030004","prefix":101,"description":"get deviceid error","errorCode":196612,"message":"获取设备编号失败（30004）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"设备参数插入数据库失败","code":"1010x030005","prefix":101,"description":"insert into device param error","errorCode":196613,"message":"设备参数插入数据库失败（30005）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"会议不在mysql数据库中","code":"1010x030006","prefix":101,"description":"conference is not exist","errorCode":196614,"message":"会议不在mysql数据库中（30006）","accept":"mc、ter"
+		},{
+			"reason":"会议所选mc不在redis中","code":"1010x030007","prefix":101,"description":"choose mc not in redis","errorCode":196615,"message":"会议所选mc不在redis中（30007）","accept":"mc、ter"
+		},{
+			"reason":"注册消息中地址类型为空","code":"1010x030008","prefix":101,"description":"nettype is null","errorCode":196616,"message":"注册消息中地址类型为空（30008）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"内网地址错误","code":"1010x030009","prefix":101,"description":"ipaddr_in is error","errorCode":196617,"message":"内网地址错误（30009）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"外网地址错误","code":"1010x03000A","prefix":101,"description":"ipaddr_out is error","errorCode":196618,"message":"外网地址错误（3000A）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"vpn地址错误","code":"1010x03000B","prefix":101,"description":"ipaddr_vpn is error","errorCode":196619,"message":"vpn地址错误（3000B)","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"注册消息中地址类型错误","code":"1010x03000C","prefix":101,"description":"nettype is error","errorCode":196620,"message":"注册消息中地址类型错误(3000C)","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"域名信息不在redis中","code":"1010x03000D","prefix":101,"description":"domainname not in redis","errorCode":196621,"message":"域名信息不在redis中(3000D)","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"域名信息不在当前hosts配置文件中","code":"1010x03000E","prefix":101,"description":"domainname not in hosts file","errorCode":196622,"message":"域名信息不在当前hosts配置文件中(3000E)","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"域名在redis中,但不在当前内存,再次加载hosts中域名信息更新内存，对比更新内存中域名对应ip后同步至hosts文件时未找到域名信息","code":"1010x03000F","prefix":101,"description":"not find domainname in hosts file","errorCode":196623,"message":"未找到域名信息（3000F）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"域名在redis中,也在当前内存，更新内存中域名对应ip后同步至hosts文件时未找到域名信息","code":"1010x030010","prefix":101,"description":"update ip to hosts file failed","errorCode":196624,"message":"未找到域名信息（30010）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"域名对应ip更新完成，但重启nginx失败","code":"1010x030011","prefix":101,"description":"domainname ip have change reload nginx failed","errorCode":196625,"message":"重启nginx失败（30011）","accept":"mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver"
+		},{
+			"reason":"登录超时","code":"1000x020001","prefix":100,"description":"","errorCode":131073,"message":"登陆超时（20001）","accept":"调用者"
+		},{
+			"reason":"服务器错误","code":"1000x020002","prefix":100,"description":"","errorCode":131074,"message":"服务器错误（20002）","accept":"调用者"
+		},{
+			"reason":"无效的 token","code":"1000x020003","prefix":100,"description":"","errorCode":131075,"message":"无效的令牌（20003）","accept":"调用者"
+		},{
+			"reason":"用户不存在","code":"1000x020004","prefix":100,"description":"","errorCode":131076,"message":"用户不存在（20004）","accept":"调用者"
+		},{
+			"reason":"appid 不存在","code":"1000x020005","prefix":100,"description":"","errorCode":131077,"message":"应用程序编号错误（20005）","accept":"调用者"
+		},{
+			"reason":"成员信息无效","code":"1000x020006","prefix":100,"description":"","errorCode":131078,"message":"信息无效（20006）","accept":"调用者"
+		},{
+			"reason":"appid 为空","code":"1000x020007","prefix":100,"description":"","errorCode":131079,"message":"应用程序软件编号为空（20007）","accept":"调用者"
+		},{
+			"reason":"secretKey 为空","code":"1000x020008","prefix":100,"description":"","errorCode":131080,"message":"密码为空(20008)","accept":"调用者"
+		},{
+			"reason":"appid不能为空","code":"1000x020100","prefix":100,"description":"","errorCode":131328,"message":"应用程序软件编号为空（20100）","accept":"调用者"
+		},{
+			"reason":"非法的appid","code":"1000x020101","prefix":100,"description":"","errorCode":131329,"message":"非法的应用程序软件编号（20101）","accept":"调用者"
+		},{
+			"reason":"不合法的邮箱地址","code":"1000x020103","prefix":100,"description":"","errorCode":131331,"message":"邮箱地址错误（20103）","accept":"调用者"
+		},{
+			"reason":"不合法的手机号码","code":"1000x020104","prefix":100,"description":"","errorCode":131332,"message":"手机号码错误（20104）","accept":"调用者"
+		},{
+			"reason":"该邮箱已存在(根据APPID一起判断)","code":"1000x020105","prefix":100,"description":"","errorCode":131333,"message":"邮箱已经存在（20105）","accept":"调用者"
+		},{
+			"reason":"该手机已存在（根据APPID一起判断）","code":"1000x020106","prefix":100,"description":"","errorCode":131334,"message":"手机号已经存在（20106）","accept":"调用者"
+		},{
+			"reason":"无效的secretKey","code":"1000x020107","prefix":100,"description":"","errorCode":131335,"message":"密码无效（20107）","accept":"调用者"
+		},{
+			"reason":"UID为空","code":"1000x020108","prefix":100,"description":"","errorCode":131336,"message":"用户身份证明为空（20108）","accept":"调用者"
+		},{
+			"reason":"nickname为空","code":"1000x020109","prefix":100,"description":"","errorCode":131337,"message":"昵称为空（20109）","accept":"调用者"
+		},{
+			"reason":"账号长度过长","code":"1000x02010A","prefix":100,"description":"","errorCode":131338,"message":"账号长度过长（2010A）","accept":"调用者"
+		},{
+			"reason":"账号已存在","code":"1000x02010B","prefix":100,"description":"","errorCode":131339,"message":"账号已存在（2010B）","accept":"调用者"
+		},{
+			"reason":"sip注册失败","code":"1000x02010C","prefix":100,"description":"","errorCode":131340,"message":"sip注册失败(2010C)","accept":"调用者"
+		},{
+			"reason":"该账号已冻结","code":"1000x020201","prefix":100,"description":"","errorCode":131585,"message":"该账号已冻结（20201）","accept":"调用者"
+		},{
+			"reason":"错误的密码","code":"1000x020202","prefix":100,"description":"","errorCode":131586,"message":"密码错误（20202）","accept":"调用者"
+		},{
+			"reason":"该账号已冻结/终端未授权","code":"1000x020203","prefix":100,"description":"","errorCode":131587,"message":"账号已冻结或未授权（20203）","accept":"调用者"
+		},{
+			"reason":"用户唯一标识为空","code":"1000x020204","prefix":100,"description":"","errorCode":131588,"message":"用户唯一标识为空（20204）","accept":"调用者"
+		},{
+			"reason":"用户不存在或终端未注册","code":"1000x020205","prefix":100,"description":"","errorCode":131589,"message":"用户不存在或终端未注册（20205）","accept":"调用者"
+		},{
+			"reason":"修改密码时原有密码错误","code":"1000x020206","prefix":100,"description":"","errorCode":131590,"message":"原有密码错误（20206）","accept":"调用者"
+		},{
+			"reason":"用户类型不匹配","code":"1000x020207","prefix":100,"description":"","errorCode":131591,"message":"用户类型不匹配（20207）","accept":"调用者"
+		},{
+			"reason":"设备未注册","code":"1000x020208","prefix":100,"description":"","errorCode":131592,"message":"设备未注册（20208）","accept":"调用者"
+		},{
+			"reason":"开始时间为空","code":"1000x020300","prefix":100,"description":"","errorCode":131840,"message":"开始时间为空（20300）","accept":"调用者"
+		},{
+			"reason":"开始时间格式有误","code":"1000x020301","prefix":100,"description":"","errorCode":131841,"message":"开始时间格式有误（20301）","accept":"调用者"
+		},{
+			"reason":"开始时间小于当前时间","code":"1000x020302","prefix":100,"description":"","errorCode":131842,"message":"开始时间小于当前时间（20302）","accept":"调用者"
+		},{
+			"reason":"结束时间为空","code":"1000x020303","prefix":100,"description":"","errorCode":131843,"message":"结束时间为空（20303）","accept":"调用者"
+		},{
+			"reason":"结束时间格式有误","code":"1000x020304","prefix":100,"description":"","errorCode":131844,"message":"结束时间格式有误（20304）","accept":"调用者"
+		},{
+			"reason":"结束时间小于等于开始时间","code":"1000x020305","prefix":100,"description":"","errorCode":131845,"message":"结束时间小于等于开始时间（20305）","accept":"调用者"
+		},{
+			"reason":"专属会议号重复","code":"1000x020306","prefix":100,"description":"","errorCode":131846,"message":"会议号重复（20306）","accept":"调用者"
+		},{
+			"reason":"会议正在召开中","code":"1000x020307","prefix":100,"description":"","errorCode":131847,"message":"会议正在召开中（20307）","accept":"调用者"
+		},{
+			"reason":"无效的op参数","code":"1000x020308","prefix":100,"description":"","errorCode":131848,"message":"无效的参数（20308）","accept":"调用者"
+		},{
+			"reason":"应用无im","code":"1000x020309","prefix":100,"description":"","errorCode":131849,"message":"应用无即时通讯（20309）","accept":"调用者"
+		},{
+			"reason":"修改、删除的不是自己的会","code":"1000x02030A","prefix":100,"description":"","errorCode":131850,"message":"修改或删除的非自己会议（2030A）","accept":"调用者"
+		},{
+			"reason":"密码为空","code":"1000x02030B","prefix":100,"description":"","errorCode":131851,"message":"密码为空（2030B）","accept":"调用者"
+		},{
+			"reason":"会议未开始","code":"1000x02030C","prefix":100,"description":"","errorCode":131852,"message":"会议未开始（2030C）","accept":"调用者"
+		},{
+			"reason":"无法找到会议信息","code":"1000x02030D","prefix":100,"description":"","errorCode":131853,"message":"无法找到会议信息（2030D）","accept":"调用者"
+		},{
+			"reason":"会议不存在","code":"1000x020400","prefix":100,"description":"","errorCode":132096,"message":"会议不存在（20400）","accept":"调用者"
+		},{
+			"reason":"会议已结束","code":"1000x020401","prefix":100,"description":"","errorCode":132097,"message":"会议已结束（20401）","accept":"调用者"
+		},{
+			"reason":"会议已删除","code":"1000x020402","prefix":100,"description":"","errorCode":132098,"message":"会议已删除（20402）","accept":"调用者"
+		},{
+			"reason":"参会密码不正确","code":"1000x020403","prefix":100,"description":"","errorCode":132099,"message":"参会密码不正确（20403）","accept":"调用者"
+		},{
+			"reason":"临时账号资源紧张，请稍后再试","code":"1000x020404","prefix":100,"description":"","errorCode":132100,"message":"临时账号资源紧张，重试（20404）","accept":"调用者"
+		},{
+			"reason":"不是自己的会议","code":"1000x020405","prefix":100,"description":"","errorCode":132101,"message":"不是自己的会议（20405）","accept":"调用者"
+		},{
+			"reason":"serviceid 为空","code":"1000x020406","prefix":100,"description":"","errorCode":132102,"message":"服务ID为空（20406）","accept":"调用者"
+		},{
+			"reason":"会议ID为空","code":"1000x020407","prefix":100,"description":"","errorCode":132103,"message":"会议ID为空（20407）","accept":"调用者"
+		},{
+			"reason":"thirdAudioId 必须是12位","code":"1000x020408","prefix":100,"description":"","errorCode":132104,"message":"声音ID位数为12位（20408）","accept":"调用者"
+		},{
+			"reason":"用户重复加入会议","code":"1000x020409","prefix":100,"description":"","errorCode":132105,"message":"用户重复加入会议（20409）","accept":"调用者"
+		},{
+			"reason":"id3不存在","code":"1000x02040A","prefix":100,"description":"","errorCode":132106,"message":"ID不存在（2040A）","accept":"调用者"
+		},{
+			"reason":"version3不存在","code":"1000x02040B","prefix":100,"description":"","errorCode":132107,"message":"版本不存在（2040B）","accept":"调用者"
+		},{
+			"reason":"subject不存在","code":"1000x02040C","prefix":100,"description":"","errorCode":132108,"message":"主题不存在（2040C）","accept":"调用者"
+		},{
+			"reason":"不允许匿名加入会","code":"1000x02040D","prefix":100,"description":"","errorCode":132109,"message":"不允许匿名加入会（2040D）","accept":"调用者"
+		},{
+			"reason":"网关不存在","code":"1000x02040E","prefix":100,"description":"","errorCode":132110,"message":"网关不存在（2040E）","accept":"调用者"
+		},{
+			"reason":"非法设备","code":"1000x02040F","prefix":100,"description":"","errorCode":132111,"message":"非法设备（2040F）","accept":"调用者"
+		},{
+			"reason":"用户没有媒体处理器集群","code":"1000x020410","prefix":100,"description":"","errorCode":132112,"message":"用户没有媒体处理器集群（20410）","accept":"调用者"
+		},{
+			"reason":"没有可用的relayserver","code":"1000x020411","prefix":100,"description":"","errorCode":132113,"message":"没有可用的relayserver服务（20411）","accept":"调用者"
+		},{
+			"reason":"通讯录id为空","code":"1000x020500","prefix":100,"description":"","errorCode":132352,"message":"通讯录id为空（20500）","accept":"调用者"
+		},{
+			"reason":"部门id为空","code":"1000x020501","prefix":100,"description":"","errorCode":132353,"message":"部门id为空（20501）","accept":"调用者"
+		},{
+			"reason":"查询内容为空","code":"1000x020502","prefix":100,"description":"","errorCode":132354,"message":"查询内容为空（20502）","accept":"调用者"
+		},{
+			"reason":"用户不属于该通讯录","code":"1000x020503","prefix":100,"description":"","errorCode":132355,"message":"用户不属于该通讯录（20503）","accept":"调用者"
+		},{
+			"reason":"用户id为空","code":"1000x020504","prefix":100,"description":"","errorCode":132356,"message":"用户id为空（20504）","accept":"调用者"
+		},{
+			"reason":"呼叫参数不合法（呼叫类型为MCU时，呼叫参数不能为空）","code":"1000x020600","prefix":100,"description":"","errorCode":132608,"message":"呼叫参数不合法（20600）","accept":"调用者"
+		},{
+			"reason":"设备UUID不能为空","code":"1000x020601","prefix":100,"description":"","errorCode":132609,"message":"设备用户ID不能为空（20601）","accept":"调用者"
+		},{
+			"reason":"设备信息已存在","code":"1000x020602","prefix":100,"description":"","errorCode":132610,"message":"设备信息已存在（20602）","accept":"调用者"
+		},{
+			"reason":"设备名称为空","code":"1000x020603","prefix":100,"description":"","errorCode":132611,"message":"设备名称为空（20603）","accept":"调用者"
+		},{
+			"reason":"手机号为空","code":"1000x020700","prefix":100,"description":"","errorCode":132864,"message":"手机号为空（20700）","accept":"调用者"
+		},{
+			"reason":"请求类型为空","code":"1000x020701","prefix":100,"description":"","errorCode":132865,"message":"请求类型为空（20701）","accept":"调用者"
+		},{
+			"reason":"手机号不存在","code":"1000x020702","prefix":100,"description":"","errorCode":132866,"message":"手机号不存在（20702）","accept":"调用者"
+		},{
+			"reason":"发送过于频繁","code":"1000x020703","prefix":100,"description":"","errorCode":132867,"message":"发送过于频繁（20703）","accept":"调用者"
+		},{
+			"reason":"达到每天最大限度","code":"1000x020704","prefix":100,"description":"","errorCode":132868,"message":"达到每天最大限度（20704）","accept":"调用者"
+		},{
+			"reason":"短信发送失败","code":"1000x020705","prefix":100,"description":"","errorCode":132869,"message":"短信发送失败（20705）","accept":"调用者"
+		},{
+			"reason":"验证码为空","code":"1000x020706","prefix":100,"description":"","errorCode":132870,"message":"验证码为空（20706）","accept":"调用者"
+		},{
+			"reason":"验证码过期","code":"1000x020707","prefix":100,"description":"","errorCode":132871,"message":"验证码过期（20707）","accept":"调用者"
+		},{
+			"reason":"验证码不匹配","code":"1000x020708","prefix":100,"description":"","errorCode":132872,"message":"验证码不匹配（20708）","accept":"调用者"
+		},{
+			"reason":"mp故障迁移创建媒体处理实例超时,再次迁移mp失败","code":"1020x040052","prefix":102,"description":"create mpi timeout, reopen mpi error","errorCode":262226,"message":"MP故障迁移（40052）","accept":"ter"
+		},{
+			"reason":"mp故障迁移创建屏幕超时,再次迁移mp失败","code":"1020x040053","prefix":102,"description":"create screen timeout, reopen mpi error","errorCode":262227,"message":"","accept":"ter"
+		},{
+			"reason":"mp故障迁移创建媒体处理实例失败,再次迁移mp失败","code":"1020x040054","prefix":102,"description":"create mpi fail, and reopen mpi error","errorCode":262228,"message":"","accept":"ter"
+		},{
+			"reason":"mp故障迁移创建屏幕失败,再次迁移mp失败","code":"1020x040055","prefix":102,"description":"create screen fail, and reopen mpi error","errorCode":262229,"message":"","accept":"ter"
+		},{
+			"reason":"没有可用的mp服务,故障迁移失败","code":"1020x040056","prefix":102,"description":"less mp,reopen mp error","errorCode":262230,"message":"","accept":"ter"
+		},{
+			"reason":"终端心跳超时","code":"1020x040057","prefix":102,"description":"Ter HeartBeat Stopped","errorCode":262231,"message":"终端心跳超时（40057）","accept":"ter"
+		},{
+			"reason":"等待获取会议信息","code":"1020x040058","prefix":102,"description":"waiting get confinfo","errorCode":262232,"message":"","accept":"ter、ccs"
+		},{
+			"reason":"群发通知与会终端,某终端从主会场移到等候区","code":"1020x040059","prefix":102,"description":"exit main room then to waiting room","errorCode":262233,"message":"","accept":"ter"
+		},{
+			"reason":"告诉某终端切换状态：你已经成功从等候区进入到主会场","code":"1020x04005A","prefix":102,"description":"join conf success","errorCode":262234,"message":"","accept":"ter"
+		},{
+			"reason":"回复某终端你已经在等候区","code":"1020x04005B","prefix":102,"description":"already in waiting room","errorCode":262235,"message":"","accept":"ter"
+		},{
+			"reason":"会议为空结束会议时,告诉等候区终端自行退出等候区","code":"1020x04005C","prefix":102,"description":"conf is empty","errorCode":262236,"message":"","accept":"ter、ccs"
+		},{
+			"reason":"同账号终端已经入会,拒绝当前入会请求","code":"1020x04005D","prefix":102,"description":"same ter already in conf","errorCode":262237,"message":"","accept":"ter"
+		},{
+			"reason":"同账号终端入会,挂断已经在会的终端","code":"1020x04005E","prefix":102,"description":"same ter join conf","errorCode":262238,"message":"","accept":"ter"
+		}
+	]
+}

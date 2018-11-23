@@ -1,6 +1,8 @@
 package org.suirui.code.util;
 
 import org.apache.commons.logging.LogFactory;
+import org.suirui.code.CodeEntry;
+import org.suirui.code.ErrorCodeEntry;
 import org.suirui.code.pojo.Errcode;
 
 import javax.xml.bind.JAXBContext;
@@ -11,15 +13,22 @@ import java.util.List;
 
 public class XmlUtil {
     private static final org.apache.commons.logging.Log logger= LogFactory.getLog(XmlUtil.class);
-    public static String ListToXml(List<Errcode> errcodeList){
+//    public static String ListToXml(List<Errcode> errcodeList){
+//        if(errcodeList!=null && errcodeList.size()>1) {
+//             Code code=new Code();
+//             code.setErrcodes(errcodeList);
+//             return convertToXml(code);
+//        }
+//        return "";
+//    }
+    public static String ListToXml(List<ErrorCodeEntry> errcodeList){
         if(errcodeList!=null && errcodeList.size()>1) {
-             Code code=new Code();
-             code.setErrcodes(errcodeList);
-             return convertToXml(code);
+            CodeEntry code=new CodeEntry();
+            code.setErrcodes(errcodeList);
+            return convertToXml(code);
         }
         return "";
     }
-
 
     /**
      * 对象转xml

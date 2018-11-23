@@ -28,6 +28,7 @@ public class JsonUtil {
             jo.put(Configure.ErrorCode.REASON, errcode.getReason());
             jo.put(Configure.ErrorCode.CODE, errcode.getCode());
             jo.put(Configure.ErrorCode.PREFIX, errcode.getPrefix());
+            jo.put(Configure.ErrorCode.ERROR_CODEE,PublicUtil.hexToInt(errcode.getPrefix(),errcode.getCode()));
 //            jo.put(Configure.ErrorCode.ID, errcode.getId());
             json.add(jo);
         }
@@ -60,9 +61,9 @@ public class JsonUtil {
                 jsonForMatStr.append(c + "\n");
                 level++;
                 break;
-            case ',':
-                jsonForMatStr.append(c + "\n");
-                break;
+//            case ',':
+//                jsonForMatStr.append(c + "\n");
+//                break;
             case '}':
             case ']':
                 jsonForMatStr.append("\n");

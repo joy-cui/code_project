@@ -63,6 +63,7 @@ public class Configure {
             public static final String CODETYPE = "codetype";
 
             public static final String PREFIX = "prefix";
+            public static final String ERROR_CODEE = "errorCode";
         }
 
         public static class Staus {

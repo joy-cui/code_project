@@ -192,8 +192,8 @@ body{background:#f5f5f5;}
 #moveGrp tr{line-height:45px; font-family:"微软雅黑"; font-size:14px; color:#2b3953;}
 #moveGrp td{border-bottom:1px solid #dce2ed;}
 #moveGrp tr:nth-child(even){background:#f5f8fd;}
-#addGroup,#editGroup,#addCom,#editCom,#editMeetingN{width:400px;}
-#addGroup input,#editGroup input,#addCom input,#editCom input,#editMeetingN input{width:300px; height:28px; border:1px solid #dce2ee; padding:10px; box-sizing:content-box; font-family:"微软雅黑"; font-size:16px; color:#c0cadd;}
+#addGroup,#editGroup,#addCom,#editCom,#editMeetingN{width:450px;}
+#addGroup input,#editGroup input,#addCom input,#editCom input,#editMeetingN input{width:200px; height:28px; border:1px solid #dce2ee; padding:10px; box-sizing:content-box; font-family:"微软雅黑"; font-size:16px; color: #393c42;}
 #addGroup input:focus,#editGroup input:focus,#addCom input:focus,#editCom input:focus,#editMeetingN input:focus{border:1px solid #4772b7;}
 #addUser,#editUser,#addServer,#editServer,#editAdmin,#addDevice,#editDevice{width:400px;}
 #addUser table,#editUser table,#addServer table,#editServer table,#editAdmin table,#addDevice table,#editDevice table{margin-top:30px;}
@@ -211,7 +211,8 @@ body{background:#f5f5f5;}
 #downloadMeeting table{margin:50px auto;}
 #meetingLog,#moreMeetingU,#editAuthority,#authority{width:1060px;}
 #meetingLog table,#moreMeetingU table{margin-top:0;} 
-#shareMeeting{width:945px;}
+#shareMeeting{width:450px;}
+#shareMeeting input{width:200px; height:28px; border:1px solid #dce2ee; padding:10px; box-sizing:content-box; font-family:"微软雅黑"; font-size:16px; color:#c0cadd;}
 .shareMCon{padding:30px; font-family:"微软雅黑";}
 .userCom,.userList,.selectUser,.timeLimit{float:left; background:#f5f8fd; border-radius:8px; overflow:auto;}
 .userCom,.userList{width:220px; margin-right:30px; height:420px;}

@@ -17,6 +17,8 @@ public class Errcode {
 
     private Integer codetype;
 
+
+
     public Integer getId() {
         return id;
     }
@@ -80,4 +82,5 @@ public class Errcode {
     public void setCodetype(Integer codetype) {
         this.codetype = codetype;
     }
+
 }
