@@ -80,9 +80,11 @@ public class ErrorCodeEntry {
 //
 //    public void setCodetype(Integer codetype) {
 //        this.codetype = codetype;
+
 //    }
 
     public Integer getErrorCode() {
+
         return errorCode;
     }
 
