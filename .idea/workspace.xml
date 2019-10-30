@@ -9,48 +9,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/resources/META-INF/spring-mvc.xml" line="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd62c67-b935-4c25-b52d-8b53e71b827c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/pojo/ErrcodeExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/pojo/UserExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/ErrcodeExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/ErrcodeExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/ErrcodeExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/ErrcodeExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/UserExample$Criteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/UserExample$Criterion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/UserExample$GeneratedCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/UserExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/code_project.war" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/ErrorCodeEntry.class" afterPath="$PROJECT_DIR$/target/classes/org/suirui/code/ErrorCodeEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/contant/Configure$ERROR.class" afterPath="$PROJECT_DIR$/target/classes/org/suirui/code/contant/Configure$ERROR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/contant/Configure$ErrorCode.class" afterPath="$PROJECT_DIR$/target/classes/org/suirui/code/contant/Configure$ErrorCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/contant/Configure$Staus.class" afterPath="$PROJECT_DIR$/target/classes/org/suirui/code/contant/Configure$Staus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/Errcode.class" afterPath="$PROJECT_DIR$/target/classes/org/suirui/code/pojo/Errcode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/ErrorCodeEntry.class" afterPath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/ErrorCodeEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/contant/Configure$ERROR.class" afterPath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/contant/Configure$ERROR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/contant/Configure$ErrorCode.class" afterPath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/contant/Configure$ErrorCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/contant/Configure$Staus.class" afterPath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/contant/Configure$Staus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/pojo/Errcode.class" afterPath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/org/suirui/code/pojo/Errcode.class" />
+    <list default="true" id="2dd62c67-b935-4c25-b52d-8b53e71b827c" name="Default" comment="修改10.30增加英文描述">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/errorCode.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/CodeEntry.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/CodeEntry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/ErrorCodeEntry.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/ErrorCodeEntry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/contant/Configure.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/contant/Configure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/controller/CodeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/controller/CodeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/mapper/ErrcodeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/mapper/ErrcodeMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/mapper/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/pojo/Errcode.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/pojo/Errcode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/service/ICodeService.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/service/ICodeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/service/impl/CodeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/service/impl/CodeServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/util/JsonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/util/JsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/util/PublicUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/util/PublicUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/suirui/code/util/XmlUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/suirui/code/util/XmlUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/ErrcodeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ErrcodeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/code.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/code.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/code.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/ErrcodeMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/ErrcodeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/code_project/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/mapper/ErrcodeMapper.xml" afterPath="$PROJECT_DIR$/target/code_project/WEB-INF/classes/mapper/ErrcodeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/code_project/WEB-INF/views/code.jsp" afterPath="$PROJECT_DIR$/target/code_project/WEB-INF/views/code.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/errcode.sql" afterPath="$PROJECT_DIR$/errcode.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -835,16 +799,15 @@
       <workItem from="1536647207083" duration="70431000" />
       <workItem from="1539067117682" duration="2112000" />
       <workItem from="1542609940418" duration="11371000" />
-      <workItem from="1572318846359" duration="16419000" />
+      <workItem from="1572318846359" duration="17037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179900000" />
+    <option name="totallyTimeSpent" value="180518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -863,7 +826,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3386412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3386412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
