@@ -1,10 +1,8 @@
 package org.suirui.code.mapper;
 
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
-import org.apache.log4j.spi.ErrorCode;
+
 import org.suirui.code.pojo.Errcode;
-import org.suirui.code.pojo.ErrcodeExample;
 
 public interface ErrcodeMapper {
 //    int countByExample(ErrcodeExample example);
@@ -18,10 +16,12 @@ public interface ErrcodeMapper {
     void deleteById(int id);
     Errcode findById(Integer id);
     void editErrorCode(Errcode errcode);
+    void updateErrorByPrefix(Errcode errcode);
     List<Errcode> findByAll();
     List<Errcode> findBySearch(String searchTxt);
 
     int selectByCode(String code);
+
 
 //    int insertSelective(Errcode record);
 //

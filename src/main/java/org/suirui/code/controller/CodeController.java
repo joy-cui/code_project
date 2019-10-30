@@ -45,6 +45,34 @@ public class CodeController {
         logger.error("code.....codetype:"+codetype);
         JSONObject jsonObject=new JSONObject();
         try{
+//            if(codetype== Configure.ErrCodeType.errorType_api){//100
+//                //修改
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_api);
+//            }else if(codetype== Configure.ErrCodeType.errorType_devmgr){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_devmgr);
+//            }else if(codetype== Configure.ErrCodeType.errorType_mc){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_mc);
+//            }else if(codetype== Configure.ErrCodeType.errorType_reloymc){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_reloymc);
+//            }else if(codetype== Configure.ErrCodeType.errorType_netmp){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_netmp);
+//            }
+//            else if(codetype== Configure.ErrCodeType.errorType_mp){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_mp);
+//            }
+//            else if(codetype== Configure.ErrCodeType.errorType_relayserver){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_relayserver);
+//            }
+//            else if(codetype== Configure.ErrCodeType.errorType_gw){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_gw);
+//            }
+//            else if(codetype== Configure.ErrCodeType.errorType_crs){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_crs);
+//            }
+//            else if(codetype== Configure.ErrCodeType.errorType_app){
+//                codeService.updateErrorByPrefix(codetype,Configure.Prefix.errorType_app);
+//            }
+
             List<Errcode> errcodeList = codeService.findByErrorType(codetype);
             jsonObject.put(Configure.JSP.Attrible.errorCodeList,errcodeList);
             jsonObject.put(Configure.JSP.Attrible.CODE_TYPE,codetype);
@@ -65,7 +93,7 @@ public class CodeController {
      */
     @RequestMapping("insert")
     public @ResponseBody  JSONObject  insertCode(Errcode errorCode){
-        logger.error("insertCode.. 。。。。。。getCode："+errorCode.getCode()+" getDescription: "+errorCode.getDescription()+"  getCodetype :"+errorCode.getCodetype()+" getPrefix: "+errorCode.getPrefix());
+        logger.error("insertCode.. 。。。。。。getCode："+errorCode.getCode()+" getDescription: "+errorCode.getDescription()+"  getCodetype :"+errorCode.getCodetype()+" getPrefix: "+errorCode.getPrefix()+" englishdec: "+errorCode.getEnglishdec());
         JSONObject jsonObject=new JSONObject();
         try {
             if(errorCode!=null){
@@ -185,9 +213,6 @@ public class CodeController {
         try {
             codeService.deleteById(id);
             List<Errcode> errcodeList= codeService.findByErrorType(codetype);
-            if(errcodeList!=null){
-                logger.error(errcodeList.size()+".....deleteCode");
-            }
             jsonObject.put(Configure.JSP.Attrible.errorCodeList,errcodeList);
             jsonObject.put(Configure.JSP.Attrible.CODE_TYPE,codetype);
             jsonObject.put(Configure.JSP.Attrible.STATUS,Configure.Staus.SUCCESS);
@@ -271,14 +296,14 @@ public class CodeController {
                 errorCodeEntry.setReason(errcode.getReason());
                 errorCodeEntry.setDescription(errcode.getDescription());
                 errorCodeEntry.setMessage(errcode.getMessage());
+                errorCodeEntry.setEnglishdec(errcode.getEnglishdec());
                 errorCodeEntry.setAccept(errcode.getAccept());
 //                errorCodeEntry.setCodetype(errcode.getCodetype());
                 codeList.add(errorCodeEntry);
                 errorCodeEntry=null;
             }
-
-
           String xmlStr=XmlUtil.ListToXml(codeList);
+//            logger.error("....exportXml....xmlStr: "+xmlStr);
 //            logger.error(xmlStr);
             String path=request.getSession().getServletContext().getRealPath(filePath);
             XmlUtil.fileToXml(xmlStr,path,fileName);

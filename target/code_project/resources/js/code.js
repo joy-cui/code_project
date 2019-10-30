@@ -165,6 +165,7 @@ function refreshList(codes,codetype){
             '<th align="center">接收端</th>\n' +
             '<th align="center">简单描述</th>\n' +
             '<th align="center">产品描述</th>\n' +
+            '<th align="center">英文描述</th>\n' +
             '<th align="center">操作 </th>\n' +
             '</tr>';
             if(codes.length>0){
@@ -177,6 +178,7 @@ function refreshList(codes,codetype){
                         '<td align="center">'+comment['accept']+'</td>'+
                         '<td align="center">'+comment['description']+'</td>'+
                         '<td align="center">'+comment['message']+'</td>'+
+                        '<td align="center">'+comment['englishdec']+'</td>'+
                         '<td align="center" class="meetingSet">\n' +
                         '<a href="#" class="delMeeting" onclick="deleteByCodeId('+comment['id']+')">删除</a>'+
                         '<a href="#" class="editMeetingN" onclick="editErrorCode('+comment['id']+')">编辑</a>'+
@@ -198,6 +200,7 @@ function editUI(errCode) {
     $("#editaccept").val(errCode.accept);
     $("#editdescription").val(errCode.description);
     $("#editmessage").val(errCode.message);
+    $("#editenglishdec").val(errCode.englishdec);
     $("#vertical_box").css("display","table");
     $("#editMeetingN").fadeIn();
     event.preventDefault();

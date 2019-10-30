@@ -1,10 +1,21 @@
 package org.suirui.code.util;
 
 import org.apache.commons.logging.LogFactory;
+import org.apache.log4j.spi.ErrorCode;
 import org.suirui.code.contant.Configure;
+import org.suirui.code.pojo.Errcode;
+
+import java.util.List;
 
 public class PublicUtil {
     private static final org.apache.commons.logging.Log logger= LogFactory.getLog(PublicUtil.class);
+    public static String trimStr(String str){
+        if(str==null || str.equals("")){
+            return "";
+        }else{
+            return str.trim();
+        }
+    }
     public static boolean isEmpty(String str){
         if(str==null || str.equals("")){
             return true;
@@ -88,5 +99,16 @@ public class PublicUtil {
 
         return data;
 
+    }
+
+    public static List<Errcode> setList(List<Errcode> errcodes){
+        if(errcodes!=null) {
+            for (Errcode errcode : errcodes) {
+                errcode.setDescription(errcode.getDescription());
+                errcode.setEnglishdec(errcode.getEnglishdec());
+                errcode.setMessage(errcode.getMessage());
+            }
+        }
+        return errcodes;
     }
 }

@@ -6,7 +6,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>无标题文档</title>
+    <title>错误码管理平台</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -69,6 +69,7 @@
                                 <th align="center">接收端</th>
                                 <th align="center">简单描述</th>
                                 <th align="center">产品描述</th>
+                                <th align="center">英文描述</th>
                                 <th align="center">操作</th>
                             </tr>
 
@@ -80,6 +81,7 @@
                                 <td align="center">${errorCode.accept }</td>
                                 <td align="center">${errorCode.description }</td>
                                 <td align="center">${errorCode.message }</td>
+                                <td align="center">${errorCode.englishdec }</td>
                                 <td align="center" class="meetingSet">
                                     <a href="#" class="delMeeting" onclick="deleteByCodeId(${errorCode.id })">删除</a>
                                     <a href="#" class="editMeetingN" onclick="editErrorCode(${errorCode.id } )">编辑</a><!--meetingLog-->
@@ -121,8 +123,8 @@
                     <table width="450" border="0" cellspacing="0" cellpadding="0" class="delTip">
                         <tbody>
                         <tr>
-                            <td align="center" onclick="exportToJson(true)"><a href="#"><img src="images/meetingDAn.png" width="112" height="113"></a></td>
-                            <td align="center"   onclick="exportToJson(false)"><a href="#"><img src="images/meetingDAp.png" width="112" height="113"></a></td>
+                            <td align="center" onclick="exportToJson(true)"><a href="#">JSON</a></td><!-- <img src="images/meetingDAn.png" width="112" height="113">-->
+                            <td align="center"   onclick="exportToJson(false)"><a href="#">XML</a></td><!--<img src="images/meetingDAp.png" width="112" height="113">-->
                             <%--<td align="center"><a href="#"><img src="images/meetingDWi.png" width="115" height="116"></a></td>--%>
                         </tr>
                         </tbody>
@@ -166,6 +168,10 @@
                         <tr>
                             <td align="center">产品描述</td>
                             <td align="center"><input type="text" id="editmessage" name="message"   placeholder="请输入产品描述" /></td>
+                        </tr>
+                        <tr>
+                            <td align="center">英文描述</td>
+                            <td align="center"><input type="text" id="editenglishdec" name="englishdec"  placeholder="请输入英文描述" /></td>
                         </tr>
                         </tbody>
                     </table>
@@ -211,6 +217,10 @@
                                 <tr>
                                     <td align="center">产品描述</td>
                                     <td align="center"><input type="text"  name="message" value=""  placeholder="请输入产品描述" /></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">英文描述</td>
+                                    <td align="center"><input type="text"  name="englishdec" value=""  placeholder="请输入英文描述" /></td>
                                 </tr>
                                 </tbody>
                             </table>

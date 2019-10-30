@@ -22,6 +22,7 @@ public class JsonUtil {
         for(Errcode errcode : errcodeList){
             JSONObject jo = new JSONObject();
 //            jo.put(Configure.ErrorCode.CODETYPE, errcode.getCodetype());
+            jo.put(Configure.ErrorCode.ENGLISHDEC, errcode.getEnglishdec());
             jo.put(Configure.ErrorCode.MESSAGE, errcode.getMessage());
             jo.put(Configure.ErrorCode.DESCRIPTION, errcode.getDescription());
             jo.put(Configure.ErrorCode.ACCEPT, errcode.getAccept());

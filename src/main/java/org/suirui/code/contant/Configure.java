@@ -56,6 +56,8 @@ public class Configure {
 
             public static final String DESCRIPTION = "description";
 
+            public static final String ENGLISHDEC="englishdec";
+
             public static final String MESSAGE = "message";
 
             public static final String ACCEPT = "accept";

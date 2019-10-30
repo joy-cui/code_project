@@ -4,6 +4,7 @@
         <accept>ter</accept>
         <code>1020x040000</code>
         <description>msg param error</description>
+        <englishdec></englishdec>
         <errorCode>262144</errorCode>
         <message>参数错误加入会议失败（40000）</message>
         <prefix>102</prefix>
@@ -13,6 +14,7 @@
         <accept>ter</accept>
         <code>1020x040001</code>
         <description>devmgr confinfo timeout</description>
+        <englishdec></englishdec>
         <errorCode>262145</errorCode>
         <message>获取信息超时加入会议失败（40001）</message>
         <prefix>102</prefix>
@@ -22,6 +24,7 @@
         <accept>ter</accept>
         <code>1020x040002</code>
         <description>systemload param is null</description>
+        <englishdec></englishdec>
         <errorCode>262146</errorCode>
         <message>加入会议失败（40002）</message>
         <prefix>102</prefix>
@@ -31,6 +34,7 @@
         <accept>ter</accept>
         <code>1020x040003</code>
         <description>decrypt cursystemload error</description>
+        <englishdec></englishdec>
         <errorCode>262147</errorCode>
         <message>加入会议失败（40003）</message>
         <prefix>102</prefix>
@@ -40,6 +44,7 @@
         <accept>ter</accept>
         <code>1020x040004</code>
         <description>licence time expring</description>
+        <englishdec></englishdec>
         <errorCode>262148</errorCode>
         <message>授权时间到期加入会议失败（40004）</message>
         <prefix>102</prefix>
@@ -49,8 +54,9 @@
         <accept>ter</accept>
         <code>1020x040005</code>
         <description>exceed srcount licence</description>
+        <englishdec></englishdec>
         <errorCode>262149</errorCode>
-        <message>超出终端授权数加入会议失败（40005，40006）</message>
+        <message>超出终端授权数加入会议失败（40005）</message>
         <prefix>102</prefix>
         <reason>超出sr终端系统授权数,拒绝加入会议</reason>
     </errCode>
@@ -58,8 +64,9 @@
         <accept>ter</accept>
         <code>1020x040006</code>
         <description>exceed stdcount licence</description>
+        <englishdec></englishdec>
         <errorCode>262150</errorCode>
-        <message>超出终端授权数加入会议失败（40005，40006）</message>
+        <message>超出终端授权数加入会议失败（40006）</message>
         <prefix>102</prefix>
         <reason>超出标准终端系统授权数,拒绝加入会议</reason>
     </errCode>
@@ -67,6 +74,7 @@
         <accept>ter</accept>
         <code>1020x040007</code>
         <description>password wrong</description>
+        <englishdec></englishdec>
         <errorCode>262151</errorCode>
         <message>密码错误加入会议失败（40007）</message>
         <prefix>102</prefix>
@@ -76,6 +84,7 @@
         <accept>ter</accept>
         <code>1020x040008</code>
         <description>sys not have rec licence</description>
+        <englishdec></englishdec>
         <errorCode>262152</errorCode>
         <message>无录制授权加入会议失败（40008）</message>
         <prefix>102</prefix>
@@ -85,6 +94,7 @@
         <accept>ter</accept>
         <code>1020x040009</code>
         <description>chair first</description>
+        <englishdec></englishdec>
         <errorCode>262153</errorCode>
         <message>主持人未入会加入会议失败（40009）</message>
         <prefix>102</prefix>
@@ -94,6 +104,7 @@
         <accept>ter</accept>
         <code>1020x04000A</code>
         <description>conf is locked</description>
+        <englishdec></englishdec>
         <errorCode>262154</errorCode>
         <message>会议锁定加入会议失败（4000A）</message>
         <prefix>102</prefix>
@@ -103,6 +114,7 @@
         <accept>ter</accept>
         <code>1020x04000B</code>
         <description>channelid full</description>
+        <englishdec></englishdec>
         <errorCode>262155</errorCode>
         <message>加入会议失败（4000B）</message>
         <prefix>102</prefix>
@@ -112,6 +124,7 @@
         <accept>ter</accept>
         <code>1020x04000C</code>
         <description>exceed maxternumperconf licence</description>
+        <englishdec></englishdec>
         <errorCode>262156</errorCode>
         <message>超出授权数加入会议失败（4000C）</message>
         <prefix>102</prefix>
@@ -121,6 +134,7 @@
         <accept>ter</accept>
         <code>1020x04000D</code>
         <description>exceed maxternum config</description>
+        <englishdec></englishdec>
         <errorCode>262157</errorCode>
         <message>加入会议失败（4000D）</message>
         <prefix>102</prefix>
@@ -130,6 +144,7 @@
         <accept>ter</accept>
         <code>1020x04000E</code>
         <description>less netmp1</description>
+        <englishdec></englishdec>
         <errorCode>262158</errorCode>
         <message>加入会议失败（4000E）</message>
         <prefix>102</prefix>
@@ -139,6 +154,7 @@
         <accept>ter</accept>
         <code>1020x04000F</code>
         <description>less mp</description>
+        <englishdec></englishdec>
         <errorCode>262159</errorCode>
         <message>没有可用的MP服务（4000F）</message>
         <prefix>102</prefix>
@@ -148,53 +164,59 @@
         <accept>ter</accept>
         <code>1020x040010</code>
         <description>netmprsp isok but mpi not create</description>
+        <englishdec></englishdec>
         <errorCode>262160</errorCode>
         <message>媒体处理实例未创建（40010）</message>
         <prefix>102</prefix>
-        <reason>netmp创建会议成功,但媒体处理实例还未创建</reason>
+        <reason>netmp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040011</code>
         <description>netmprsp isok not find mpi</description>
+        <englishdec></englishdec>
         <errorCode>262161</errorCode>
         <message>未找到媒体处理实例（40011）</message>
         <prefix>102</prefix>
-        <reason>netmp创建会议成功,但未找到媒体处理实例</reason>
+        <reason>netmp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040012</code>
         <description>offline netmp create conf timeout</description>
+        <englishdec></englishdec>
         <errorCode>262162</errorCode>
         <message>创建会议超时（40012）</message>
         <prefix>102</prefix>
-        <reason>netmp创建会议超时,该netmp可能已经断开链接</reason>
+        <reason>netmp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040013</code>
         <description>online netmp create conf timeout</description>
+        <englishdec></englishdec>
         <errorCode>262163</errorCode>
         <message>创建会议超时（40013）</message>
         <prefix>102</prefix>
-        <reason>netmp创建会议超时</reason>
+        <reason>netmp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040014</code>
         <description>mp create mpi timeout</description>
+        <englishdec></englishdec>
         <errorCode>262164</errorCode>
         <message>创建媒体处理实例超时（40014）</message>
         <prefix>102</prefix>
-        <reason>mp创建媒体处理实例超时</reason>
+        <reason>mp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040015</code>
         <description>conf not start</description>
+        <englishdec></englishdec>
         <errorCode>262165</errorCode>
-        <message>标准终端)（40015）</message>
+        <message>会议未开始（40015）</message>
         <prefix>102</prefix>
         <reason>会议还未召开(标准终端)</reason>
     </errCode>
@@ -202,6 +224,7 @@
         <accept>ter</accept>
         <code>1020x040016</code>
         <description>conf is ending</description>
+        <englishdec></englishdec>
         <errorCode>262166</errorCode>
         <message>会议正在结束（40016）</message>
         <prefix>102</prefix>
@@ -211,15 +234,17 @@
         <accept>ter</accept>
         <code>1020x040017</code>
         <description>crs stopping rec</description>
+        <englishdec></englishdec>
         <errorCode>262167</errorCode>
         <message>录制服务正在停止录制（40017）</message>
         <prefix>102</prefix>
-        <reason>crs正在停止录制</reason>
+        <reason>crs</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040018</code>
         <description>less mpi</description>
+        <englishdec></englishdec>
         <errorCode>262168</errorCode>
         <message>未找到媒体处理实例（40018）</message>
         <prefix>102</prefix>
@@ -229,6 +254,7 @@
         <accept>ter</accept>
         <code>1020x040019</code>
         <description>not find netmp to join this mixconf</description>
+        <englishdec></englishdec>
         <errorCode>262169</errorCode>
         <message>加入会议失败（40019）</message>
         <prefix>102</prefix>
@@ -238,6 +264,7 @@
         <accept>ter</accept>
         <code>1020x04001A</code>
         <description>not find netmp to join this normalconf</description>
+        <englishdec></englishdec>
         <errorCode>262170</errorCode>
         <message>加入会议失败（4001A）</message>
         <prefix>102</prefix>
@@ -247,6 +274,7 @@
         <accept>ter</accept>
         <code>1020x04001B</code>
         <description>less netmp4</description>
+        <englishdec></englishdec>
         <errorCode>262171</errorCode>
         <message>没有可用的netmp服务（4001B）</message>
         <prefix>102</prefix>
@@ -256,6 +284,7 @@
         <accept>ter</accept>
         <code>1020x04001C</code>
         <description>mc has no confid</description>
+        <englishdec></englishdec>
         <errorCode>262172</errorCode>
         <message>会议不存在（4001C）</message>
         <prefix>102</prefix>
@@ -265,6 +294,7 @@
         <accept>ter</accept>
         <code>1020x04001D</code>
         <description>req msg has no sponsortype</description>
+        <englishdec></englishdec>
         <errorCode>262173</errorCode>
         <message>没有发起者类型（4001D）</message>
         <prefix>102</prefix>
@@ -274,6 +304,7 @@
         <accept>ter</accept>
         <code>1020x04001E</code>
         <description>req msg sponsortype error</description>
+        <englishdec></englishdec>
         <errorCode>262174</errorCode>
         <message>发起者类型错误（4001E）</message>
         <prefix>102</prefix>
@@ -283,267 +314,297 @@
         <accept>ter</accept>
         <code>1020x04001F</code>
         <description>req msg terid error</description>
+        <englishdec></englishdec>
         <errorCode>262175</errorCode>
         <message>终端ID号错误（4001F）</message>
         <prefix>102</prefix>
         <reason>请求消息中终端id号错误</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040020</code>
         <description>crs reopen timeout</description>
+        <englishdec></englishdec>
         <errorCode>262176</errorCode>
         <message>录制服务故障迁移超时（40020）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：crs服务故障迁移超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040021</code>
         <description>crs create conf timeout</description>
+        <englishdec></englishdec>
         <errorCode>262177</errorCode>
         <message>录制服务创建会议超时（40021）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：crs创建会议超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040022</code>
         <description>start rec timeout</description>
+        <englishdec></englishdec>
         <errorCode>262178</errorCode>
         <message>开启录制超时（40022）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：开启录制超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040023</code>
         <description>stop rec timeout</description>
+        <englishdec></englishdec>
         <errorCode>262179</errorCode>
         <message>结束录制超时（40023）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：正常结束录制超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040024</code>
         <description>end conf stop rec timeout</description>
+        <englishdec></englishdec>
         <errorCode>262180</errorCode>
         <message>结束录制超时（40024）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：结束会议时结束录制超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040025</code>
         <description>dev error stop rec timeout</description>
+        <englishdec></englishdec>
         <errorCode>262181</errorCode>
         <message>结束录制超时（40025）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：服务异常时结束录制超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040026</code>
         <description>conf empty stop rec timeout</description>
+        <englishdec></englishdec>
         <errorCode>262182</errorCode>
         <message>结束录制超时（40026）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：会议为空时结束录制超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040027</code>
         <description>crs reopen error</description>
+        <englishdec></englishdec>
         <errorCode>262183</errorCode>
         <message>录制服务故障迁移失败（40027）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：crs故障迁移失败</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040028</code>
         <description>crs create conf failed</description>
+        <englishdec></englishdec>
         <errorCode>262184</errorCode>
         <message>录制服务创建会议失败（40028）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：crs创建会议失败</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040029</code>
         <description>crs closed socket</description>
+        <englishdec></englishdec>
         <errorCode>262185</errorCode>
         <message>录制服务网络异常（40029）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：crs服务网络异常</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04002A</code>
         <description>sys not sup rec</description>
+        <englishdec></englishdec>
         <errorCode>262186</errorCode>
         <message>没有录制授权（4002A）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：系统不支持录制(没有录制授权)</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04002B</code>
         <description>exceed reccount licence</description>
+        <englishdec></englishdec>
         <errorCode>262187</errorCode>
         <message>超出录制授权（4002B）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：超出录制授权</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04002C</code>
         <description>not have mpiinfo</description>
+        <englishdec></englishdec>
         <errorCode>262188</errorCode>
         <message>录制没有媒体处理实例（4002C）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：没有媒体处理实例</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04002D</code>
         <description>not have rec scr</description>
+        <englishdec></englishdec>
         <errorCode>262189</errorCode>
         <message>没有录制屏（4002D）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：没有录制屏</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04002E</code>
         <description>crs create conf failed can't start rec</description>
+        <englishdec></englishdec>
         <errorCode>262190</errorCode>
         <message>录制服务创建失败（4002E）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：crs创建会议失败，无法开启录制(开启直播时设置开启录制)</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04002F</code>
         <description>not find crs create conf</description>
+        <englishdec></englishdec>
         <errorCode>262191</errorCode>
         <message>没有可用的录制服务创建会议（4002F）</message>
         <prefix>102</prefix>
         <reason>会议录制状态：没有可用的crs创建会议</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040030</code>
         <description>crs reopen timeout</description>
+        <englishdec></englishdec>
         <errorCode>262192</errorCode>
         <message>直播服务故障迁移超时（40030）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：crs服务故障迁移超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040031</code>
         <description>crs create conf timeout</description>
+        <englishdec></englishdec>
         <errorCode>262193</errorCode>
         <message>直播创建会议超时（40031）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：crs创建会议超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040032</code>
         <description>start live timeout</description>
+        <englishdec></englishdec>
         <errorCode>262194</errorCode>
         <message>开启直播超时（40032）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：开启直播超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040033</code>
         <description>crs reopen error</description>
+        <englishdec></englishdec>
         <errorCode>262195</errorCode>
         <message>故障迁移失败（40033）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：crs故障迁移失败</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040034</code>
         <description>crs create conf failed</description>
+        <englishdec></englishdec>
         <errorCode>262196</errorCode>
         <message>创建会议失败（40034）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：crs创建会议失败</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040035</code>
         <description>crs closed socket</description>
+        <englishdec></englishdec>
         <errorCode>262197</errorCode>
         <message>服务网络异常（40035）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：crs服务网络异常</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040036</code>
         <description>sys not sup live</description>
+        <englishdec></englishdec>
         <errorCode>262198</errorCode>
         <message>没有直播授权（40036）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：系统不支持直播(没有直播授权)</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040037</code>
         <description>exceed livecount licence</description>
+        <englishdec></englishdec>
         <errorCode>262199</errorCode>
         <message>超出直播授权（40037）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：超出直播授权</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040038</code>
         <description>not have mpiinfo</description>
+        <englishdec></englishdec>
         <errorCode>262200</errorCode>
         <message>没有媒体处理实例（40038）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：没有媒体处理实例</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040039</code>
         <description>not have live scr</description>
+        <englishdec></englishdec>
         <errorCode>262201</errorCode>
         <message>没有直播屏（40039）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：没有直播屏</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04003A</code>
         <description>srssvr is offline</description>
+        <englishdec></englishdec>
         <errorCode>262202</errorCode>
         <message>直播服务不在线（4003A）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：srs服务不在线</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04003B</code>
         <description>choose srssvr failed</description>
+        <englishdec></englishdec>
         <errorCode>262203</errorCode>
         <message>没有可用的直播服务（4003B）</message>
         <prefix>102</prefix>
         <reason>会议直播状态：没有可选的srs服务</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04003C</code>
         <description>not find crs create conf</description>
+        <englishdec></englishdec>
         <errorCode>262204</errorCode>
         <message>没有可用的录制服务（4003C）</message>
         <prefix>102</prefix>
@@ -553,6 +614,7 @@
         <accept>ter</accept>
         <code>1020x04003D</code>
         <description>timeout</description>
+        <englishdec></englishdec>
         <errorCode>262205</errorCode>
         <message>获取超时（4003D）</message>
         <prefix>102</prefix>
@@ -562,6 +624,7 @@
         <accept>ter</accept>
         <code>1020x04003E</code>
         <description>request itself</description>
+        <englishdec></englishdec>
         <errorCode>262206</errorCode>
         <message>令牌已存在（4003E）</message>
         <prefix>102</prefix>
@@ -571,6 +634,7 @@
         <accept>ter</accept>
         <code>1020x04003F</code>
         <description>stdter is being shared</description>
+        <englishdec></englishdec>
         <errorCode>262207</errorCode>
         <message>令牌在网关侧申请终端被拒绝（4003F）</message>
         <prefix>102</prefix>
@@ -580,6 +644,7 @@
         <accept>ter</accept>
         <code>1020x040040</code>
         <description>another is request</description>
+        <englishdec></englishdec>
         <errorCode>262208</errorCode>
         <message>当前已有人申请（40040）</message>
         <prefix>102</prefix>
@@ -589,6 +654,7 @@
         <accept>ter</accept>
         <code>1020x040041</code>
         <description>reject</description>
+        <englishdec></englishdec>
         <errorCode>262209</errorCode>
         <message>拒绝转移（40041）</message>
         <prefix>102</prefix>
@@ -598,6 +664,7 @@
         <accept>ter</accept>
         <code>1020x040042</code>
         <description>mp creat screen timeout</description>
+        <englishdec></englishdec>
         <errorCode>262210</errorCode>
         <message>创建屏幕超时（40042）</message>
         <prefix>102</prefix>
@@ -607,33 +674,37 @@
         <accept>ter</accept>
         <code>1020x040043</code>
         <description>mp screen full</description>
+        <englishdec></englishdec>
         <errorCode>262211</errorCode>
         <message>屏幕数已经分配完（40043）</message>
         <prefix>102</prefix>
         <reason>终端请求创建的屏，屏幕数已经分配完</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040044</code>
         <description>client network error</description>
+        <englishdec></englishdec>
         <errorCode>262212</errorCode>
         <message>网络异常终端离会（40044）</message>
         <prefix>102</prefix>
         <reason>告诉其它终端，某终端离开会议原因：网络异常</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040045</code>
         <description>reopen netmp timeout, transfer again error</description>
+        <englishdec></englishdec>
         <errorCode>262213</errorCode>
         <message>故障再次迁移失败（40045）</message>
         <prefix>102</prefix>
         <reason>告诉其它终端，某终端离开会议原因：netmp故障迁移超时,再次迁移失败</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040046</code>
         <description>netmp error,reopen error</description>
+        <englishdec></englishdec>
         <errorCode>262214</errorCode>
         <message>故障迁移失败（40046）</message>
         <prefix>102</prefix>
@@ -643,6 +714,7 @@
         <accept>ter</accept>
         <code>1020x040047</code>
         <description>ccs del participants</description>
+        <englishdec></englishdec>
         <errorCode>262215</errorCode>
         <message>会控删除参会人（40047）</message>
         <prefix>102</prefix>
@@ -652,6 +724,7 @@
         <accept>ter</accept>
         <code>1020x040048</code>
         <description>chair del participants</description>
+        <englishdec></englishdec>
         <errorCode>262216</errorCode>
         <message>主持人删除参会人（40048）</message>
         <prefix>102</prefix>
@@ -661,6 +734,7 @@
         <accept>ter</accept>
         <code>1020x040049</code>
         <description>ccs drop ter</description>
+        <englishdec></englishdec>
         <errorCode>262217</errorCode>
         <message>会控移除终端（40049）</message>
         <prefix>102</prefix>
@@ -670,6 +744,7 @@
         <accept>ter</accept>
         <code>1020x04004A</code>
         <description>Chair drop ter</description>
+        <englishdec></englishdec>
         <errorCode>262218</errorCode>
         <message>主持人移除终端（4004A）</message>
         <prefix>102</prefix>
@@ -679,6 +754,7 @@
         <accept>ter</accept>
         <code>1020x04004B</code>
         <description>ter Join Conf twice</description>
+        <englishdec></englishdec>
         <errorCode>262219</errorCode>
         <message>同名终端入会（4004B）</message>
         <prefix>102</prefix>
@@ -688,24 +764,27 @@
         <accept>ter</accept>
         <code>1020x04004C</code>
         <description>ccs close conf</description>
+        <englishdec></englishdec>
         <errorCode>262220</errorCode>
         <message>会控结束该会议（4004C）</message>
         <prefix>102</prefix>
-        <reason>ccs会控结束某会议</reason>
+        <reason>ccs</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x04004D</code>
         <description>mc close conf</description>
+        <englishdec></englishdec>
         <errorCode>262221</errorCode>
         <message>设备管理器断开，结束会议（4004D）</message>
         <prefix>102</prefix>
-        <reason>(devmgr连接断开)mc结束(所有)会议</reason>
+        <reason>(devmgr</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x04004E</code>
         <description>chair close conf</description>
+        <englishdec></englishdec>
         <errorCode>262222</errorCode>
         <message>主持人结束会议（4004E）</message>
         <prefix>102</prefix>
@@ -715,15 +794,17 @@
         <accept>ter</accept>
         <code>1020x04004F</code>
         <description>relaysvr proc tjc timeout</description>
+        <englishdec></englishdec>
         <errorCode>262223</errorCode>
-        <message>relayserver服务处理终端入会请求超时（4004F）</message>
+        <message>relayserver</message>
         <prefix>102</prefix>
-        <reason>relayserver处理终端入会请求超时</reason>
+        <reason>relayserver</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040050</code>
         <description>less relaysvr</description>
+        <englishdec></englishdec>
         <errorCode>262224</errorCode>
         <message>没有可用的relayserver服务（40050）</message>
         <prefix>102</prefix>
@@ -733,15 +814,17 @@
         <accept>ter</accept>
         <code>1020x040051</code>
         <description>in waitmpters this ter relatednetmpid error</description>
+        <englishdec></englishdec>
         <errorCode>262225</errorCode>
         <message>关联MP服务错误（40051）</message>
         <prefix>102</prefix>
-        <reason>mp成功创建mpi,等待mp队列的终端所关联netmp错误</reason>
+        <reason>mp</reason>
     </errCode>
     <errCode>
         <accept>mc</accept>
         <code>1080x0A0000</code>
         <description>The current live url may be wrong</description>
+        <englishdec></englishdec>
         <errorCode>655360</errorCode>
         <message>直播推送失败（A0000）</message>
         <prefix>108</prefix>
@@ -749,224 +832,249 @@
     </errCode>
     <errCode>
         <accept>ter</accept>
-        <code>1090x0D0000</code>
+        <code>1090x0D0006</code>
         <description>Record ChannelParameter Error</description>
-        <errorCode>851968</errorCode>
+        <englishdec></englishdec>
+        <errorCode>851974</errorCode>
         <message>录制参数错误（D0000）</message>
         <prefix>109</prefix>
         <reason>录制参数错误</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
-        <code>1090x0D0001</code>
+        <code>1090x0D0004</code>
         <description>Live ChannelParameter Error</description>
-        <errorCode>851969</errorCode>
+        <englishdec></englishdec>
+        <errorCode>851972</errorCode>
         <message>直播参数错误（D0001）</message>
         <prefix>109</prefix>
         <reason>直播参数错误</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
-        <code>1090x0D0002</code>
+        <code>1090x0D0005</code>
         <description>Live URL Error</description>
-        <errorCode>851970</errorCode>
+        <englishdec></englishdec>
+        <errorCode>851973</errorCode>
         <message>直播设置地址错误（D0002）</message>
         <prefix>109</prefix>
         <reason>直播设置地址错误</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
-        <code>1090x0D0003</code>
+        <code>1090x0D0002</code>
         <description>ReqConfTermList timeout</description>
-        <errorCode>851971</errorCode>
+        <englishdec></englishdec>
+        <errorCode>851970</errorCode>
         <message>终端列表请求超时（D0003）</message>
         <prefix>109</prefix>
         <reason>请求终端列表超时</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
-        <code>1090x0D0004</code>
+        <code>1090x0D0007</code>
         <description>ter Join Conf twice</description>
-        <errorCode>851972</errorCode>
+        <englishdec></englishdec>
+        <errorCode>851975</errorCode>
         <message>账号重复登陆下线（D0004）</message>
         <prefix>109</prefix>
         <reason>同账号终端加入被踢</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
-        <code>1090x0D0005</code>
+        <code>1090x0D0000</code>
         <description>OnRspJoinConf timeout</description>
-        <errorCode>851973</errorCode>
+        <englishdec></englishdec>
+        <errorCode>851968</errorCode>
         <message>加入会议超时（D0005）</message>
         <prefix>109</prefix>
         <reason>加入会议超时</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
-        <code>1090x0D0006</code>
+        <code>1090x0D0003</code>
         <description>ReqSendAssistantVideo Timeout</description>
-        <errorCode>851974</errorCode>
+        <englishdec></englishdec>
+        <errorCode>851971</errorCode>
         <message>请求桌面共享超时（D0006）</message>
         <prefix>109</prefix>
         <reason>请求桌面共享超时</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030000</code>
         <description>redis disconnect</description>
+        <englishdec></englishdec>
         <errorCode>196608</errorCode>
-        <message>redis连接异常（30000）</message>
+        <message>redis</message>
         <prefix>101</prefix>
-        <reason>redis连接异常</reason>
+        <reason>redis</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030001</code>
         <description>serial error</description>
+        <englishdec></englishdec>
         <errorCode>196609</errorCode>
         <message>序列号错误（30001）</message>
         <prefix>101</prefix>
         <reason>序列号错误</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030002</code>
         <description>update device db param error</description>
+        <englishdec></englishdec>
         <errorCode>196610</errorCode>
         <message>数据库设备参数失败（30002）</message>
         <prefix>101</prefix>
         <reason>更新数据库设备参数失败</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030003</code>
         <description>generate deviceid error</description>
+        <englishdec></englishdec>
         <errorCode>196611</errorCode>
         <message>分配设备编号失败（30003）</message>
         <prefix>101</prefix>
         <reason>分配设备编号失败</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030004</code>
         <description>get deviceid error</description>
+        <englishdec></englishdec>
         <errorCode>196612</errorCode>
         <message>获取设备编号失败（30004）</message>
         <prefix>101</prefix>
         <reason>获取设备编号失败</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030005</code>
         <description>insert into device param error</description>
+        <englishdec></englishdec>
         <errorCode>196613</errorCode>
         <message>设备参数插入数据库失败（30005）</message>
         <prefix>101</prefix>
         <reason>设备参数插入数据库失败</reason>
     </errCode>
     <errCode>
-        <accept>mc、ter</accept>
+        <accept>mc</accept>
         <code>1010x030006</code>
         <description>conference is not exist</description>
+        <englishdec></englishdec>
         <errorCode>196614</errorCode>
         <message>会议不在mysql数据库中（30006）</message>
         <prefix>101</prefix>
         <reason>会议不在mysql数据库中</reason>
     </errCode>
     <errCode>
-        <accept>mc、ter</accept>
+        <accept>mc</accept>
         <code>1010x030007</code>
         <description>choose mc not in redis</description>
+        <englishdec></englishdec>
         <errorCode>196615</errorCode>
         <message>会议所选mc不在redis中（30007）</message>
         <prefix>101</prefix>
         <reason>会议所选mc不在redis中</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030008</code>
         <description>nettype is null</description>
+        <englishdec></englishdec>
         <errorCode>196616</errorCode>
         <message>注册消息中地址类型为空（30008）</message>
         <prefix>101</prefix>
         <reason>注册消息中地址类型为空</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030009</code>
         <description>ipaddr_in is error</description>
+        <englishdec></englishdec>
         <errorCode>196617</errorCode>
         <message>内网地址错误（30009）</message>
         <prefix>101</prefix>
         <reason>内网地址错误</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x03000A</code>
         <description>ipaddr_out is error</description>
+        <englishdec></englishdec>
         <errorCode>196618</errorCode>
         <message>外网地址错误（3000A）</message>
         <prefix>101</prefix>
         <reason>外网地址错误</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x03000B</code>
         <description>ipaddr_vpn is error</description>
+        <englishdec></englishdec>
         <errorCode>196619</errorCode>
-        <message>vpn地址错误（3000B)</message>
+        <message>vpn</message>
         <prefix>101</prefix>
-        <reason>vpn地址错误</reason>
+        <reason>vpn</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x03000C</code>
         <description>nettype is error</description>
+        <englishdec></englishdec>
         <errorCode>196620</errorCode>
         <message>注册消息中地址类型错误(3000C)</message>
         <prefix>101</prefix>
         <reason>注册消息中地址类型错误</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x03000D</code>
         <description>domainname not in redis</description>
+        <englishdec></englishdec>
         <errorCode>196621</errorCode>
         <message>域名信息不在redis中(3000D)</message>
         <prefix>101</prefix>
         <reason>域名信息不在redis中</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x03000E</code>
         <description>domainname not in hosts file</description>
+        <englishdec></englishdec>
         <errorCode>196622</errorCode>
         <message>域名信息不在当前hosts配置文件中(3000E)</message>
         <prefix>101</prefix>
         <reason>域名信息不在当前hosts配置文件中</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x03000F</code>
         <description>not find domainname in hosts file</description>
+        <englishdec></englishdec>
         <errorCode>196623</errorCode>
         <message>未找到域名信息（3000F）</message>
         <prefix>101</prefix>
         <reason>域名在redis中,但不在当前内存,再次加载hosts中域名信息更新内存，对比更新内存中域名对应ip后同步至hosts文件时未找到域名信息</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030010</code>
         <description>update ip to hosts file failed</description>
+        <englishdec></englishdec>
         <errorCode>196624</errorCode>
         <message>未找到域名信息（30010）</message>
         <prefix>101</prefix>
         <reason>域名在redis中,也在当前内存，更新内存中域名对应ip后同步至hosts文件时未找到域名信息</reason>
     </errCode>
     <errCode>
-        <accept>mc、netmp、relaymc、mp、gw、relayserver、crs、stunserver</accept>
+        <accept>mc</accept>
         <code>1010x030011</code>
         <description>domainname ip have change reload nginx failed</description>
+        <englishdec></englishdec>
         <errorCode>196625</errorCode>
         <message>重启nginx失败（30011）</message>
         <prefix>101</prefix>
@@ -976,6 +1084,7 @@
         <accept>调用者</accept>
         <code>1000x020001</code>
         <description></description>
+        <englishdec>english</englishdec>
         <errorCode>131073</errorCode>
         <message>登陆超时（20001）</message>
         <prefix>100</prefix>
@@ -985,6 +1094,7 @@
         <accept>调用者</accept>
         <code>1000x020002</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131074</errorCode>
         <message>服务器错误（20002）</message>
         <prefix>100</prefix>
@@ -994,6 +1104,7 @@
         <accept>调用者</accept>
         <code>1000x020003</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131075</errorCode>
         <message>无效的令牌（20003）</message>
         <prefix>100</prefix>
@@ -1003,6 +1114,7 @@
         <accept>调用者</accept>
         <code>1000x020004</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131076</errorCode>
         <message>用户不存在（20004）</message>
         <prefix>100</prefix>
@@ -1012,15 +1124,17 @@
         <accept>调用者</accept>
         <code>1000x020005</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131077</errorCode>
         <message>应用程序编号错误（20005）</message>
         <prefix>100</prefix>
-        <reason>appid 不存在</reason>
+        <reason>appid</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020006</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131078</errorCode>
         <message>信息无效（20006）</message>
         <prefix>100</prefix>
@@ -1030,33 +1144,37 @@
         <accept>调用者</accept>
         <code>1000x020007</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131079</errorCode>
         <message>应用程序软件编号为空（20007）</message>
         <prefix>100</prefix>
-        <reason>appid 为空</reason>
+        <reason>appid</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020008</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131080</errorCode>
         <message>密码为空(20008)</message>
         <prefix>100</prefix>
-        <reason>secretKey 为空</reason>
+        <reason>secretKey</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020100</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131328</errorCode>
         <message>应用程序软件编号为空（20100）</message>
         <prefix>100</prefix>
-        <reason>appid不能为空</reason>
+        <reason>appid</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020101</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131329</errorCode>
         <message>非法的应用程序软件编号（20101）</message>
         <prefix>100</prefix>
@@ -1066,6 +1184,7 @@
         <accept>调用者</accept>
         <code>1000x020103</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131331</errorCode>
         <message>邮箱地址错误（20103）</message>
         <prefix>100</prefix>
@@ -1075,6 +1194,7 @@
         <accept>调用者</accept>
         <code>1000x020104</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131332</errorCode>
         <message>手机号码错误（20104）</message>
         <prefix>100</prefix>
@@ -1084,6 +1204,7 @@
         <accept>调用者</accept>
         <code>1000x020105</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131333</errorCode>
         <message>邮箱已经存在（20105）</message>
         <prefix>100</prefix>
@@ -1093,6 +1214,7 @@
         <accept>调用者</accept>
         <code>1000x020106</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131334</errorCode>
         <message>手机号已经存在（20106）</message>
         <prefix>100</prefix>
@@ -1102,6 +1224,7 @@
         <accept>调用者</accept>
         <code>1000x020107</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131335</errorCode>
         <message>密码无效（20107）</message>
         <prefix>100</prefix>
@@ -1111,24 +1234,27 @@
         <accept>调用者</accept>
         <code>1000x020108</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131336</errorCode>
         <message>用户身份证明为空（20108）</message>
         <prefix>100</prefix>
-        <reason>UID为空</reason>
+        <reason>UID</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020109</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131337</errorCode>
         <message>昵称为空（20109）</message>
         <prefix>100</prefix>
-        <reason>nickname为空</reason>
+        <reason>nickname</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x02010A</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131338</errorCode>
         <message>账号长度过长（2010A）</message>
         <prefix>100</prefix>
@@ -1138,6 +1264,7 @@
         <accept>调用者</accept>
         <code>1000x02010B</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131339</errorCode>
         <message>账号已存在（2010B）</message>
         <prefix>100</prefix>
@@ -1147,15 +1274,17 @@
         <accept>调用者</accept>
         <code>1000x02010C</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131340</errorCode>
-        <message>sip注册失败(2010C)</message>
+        <message>sip</message>
         <prefix>100</prefix>
-        <reason>sip注册失败</reason>
+        <reason>sip</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020201</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131585</errorCode>
         <message>该账号已冻结（20201）</message>
         <prefix>100</prefix>
@@ -1165,8 +1294,9 @@
         <accept>调用者</accept>
         <code>1000x020202</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131586</errorCode>
-        <message>密码错误（20202）</message>
+        <message>账号密码错误（20202）</message>
         <prefix>100</prefix>
         <reason>错误的密码</reason>
     </errCode>
@@ -1174,6 +1304,7 @@
         <accept>调用者</accept>
         <code>1000x020203</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131587</errorCode>
         <message>账号已冻结或未授权（20203）</message>
         <prefix>100</prefix>
@@ -1183,6 +1314,7 @@
         <accept>调用者</accept>
         <code>1000x020204</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131588</errorCode>
         <message>用户唯一标识为空（20204）</message>
         <prefix>100</prefix>
@@ -1192,6 +1324,7 @@
         <accept>调用者</accept>
         <code>1000x020205</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131589</errorCode>
         <message>用户不存在或终端未注册（20205）</message>
         <prefix>100</prefix>
@@ -1201,6 +1334,7 @@
         <accept>调用者</accept>
         <code>1000x020206</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131590</errorCode>
         <message>原有密码错误（20206）</message>
         <prefix>100</prefix>
@@ -1210,6 +1344,7 @@
         <accept>调用者</accept>
         <code>1000x020207</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131591</errorCode>
         <message>用户类型不匹配（20207）</message>
         <prefix>100</prefix>
@@ -1219,6 +1354,7 @@
         <accept>调用者</accept>
         <code>1000x020208</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131592</errorCode>
         <message>设备未注册（20208）</message>
         <prefix>100</prefix>
@@ -1228,6 +1364,7 @@
         <accept>调用者</accept>
         <code>1000x020300</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131840</errorCode>
         <message>开始时间为空（20300）</message>
         <prefix>100</prefix>
@@ -1237,6 +1374,7 @@
         <accept>调用者</accept>
         <code>1000x020301</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131841</errorCode>
         <message>开始时间格式有误（20301）</message>
         <prefix>100</prefix>
@@ -1246,6 +1384,7 @@
         <accept>调用者</accept>
         <code>1000x020302</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131842</errorCode>
         <message>开始时间小于当前时间（20302）</message>
         <prefix>100</prefix>
@@ -1255,6 +1394,7 @@
         <accept>调用者</accept>
         <code>1000x020303</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131843</errorCode>
         <message>结束时间为空（20303）</message>
         <prefix>100</prefix>
@@ -1264,6 +1404,7 @@
         <accept>调用者</accept>
         <code>1000x020304</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131844</errorCode>
         <message>结束时间格式有误（20304）</message>
         <prefix>100</prefix>
@@ -1273,6 +1414,7 @@
         <accept>调用者</accept>
         <code>1000x020305</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131845</errorCode>
         <message>结束时间小于等于开始时间（20305）</message>
         <prefix>100</prefix>
@@ -1282,6 +1424,7 @@
         <accept>调用者</accept>
         <code>1000x020306</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131846</errorCode>
         <message>会议号重复（20306）</message>
         <prefix>100</prefix>
@@ -1291,6 +1434,7 @@
         <accept>调用者</accept>
         <code>1000x020307</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131847</errorCode>
         <message>会议正在召开中（20307）</message>
         <prefix>100</prefix>
@@ -1300,6 +1444,7 @@
         <accept>调用者</accept>
         <code>1000x020308</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131848</errorCode>
         <message>无效的参数（20308）</message>
         <prefix>100</prefix>
@@ -1309,6 +1454,7 @@
         <accept>调用者</accept>
         <code>1000x020309</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131849</errorCode>
         <message>应用无即时通讯（20309）</message>
         <prefix>100</prefix>
@@ -1318,42 +1464,37 @@
         <accept>调用者</accept>
         <code>1000x02030A</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131850</errorCode>
-        <message>修改或删除的非自己会议（2030A）</message>
+        <message>时间类型错误（2030A）</message>
         <prefix>100</prefix>
-        <reason>修改、删除的不是自己的会</reason>
-    </errCode>
-    <errCode>
-        <accept>调用者</accept>
-        <code>1000x02030B</code>
-        <description></description>
-        <errorCode>131851</errorCode>
-        <message>密码为空（2030B）</message>
-        <prefix>100</prefix>
-        <reason>密码为空</reason>
+        <reason>时间戳格式有误</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x02030C</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131852</errorCode>
-        <message>会议未开始（2030C）</message>
+        <message>密码为空（2030C）</message>
         <prefix>100</prefix>
-        <reason>会议未开始</reason>
+        <reason>密码为空</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x02030D</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>131853</errorCode>
-        <message>无法找到会议信息（2030D）</message>
+        <message>会议未开始（2030D）</message>
         <prefix>100</prefix>
-        <reason>无法找到会议信息</reason>
+        <reason>会议未开始</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020400</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132096</errorCode>
         <message>会议不存在（20400）</message>
         <prefix>100</prefix>
@@ -1363,6 +1504,7 @@
         <accept>调用者</accept>
         <code>1000x020401</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132097</errorCode>
         <message>会议已结束（20401）</message>
         <prefix>100</prefix>
@@ -1372,6 +1514,7 @@
         <accept>调用者</accept>
         <code>1000x020402</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132098</errorCode>
         <message>会议已删除（20402）</message>
         <prefix>100</prefix>
@@ -1381,6 +1524,7 @@
         <accept>调用者</accept>
         <code>1000x020403</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132099</errorCode>
         <message>参会密码不正确（20403）</message>
         <prefix>100</prefix>
@@ -1390,8 +1534,9 @@
         <accept>调用者</accept>
         <code>1000x020404</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132100</errorCode>
-        <message>临时账号资源紧张，重试（20404）</message>
+        <message>临时账号资源紧张，请稍后再试（20404）</message>
         <prefix>100</prefix>
         <reason>临时账号资源紧张，请稍后再试</reason>
     </errCode>
@@ -1399,6 +1544,7 @@
         <accept>调用者</accept>
         <code>1000x020405</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132101</errorCode>
         <message>不是自己的会议（20405）</message>
         <prefix>100</prefix>
@@ -1408,15 +1554,17 @@
         <accept>调用者</accept>
         <code>1000x020406</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132102</errorCode>
         <message>服务ID为空（20406）</message>
         <prefix>100</prefix>
-        <reason>serviceid 为空</reason>
+        <reason>serviceid</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020407</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132103</errorCode>
         <message>会议ID为空（20407）</message>
         <prefix>100</prefix>
@@ -1426,15 +1574,17 @@
         <accept>调用者</accept>
         <code>1000x020408</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132104</errorCode>
         <message>声音ID位数为12位（20408）</message>
         <prefix>100</prefix>
-        <reason>thirdAudioId 必须是12位</reason>
+        <reason>thirdAudioId</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x020409</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132105</errorCode>
         <message>用户重复加入会议（20409）</message>
         <prefix>100</prefix>
@@ -1444,33 +1594,37 @@
         <accept>调用者</accept>
         <code>1000x02040A</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132106</errorCode>
-        <message>ID不存在（2040A）</message>
+        <message>ID</message>
         <prefix>100</prefix>
-        <reason>id3不存在</reason>
+        <reason>id3</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x02040B</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132107</errorCode>
         <message>版本不存在（2040B）</message>
         <prefix>100</prefix>
-        <reason>version3不存在</reason>
+        <reason>version3</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x02040C</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132108</errorCode>
         <message>主题不存在（2040C）</message>
         <prefix>100</prefix>
-        <reason>subject不存在</reason>
+        <reason>subject</reason>
     </errCode>
     <errCode>
         <accept>调用者</accept>
         <code>1000x02040D</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132109</errorCode>
         <message>不允许匿名加入会（2040D）</message>
         <prefix>100</prefix>
@@ -1480,6 +1634,7 @@
         <accept>调用者</accept>
         <code>1000x02040E</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132110</errorCode>
         <message>网关不存在（2040E）</message>
         <prefix>100</prefix>
@@ -1489,6 +1644,7 @@
         <accept>调用者</accept>
         <code>1000x02040F</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132111</errorCode>
         <message>非法设备（2040F）</message>
         <prefix>100</prefix>
@@ -1498,6 +1654,7 @@
         <accept>调用者</accept>
         <code>1000x020410</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132112</errorCode>
         <message>用户没有媒体处理器集群（20410）</message>
         <prefix>100</prefix>
@@ -1507,6 +1664,7 @@
         <accept>调用者</accept>
         <code>1000x020411</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132113</errorCode>
         <message>没有可用的relayserver服务（20411）</message>
         <prefix>100</prefix>
@@ -1516,6 +1674,7 @@
         <accept>调用者</accept>
         <code>1000x020500</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132352</errorCode>
         <message>通讯录id为空（20500）</message>
         <prefix>100</prefix>
@@ -1525,6 +1684,7 @@
         <accept>调用者</accept>
         <code>1000x020501</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132353</errorCode>
         <message>部门id为空（20501）</message>
         <prefix>100</prefix>
@@ -1534,6 +1694,7 @@
         <accept>调用者</accept>
         <code>1000x020502</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132354</errorCode>
         <message>查询内容为空（20502）</message>
         <prefix>100</prefix>
@@ -1543,6 +1704,7 @@
         <accept>调用者</accept>
         <code>1000x020503</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132355</errorCode>
         <message>用户不属于该通讯录（20503）</message>
         <prefix>100</prefix>
@@ -1552,6 +1714,7 @@
         <accept>调用者</accept>
         <code>1000x020504</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132356</errorCode>
         <message>用户id为空（20504）</message>
         <prefix>100</prefix>
@@ -1561,6 +1724,7 @@
         <accept>调用者</accept>
         <code>1000x020600</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132608</errorCode>
         <message>呼叫参数不合法（20600）</message>
         <prefix>100</prefix>
@@ -1570,6 +1734,7 @@
         <accept>调用者</accept>
         <code>1000x020601</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132609</errorCode>
         <message>设备用户ID不能为空（20601）</message>
         <prefix>100</prefix>
@@ -1579,6 +1744,7 @@
         <accept>调用者</accept>
         <code>1000x020602</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132610</errorCode>
         <message>设备信息已存在（20602）</message>
         <prefix>100</prefix>
@@ -1588,6 +1754,7 @@
         <accept>调用者</accept>
         <code>1000x020603</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132611</errorCode>
         <message>设备名称为空（20603）</message>
         <prefix>100</prefix>
@@ -1597,6 +1764,7 @@
         <accept>调用者</accept>
         <code>1000x020700</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132864</errorCode>
         <message>手机号为空（20700）</message>
         <prefix>100</prefix>
@@ -1606,6 +1774,7 @@
         <accept>调用者</accept>
         <code>1000x020701</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132865</errorCode>
         <message>请求类型为空（20701）</message>
         <prefix>100</prefix>
@@ -1615,6 +1784,7 @@
         <accept>调用者</accept>
         <code>1000x020702</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132866</errorCode>
         <message>手机号不存在（20702）</message>
         <prefix>100</prefix>
@@ -1624,6 +1794,7 @@
         <accept>调用者</accept>
         <code>1000x020703</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132867</errorCode>
         <message>发送过于频繁（20703）</message>
         <prefix>100</prefix>
@@ -1633,6 +1804,7 @@
         <accept>调用者</accept>
         <code>1000x020704</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132868</errorCode>
         <message>达到每天最大限度（20704）</message>
         <prefix>100</prefix>
@@ -1642,6 +1814,7 @@
         <accept>调用者</accept>
         <code>1000x020705</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132869</errorCode>
         <message>短信发送失败（20705）</message>
         <prefix>100</prefix>
@@ -1651,6 +1824,7 @@
         <accept>调用者</accept>
         <code>1000x020706</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132870</errorCode>
         <message>验证码为空（20706）</message>
         <prefix>100</prefix>
@@ -1660,6 +1834,7 @@
         <accept>调用者</accept>
         <code>1000x020707</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132871</errorCode>
         <message>验证码过期（20707）</message>
         <prefix>100</prefix>
@@ -1669,6 +1844,7 @@
         <accept>调用者</accept>
         <code>1000x020708</code>
         <description></description>
+        <englishdec></englishdec>
         <errorCode>132872</errorCode>
         <message>验证码不匹配（20708）</message>
         <prefix>100</prefix>
@@ -1678,44 +1854,49 @@
         <accept>ter</accept>
         <code>1020x040052</code>
         <description>create mpi timeout, reopen mpi error</description>
+        <englishdec></englishdec>
         <errorCode>262226</errorCode>
-        <message>MP故障迁移（40052）</message>
+        <message>MP</message>
         <prefix>102</prefix>
-        <reason>mp故障迁移创建媒体处理实例超时,再次迁移mp失败</reason>
+        <reason>mp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040053</code>
         <description>create screen timeout, reopen mpi error</description>
+        <englishdec></englishdec>
         <errorCode>262227</errorCode>
-        <message></message>
+        <message>MP</message>
         <prefix>102</prefix>
-        <reason>mp故障迁移创建屏幕超时,再次迁移mp失败</reason>
+        <reason>mp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040054</code>
         <description>create mpi fail, and reopen mpi error</description>
+        <englishdec></englishdec>
         <errorCode>262228</errorCode>
-        <message></message>
+        <message>MP</message>
         <prefix>102</prefix>
-        <reason>mp故障迁移创建媒体处理实例失败,再次迁移mp失败</reason>
+        <reason>mp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040055</code>
         <description>create screen fail, and reopen mpi error</description>
+        <englishdec></englishdec>
         <errorCode>262229</errorCode>
-        <message></message>
+        <message>MP</message>
         <prefix>102</prefix>
-        <reason>mp故障迁移创建屏幕失败,再次迁移mp失败</reason>
+        <reason>mp</reason>
     </errCode>
     <errCode>
         <accept>ter</accept>
         <code>1020x040056</code>
         <description>less mp,reopen mp error</description>
+        <englishdec></englishdec>
         <errorCode>262230</errorCode>
-        <message></message>
+        <message>无可用的MP,故障迁移失败（40056）</message>
         <prefix>102</prefix>
         <reason>没有可用的mp服务,故障迁移失败</reason>
     </errCode>
@@ -1723,17 +1904,19 @@
         <accept>ter</accept>
         <code>1020x040057</code>
         <description>Ter HeartBeat Stopped</description>
+        <englishdec></englishdec>
         <errorCode>262231</errorCode>
         <message>终端心跳超时（40057）</message>
         <prefix>102</prefix>
         <reason>终端心跳超时</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x040058</code>
         <description>waiting get confinfo</description>
+        <englishdec></englishdec>
         <errorCode>262232</errorCode>
-        <message></message>
+        <message>正在获取会议信息（40058）</message>
         <prefix>102</prefix>
         <reason>等待获取会议信息</reason>
     </errCode>
@@ -1741,8 +1924,9 @@
         <accept>ter</accept>
         <code>1020x040059</code>
         <description>exit main room then to waiting room</description>
+        <englishdec></englishdec>
         <errorCode>262233</errorCode>
-        <message></message>
+        <message>**</message>
         <prefix>102</prefix>
         <reason>群发通知与会终端,某终端从主会场移到等候区</reason>
     </errCode>
@@ -1750,8 +1934,9 @@
         <accept>ter</accept>
         <code>1020x04005A</code>
         <description>join conf success</description>
+        <englishdec></englishdec>
         <errorCode>262234</errorCode>
-        <message></message>
+        <message>主持人已同意入会（4005A）</message>
         <prefix>102</prefix>
         <reason>告诉某终端切换状态：你已经成功从等候区进入到主会场</reason>
     </errCode>
@@ -1759,17 +1944,19 @@
         <accept>ter</accept>
         <code>1020x04005B</code>
         <description>already in waiting room</description>
+        <englishdec></englishdec>
         <errorCode>262235</errorCode>
-        <message></message>
+        <message>您已进入等候区（4005B）</message>
         <prefix>102</prefix>
         <reason>回复某终端你已经在等候区</reason>
     </errCode>
     <errCode>
-        <accept>ter、ccs</accept>
+        <accept>ter</accept>
         <code>1020x04005C</code>
         <description>conf is empty</description>
+        <englishdec></englishdec>
         <errorCode>262236</errorCode>
-        <message></message>
+        <message>会议已结束（4005C）</message>
         <prefix>102</prefix>
         <reason>会议为空结束会议时,告诉等候区终端自行退出等候区</reason>
     </errCode>
@@ -1777,8 +1964,9 @@
         <accept>ter</accept>
         <code>1020x04005D</code>
         <description>same ter already in conf</description>
+        <englishdec></englishdec>
         <errorCode>262237</errorCode>
-        <message></message>
+        <message>您的账号已在其他地方入会，若有疑问，请联系管理员！（4005D）</message>
         <prefix>102</prefix>
         <reason>同账号终端已经入会,拒绝当前入会请求</reason>
     </errCode>
@@ -1786,18 +1974,2960 @@
         <accept>ter</accept>
         <code>1020x04005E</code>
         <description>same ter join conf</description>
+        <englishdec></englishdec>
         <errorCode>262238</errorCode>
-        <message></message>
+        <message>您的账号已在其他地方入会，若有疑问，请联系管理员！（4005E）</message>
         <prefix>102</prefix>
-        <reason>同账号终端入会,挂断已经在会的终端</reason>
+        <reason>同账号终端入会,挂断已经在会的终端，被挂断的终端提示</reason>
     </errCode>
     <errCode>
         <accept>app</accept>
         <code>1070x0E0001</code>
         <description>判断服务器地址是否规则</description>
+        <englishdec></englishdec>
         <errorCode>917505</errorCode>
         <message></message>
         <prefix>107</prefix>
         <reason>服务器设置不符合ip或域名规则</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020000</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131072</errorCode>
+        <message>登录成功（20000）</message>
+        <prefix>100</prefix>
+        <reason>登录成功</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020209</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131593</errorCode>
+        <message>企业标识错误（20209）</message>
+        <prefix>100</prefix>
+        <reason>域名不存在</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x02020A</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131594</errorCode>
+        <message>登录失败，企业标识错误（2020A）</message>
+        <prefix>100</prefix>
+        <reason>域名为上级域名，不能登录上级平台</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x02020B</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131595</errorCode>
+        <message>呼叫参数不合法（2020B）</message>
+        <prefix>100</prefix>
+        <reason>网关呼叫参数不合法</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x02020C</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131596</errorCode>
+        <message>上下级网络不通（2020C）</message>
+        <prefix>100</prefix>
+        <reason>上下级平台网络不通</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x02020D</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131597</errorCode>
+        <message>终端未授权（2020D）</message>
+        <prefix>100</prefix>
+        <reason>UUID</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x02030F</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131855</errorCode>
+        <message>会议校验码错误（2030F）</message>
+        <prefix>100</prefix>
+        <reason>会议校验码为空</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x02030B</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131851</errorCode>
+        <message>修改或删除的非自己会议（2030B）</message>
+        <prefix>100</prefix>
+        <reason>修改、删除的不是自己的会</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x02030E</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131854</errorCode>
+        <message>无法找到会议信息（2030E）</message>
+        <prefix>100</prefix>
+        <reason>无法找到会议信息</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020310</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131856</errorCode>
+        <message>会议校验码错误（20310）</message>
+        <prefix>100</prefix>
+        <reason>无效的会议验证码</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020311</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131857</errorCode>
+        <message>会议校验码错误（20311）</message>
+        <prefix>100</prefix>
+        <reason>会议信息与会议验证码不匹配</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020312</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131858</errorCode>
+        <message>上下级数据同步参数错误（20312）</message>
+        <prefix>100</prefix>
+        <reason>数据同步参数错误</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020313</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131859</errorCode>
+        <message>企业标识错误（20313）</message>
+        <prefix>100</prefix>
+        <reason>企业标识不存在</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020314</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131860</errorCode>
+        <message>上下级数据同步参数错误（20314）</message>
+        <prefix>100</prefix>
+        <reason>数据同步验证错误?</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020315</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131861</errorCode>
+        <message>专属会议无法修改为一次性会议（20315）</message>
+        <prefix>100</prefix>
+        <reason>专属会议不能修改为一次性会议</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020316</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131862</errorCode>
+        <message>专属会议室无法删除（20316）</message>
+        <prefix>100</prefix>
+        <reason>专属会议不能删除</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020412</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>132114</errorCode>
+        <message>用户没有开启会议的权限（20412）</message>
+        <prefix>100</prefix>
+        <reason>不能开启非本级会议</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020413</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>132115</errorCode>
+        <message>监控参数为空入会失败（20413）</message>
+        <prefix>100</prefix>
+        <reason>监控点编码为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794177</errorCode>
+        <message>服务器地址不能为空（10001）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：参数为空（不关心具体哪个参数为空时使用）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794178</errorCode>
+        <message>服务器地址格式错误（10002）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：参数格式错误（不关心具体哪个参数格式错误时使用）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794179</errorCode>
+        <message>服务器地址不能为空（10003）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：自己的ip地址为空（eg：192.168.26.181）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794180</errorCode>
+        <message>服务器地址格式错误（10004）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：自己的ip地址格式错误（eg：192.168.26.181）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794181</errorCode>
+        <message>代理服务器地址为空（10005）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：代理的ip地址为空（eg：192.168.26.181）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794182</errorCode>
+        <message>代理服务器格式错误（10006）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：代理的ip地址格式错误（eg：192.168.26.181）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794183</errorCode>
+        <message>企业标识不能为空（10007）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：代理域名为空（eg：pri1）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794184</errorCode>
+        <message>企业标识格式错误（10008）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：代理域名格式错误（eg：pri1）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794185</errorCode>
+        <message>服务器地址不能为空（10009）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：自己的ip协议为空（eg：http/https）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF10010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15794192</errorCode>
+        <message>代理服务器地址为空（10010）</message>
+        <prefix>107</prefix>
+        <reason>保存服务器地址时：代理的ip协议为空（eg：http/https）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF11001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15798273</errorCode>
+        <message>获取版本信息失败（11001）</message>
+        <prefix>107</prefix>
+        <reason>0xF11001</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF11002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15798274</errorCode>
+        <message>获取版本信息失败（11002）</message>
+        <prefix>107</prefix>
+        <reason>获取版本信息参数校验：secretKey为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF11003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15798275</errorCode>
+        <message>请求超时（11003）</message>
+        <prefix>107</prefix>
+        <reason>获取版本信息调用getVersion接口失败：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF11004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15798276</errorCode>
+        <message>网络无法连接，获取版本信息失败（11004）</message>
+        <prefix>107</prefix>
+        <reason>获取版本信息调用getVersion接口失败：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF11005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15798277</errorCode>
+        <message>获取版本信息失败（11005）</message>
+        <prefix>107</prefix>
+        <reason>获取版本信息调用getVersion接口失败：404错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF11006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15798278</errorCode>
+        <message>版本信息相关参数为空（11006）</message>
+        <prefix>107</prefix>
+        <reason>获取版本信息成功：版本信息version为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802369</errorCode>
+        <message>获取配置文件失败！（12001）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口参数校验：url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802370</errorCode>
+        <message>获取配置文件失败！（12002）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口参数校验：clientversion为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802371</errorCode>
+        <message>获取配置文件失败！（12003）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口参数校验：clienttype为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802372</errorCode>
+        <message>获取配置文件失败！（12004）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口参数校验：clientmodel为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802373</errorCode>
+        <message>获取配置文件失败！（12005）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口失败：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802374</errorCode>
+        <message>网络无法连接，获取配置文件失败！（12006）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口失败：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802375</errorCode>
+        <message>获取配置文件失败！（12007）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口失败：404错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802376</errorCode>
+        <message>配置文件相关参数为空（12008）</message>
+        <prefix>107</prefix>
+        <reason>调用获取配置文件接口成功：获取到的下载配置文件的url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12101</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802625</errorCode>
+        <message>调用配置文件失败（12101）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口参数校验：url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12102</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802626</errorCode>
+        <message>请求超时（12102）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口失败：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12103</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802627</errorCode>
+        <message>网络无法连接，获取配置文件失败（12103）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口失败：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12104</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802628</errorCode>
+        <message>调用配置文件失败（12104）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口失败：404错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12105</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802629</errorCode>
+        <message>配置文件相关参数为空（12105）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：获取配置信息数据为空（整体数据）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12106</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802630</errorCode>
+        <message>配置文件相关参数为空（12106）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：APP_ID为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12107</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802631</errorCode>
+        <message>配置文件相关参数为空（12107）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：SecretKey为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12108</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802632</errorCode>
+        <message>配置文件相关参数为空（12108）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：HttpsOrHttp(协议)为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12109</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802633</errorCode>
+        <message>配置文件相关参数为空（12109）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：IsRecord（是否有录制）为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12110</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802640</errorCode>
+        <message>配置文件相关参数为空（12110）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：IsLive（是否有直播）为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12111</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802641</errorCode>
+        <message>配置文件相关参数为空（12111）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：IsChat（是否有聊天）为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12112</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802642</errorCode>
+        <message>配置文件相关参数为空（12112）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：IsStatistic（是否有统计信息）为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12113</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802643</errorCode>
+        <message>配置文件相关参数为空（12113）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：ShowLog（是否打印控制台日志）为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12114</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802644</errorCode>
+        <message>配置文件相关参数为空（12114）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：ShowError（是否打印堆栈信息）为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF12115</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15802645</errorCode>
+        <message>配置文件相关参数为空（12115）</message>
+        <prefix>107</prefix>
+        <reason>调用下载配置文件接口成功：LogLevel（日志级别）为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806465</errorCode>
+        <message>版本更新失败（13001）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口参数校验：url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806466</errorCode>
+        <message>版本更新失败（13002）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口参数校验：versionNum为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806467</errorCode>
+        <message>版本更新失败（13003）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口参数校验：clientType为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806468</errorCode>
+        <message>请求超时（13004）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口失败：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806469</errorCode>
+        <message>网络无法连接，版本更新失败（13005）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口失败：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806470</errorCode>
+        <message>版本更新失败（13006）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口失败：404错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806471</errorCode>
+        <message>版本更新失败（13007）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口成功：请求到的版本号为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806472</errorCode>
+        <message>版本更新失败（13008）</message>
+        <prefix>107</prefix>
+        <reason>调用版本更新接口成功：获取当前版本号为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806473</errorCode>
+        <message>配置文件相关参数为空（13009）</message>
+        <prefix>107</prefix>
+        <reason>需要版本更新：版本更新url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806480</errorCode>
+        <message>版本更新失败（13010）</message>
+        <prefix>107</prefix>
+        <reason>需要版本更新：跳转版本更新url失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810561</errorCode>
+        <message>相关参数为空（14001）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用参数校验：url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810562</errorCode>
+        <message>相关参数为空（14002）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用参数校验：account为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810563</errorCode>
+        <message>相关参数为空（14003）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用参数校验：pwd为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810564</errorCode>
+        <message>相关参数为空（14004）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用参数校验：type为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810565</errorCode>
+        <message>相关参数为空（14005）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用参数校验：appId为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810566</errorCode>
+        <message>相关参数为空（14006）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用参数校验：companyID为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810567</errorCode>
+        <message>请求超时（14007）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用失败：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810568</errorCode>
+        <message>网络无法连接，登录失败（14008）</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用失败：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810569</errorCode>
+        <message>登录失败(14009)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用失败：404错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810576</errorCode>
+        <message>相关参数为空(14010)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：登录成功返回信息为空（总数据）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810577</errorCode>
+        <message>相关参数为空(14011)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：account为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810578</errorCode>
+        <message>相关参数为空(14012)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：email为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810579</errorCode>
+        <message>相关参数为空(14013)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：phone为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14014</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810580</errorCode>
+        <message>相关参数为空(14014)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：companyID为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14015</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810581</errorCode>
+        <message>相关参数为空(14015)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：nickName为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14016</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810582</errorCode>
+        <message>相关参数为空(14016)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：suid为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14017</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810583</errorCode>
+        <message>相关参数为空(14017)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：stServer为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF14018</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15810584</errorCode>
+        <message>相关参数为空(14018)</message>
+        <prefix>107</prefix>
+        <reason>登录接口调用成功：token为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15990785</errorCode>
+        <message>加载失败（40001）</message>
+        <prefix>107</prefix>
+        <reason>原生与js绑定失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15990786</errorCode>
+        <message>加载失败（40002）</message>
+        <prefix>107</prefix>
+        <reason>收到js的getServerInfo消息，原生将服务器信息传给js:服务器信息为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15990787</errorCode>
+        <message>加载失败（40003）</message>
+        <prefix>107</prefix>
+        <reason>收到js的m_getCurrentVersion消息，原生将版本更新信息传给js：版本更新信息为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40101</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991041</errorCode>
+        <message>文本长度超出20个字符（40101）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（昵称）：昵称输入长度超出限制</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40102</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991042</errorCode>
+        <message>相关参数为空（40102）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（昵称）：user/update restful接口调用参数校验appId为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40103</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991043</errorCode>
+        <message>相关参数为空（40103）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（昵称）：user/update restful接口调用参数校验secretKey为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40104</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991044</errorCode>
+        <message>相关参数为空（40104）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（昵称）：user/update restful接口调用参数校验token为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40105</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991045</errorCode>
+        <message>相关参数为空（40105）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（昵称）：user/update restful接口调用参数校验nickname为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40106</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991046</errorCode>
+        <message>相关参数为空（40106）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（昵称）：user/update restful接口调用参数校验url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40201</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991297</errorCode>
+        <message>相关参数为空（40201)</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（手机号）：user/update restful接口调用参数校验appId为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40202</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991298</errorCode>
+        <message>相关参数为空（40202)</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（手机号）：user/update restful接口调用参数校验secretKey为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40203</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991299</errorCode>
+        <message>相关参数为空（40203)</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（手机号）：user/update restful接口调用参数校验token为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40204</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991300</errorCode>
+        <message>相关参数为空（40204)</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（手机号）：user/update restful接口调用参数校验phone为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40205</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991301</errorCode>
+        <message>相关参数为空（40205)</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（手机号）：user/update restful接口调用参数校验url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40301</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991553</errorCode>
+        <message>相关参数为空（40301）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（邮箱）：user/update restful接口调用参数校验appId为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40302</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991554</errorCode>
+        <message>相关参数为空（40302）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（邮箱）：user/update restful接口调用参数校验secretKey为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40303</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991555</errorCode>
+        <message>相关参数为空（40303）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（邮箱）：user/update restful接口调用参数校验token为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40304</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991556</errorCode>
+        <message>相关参数为空（40304）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（邮箱）：user/update restful接口调用参数校验email为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40305</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991557</errorCode>
+        <message>相关参数为空（40305）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（邮箱）：user/update restful接口调用参数校验url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40306</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991558</errorCode>
+        <message>输入框限制为12个数字（40306）</message>
+        <prefix>107</prefix>
+        <reason>修改专属会议号超出12个数字</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40401</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991809</errorCode>
+        <message>请求超时（40401）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息调用user/update restful接口请求异常：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40402</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991810</errorCode>
+        <message>修改信息失败（40402）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息调用user/update restful接口请求异常：404错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40403</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991811</errorCode>
+        <message>网络无法连接，修改信息失败（40403）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息调用user/update restful接口请求异常：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40404</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15991812</errorCode>
+        <message>请求超时（40404）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息调用getUpdateUserCallBack请求异常：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40501</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992065</errorCode>
+        <message>确认密码输入错误，请重新输入（40501）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：两次密码校验不一致</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40502</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992066</errorCode>
+        <message>相关参数为空（40502）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：user/resetpwd restful接口调用参数校验token为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40503</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992067</errorCode>
+        <message>相关参数为空（40503）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：user/resetpwd restful接口调用参数校验pwd为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40504</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992068</errorCode>
+        <message>相关参数为空（40504）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：user/resetpwd restful接口调用参数校验oldPwd为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40505</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992069</errorCode>
+        <message>相关参数为空（40505）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：user/resetpwd restful接口调用参数校验url为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40506</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992070</errorCode>
+        <message>请求超时（40506）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：user/resetpwd restful接口请求异常：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40507</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992071</errorCode>
+        <message>修改密码失败（40507）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：user/resetpwd restful接口请求异常：404错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40508</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992072</errorCode>
+        <message>网络无法连接，修改密码失败（40508）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：user/resetpwd restful接口请求异常：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40509</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992073</errorCode>
+        <message>请求异常（40509）</message>
+        <prefix>107</prefix>
+        <reason>修改个人信息（密码）：resetPwdCallBack请求异常</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40601</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992321</errorCode>
+        <message>加载失败（40601）</message>
+        <prefix>107</prefix>
+        <reason>"</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF40701</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15992577</errorCode>
+        <message>加载失败（40701）</message>
+        <prefix>107</prefix>
+        <reason>"</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121857</errorCode>
+        <message>预约会议加载失败（60001）</message>
+        <prefix>107</prefix>
+        <reason>原生与js绑定失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121858</errorCode>
+        <message>相关参数为空（60002）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口时appId为空（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121859</errorCode>
+        <message>相关参数为空（60003）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口时token为空（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121860</errorCode>
+        <message>相关参数为空（60004）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口时url地址为空（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121862</errorCode>
+        <message>请输入会议主题（60006）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口时会议主题为空（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121863</errorCode>
+        <message>请选择开始时间（60007）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口时开始时间为空（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121864</errorCode>
+        <message>相关参数为空（60008）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/list接口获取会议地点时appId为空（获取终端列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121865</errorCode>
+        <message>相关参数为空（60009）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/list接口获取会议地点时token为空（获取终端列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121872</errorCode>
+        <message>相关参数为空（60010）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/list接口获取会议地点时url地址为空（获取终端列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121873</errorCode>
+        <message>网络无法连接，获取终端失败（60011）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/list接口：Failed to connect/failed to connect（获取终端列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121874</errorCode>
+        <message>获取终端失败（60012）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/list接口：connect timed out（获取终端列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121875</errorCode>
+        <message>获取终端失败（60013）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/list接口：request failed , reponse's code is : 404（获取终端列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60014</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121876</errorCode>
+        <message>请输入4-6位数字(60014)</message>
+        <prefix>107</prefix>
+        <reason>输入密码时，密码不符合密码规则(请设置四至八位数字或字母)       修改为4-6位数字</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60015</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121877</errorCode>
+        <message>网络无法连接，创建会议失败（60015）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口：Failed to connect/failed to connect（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60016</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121878</errorCode>
+        <message>创建会议失败（60016）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口：connect timed out（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60017</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121879</errorCode>
+        <message>创建会议失败（60017）</message>
+        <prefix>107</prefix>
+        <reason>调conference/create接口：request failed , reponse's code is : 404（创建会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125953</errorCode>
+        <message>相关参数为空（61001）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时appId为空（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125954</errorCode>
+        <message>相关参数为空（61002）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时token为空（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125955</errorCode>
+        <message>相关参数为空（61003）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时secretKey为空（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125956</errorCode>
+        <message>相关参数为空（61004）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时serviceId为空（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125957</errorCode>
+        <message>相关参数为空（61005）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时confId为空（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125958</errorCode>
+        <message>相关参数为空（61006）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时url地址为空（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125959</errorCode>
+        <message>请输入开始时间(71007)</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时开始时间为空（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125960</errorCode>
+        <message>请输入4-6位数字(61008)</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口时输入会议密码不符合规则(请设置四至八位数字或字母)（修改会议api）                              修改为4-6位</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125961</errorCode>
+        <message>网络无法连接，修改会议失败（61009）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口：Failed to connect/failed to connect（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125968</errorCode>
+        <message>修改会议失败（61010）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口：connect timed out（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125969</errorCode>
+        <message>修改会议失败（61011）</message>
+        <prefix>107</prefix>
+        <reason>调conference/update接口：request failed , reponse's code is : 404（修改会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130049</errorCode>
+        <message>会议列表加载失败（62001）</message>
+        <prefix>107</prefix>
+        <reason>原生与js绑定失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130050</errorCode>
+        <message>相关参数为空（62002）</message>
+        <prefix>107</prefix>
+        <reason>调conference/list接口时appId为空（获取会议列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130051</errorCode>
+        <message>相关参数为空（62003）</message>
+        <prefix>107</prefix>
+        <reason>调conference/list接口时secretKey为空（获取会议列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130052</errorCode>
+        <message>相关参数为空（62004）</message>
+        <prefix>107</prefix>
+        <reason>调conference/list接口时token为空（获取会议列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130053</errorCode>
+        <message>相关参数为空（62005）</message>
+        <prefix>107</prefix>
+        <reason>调conference/list接口时url地址为空（获取会议列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130054</errorCode>
+        <message>网络无法连接，获取会议列表失败（62006）</message>
+        <prefix>107</prefix>
+        <reason>调conference/list接口：Failed to connect/failed to connect（获取会议列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130055</errorCode>
+        <message>获取会议列表失败（62007）</message>
+        <prefix>107</prefix>
+        <reason>调conference/list接口：connect timed out（获取会议列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130056</errorCode>
+        <message>获取会议列表失败（62008）</message>
+        <prefix>107</prefix>
+        <reason>调conference/list接口：request failed , reponse's code is : 404（获取会议列表api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130057</errorCode>
+        <message>相关参数为空（62009）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口时appId为空（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130064</errorCode>
+        <message>相关参数为空（62010）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口时secretKey为空（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130065</errorCode>
+        <message>相关参数为空（62011）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口时token为空（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130066</errorCode>
+        <message>相关参数为空（62012）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口时confId为空（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130067</errorCode>
+        <message>相关参数为空（62013）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口时url地址为空（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62014</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130068</errorCode>
+        <message>网络无法连接，删除会议失败（62014）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口：Failed to connect/failed to connect（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62015</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130069</errorCode>
+        <message>删除会议失败（62015）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口：connect timed out（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62016</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130070</errorCode>
+        <message>删除会议信息失败（62016）</message>
+        <prefix>107</prefix>
+        <reason>调conference/delete接口：request failed , reponse's code is : 404（删除会议api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62017</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130071</errorCode>
+        <message>相关参数为空（62017）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口时appId为空（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62018</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130072</errorCode>
+        <message>相关参数为空（62018）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口时secretKey为空（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62019</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130073</errorCode>
+        <message>相关参数为空（62019）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口时token为空（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62020</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130080</errorCode>
+        <message>相关参数为空（62020）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口时confId为空（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62021</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130081</errorCode>
+        <message>相关参数为空（62021）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口时url地址为空（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62022</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130082</errorCode>
+        <message>网络无法连接，获取会议信息失败（62022）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口：Failed to connect/failed to connect（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62023</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130083</errorCode>
+        <message>获取会议信息失败（62023）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口：connect timed out（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF62024</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16130084</errorCode>
+        <message>获取会议信息失败（62024）</message>
+        <prefix>107</prefix>
+        <reason>调conference/get接口：request failed , reponse's code is : 404（获取会议信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142337</errorCode>
+        <message>加载通讯录失败（65001）</message>
+        <prefix>107</prefix>
+        <reason>原生与js绑定失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142338</errorCode>
+        <message>相关参数为空（65002）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/list接口时appId为空（获取通讯录信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142339</errorCode>
+        <message>相关参数为空（65003）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/list接口时token为空（获取通讯录信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142340</errorCode>
+        <message>相关参数为空（65004）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/list接口时url地址为空（获取通讯录信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142341</errorCode>
+        <message>网络无法连接，加载通讯录失败（65005）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/list接口：Failed to connect/failed to connect（获取通讯录信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142342</errorCode>
+        <message>加载通讯录失败（65006）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/list接口：connect timed out（获取通讯录信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142343</errorCode>
+        <message>加载通讯录失败（65007）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/list接口：request failed , reponse's code is : 404（获取通讯录信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142344</errorCode>
+        <message>相关参数为空（65008）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口时appId为空（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142345</errorCode>
+        <message>相关参数为空（65009）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口时token为空（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142352</errorCode>
+        <message>相关参数为空（65010）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口时secretKey为空（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142353</errorCode>
+        <message>相关参数为空（65011）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口时bookId为空（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142354</errorCode>
+        <message>相关参数为空（65012）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口时url地址为空（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142355</errorCode>
+        <message>网络无法连接，加载用户失败（65013）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口：Failed to connect/failed to connect（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65014</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142356</errorCode>
+        <message>加载用户失败（65014）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口：connect timed out（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65015</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142357</errorCode>
+        <message>加载用户失败（65015）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/subgroups接口：request failed , reponse's code is : 404（仅获取通讯录中子部门信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65016</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142358</errorCode>
+        <message>相关参数为空（65016）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口时appId为空（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65017</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142359</errorCode>
+        <message>相关参数为空（65017）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口时token为空（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65018</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142360</errorCode>
+        <message>相关参数为空（65018）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口时secretKey为空（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65019</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142361</errorCode>
+        <message>相关参数为空（65019）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口时bookId为空（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65020</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142368</errorCode>
+        <message>相关参数为空（65020）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口时url地址为空（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65021</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142369</errorCode>
+        <message>网络无法连接，加载用户失败（65021）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口：Failed to connect/failed to connect（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65022</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142370</errorCode>
+        <message>加载用户失败（65022）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口：connect timed out（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65023</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142371</errorCode>
+        <message>加载用户失败（65023）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/submembers接口：request failed , reponse's code is : 404（分页获取通讯录中成员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65024</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142372</errorCode>
+        <message>相关参数为空（65024）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/detail接口时appId为空（获取用户详细信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65025</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142373</errorCode>
+        <message>相关参数为空（65025）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/detail接口时token为空（获取用户详细信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65026</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142374</errorCode>
+        <message>相关参数为空（65026）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/detail接口时bookId为空（获取用户详细信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65027</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142375</errorCode>
+        <message>相关参数为空（65027）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/detail接口时url地址为空（获取用户详细信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65028</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142376</errorCode>
+        <message>网络无法连接，获取用户信息失败（65028）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/detail接口：Failed to connect/failed to connect（获取用户详细信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65029</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142377</errorCode>
+        <message>获取用户信息失败（65029）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/detail接口：connect timed out（获取用户详细信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65030</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142384</errorCode>
+        <message>获取用户信息失败（65030）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/detail接口：request failed , reponse's code is : 404（获取用户详细信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65031</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142385</errorCode>
+        <message>手机号为空，无法拨号（65031）</message>
+        <prefix>107</prefix>
+        <reason>拨打电话时，手机号为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65032</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142386</errorCode>
+        <message>手机号为空，无法发送短信（65032）</message>
+        <prefix>107</prefix>
+        <reason>发短信时，手机号为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65033</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142387</errorCode>
+        <message>邮箱地址为空，无法发送邮件（65033）</message>
+        <prefix>107</prefix>
+        <reason>发邮件时，邮箱地址为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65034</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142388</errorCode>
+        <message>相关参数为空（65034）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口时appId为空(模糊查询通讯录下人员信息api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65035</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142389</errorCode>
+        <message>相关参数为空（65035）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口时token为空(模糊查询通讯录下人员信息api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65036</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142390</errorCode>
+        <message>相关参数为空（65036）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口时bookId为空(模糊查询通讯录下人员信息api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65037</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142391</errorCode>
+        <message>相关参数为空（65037）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口时输入的查询内容(info)为空(模糊查询通讯录下人员信息api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65038</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142392</errorCode>
+        <message>相关参数为空（65038）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口时url地址为空(模糊查询通讯录下人员信息api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65039</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142393</errorCode>
+        <message>网络无法连接，搜索失败（65039）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口：Failed to connect/failed to connect（模糊查询通讯录下人员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65040</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142400</errorCode>
+        <message>搜索失败（65040）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口：connect timed out（模糊查询通讯录下人员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65041</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142401</errorCode>
+        <message>搜索失败（65041）</message>
+        <prefix>107</prefix>
+        <reason>调addrbook/booksearch接口：request failed , reponse's code is : 404（模糊查询通讯录下人员信息api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056321</errorCode>
+        <message>入会参数有误（50001）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口时appid为空(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056322</errorCode>
+        <message>入会参数有误（50002）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口时secretKey为空(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056323</errorCode>
+        <message>入会参数有误（50003）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口时token为空(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056324</errorCode>
+        <message>入会参数有误（50004）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口时confId为空(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056325</errorCode>
+        <message>入会参数有误（50005）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口时url地址为空(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056326</errorCode>
+        <message>网络无法连接，入会失败（50006）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口：Failed to connect/failed to connect(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056327</errorCode>
+        <message>入会失败（50007）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口：connect timed out(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056328</errorCode>
+        <message>入会失败（50008）</message>
+        <prefix>107</prefix>
+        <reason>调conference/haspwd接口：request failed , reponse's code is : 404(会议是否有密码api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056329</errorCode>
+        <message>密码不能为空(50009)</message>
+        <prefix>107</prefix>
+        <reason>有会议密码时，弹出输入密码框，未输入密码点击“确定”，提示“密码不能为空”</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF50010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16056336</errorCode>
+        <message>没有历史记录(50010)</message>
+        <prefix>107</prefix>
+        <reason>加入会议界面，点击历史记录，历史记录为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060417</errorCode>
+        <message>入会参数有误（51001)</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口时appid为空(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060418</errorCode>
+        <message>入会参数有误（51002)</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口时secretKey为空(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060419</errorCode>
+        <message>入会参数有误（51003)</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口时token为空(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060420</errorCode>
+        <message>入会参数有误（51004)</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口时serviceId为空(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060421</errorCode>
+        <message>入会参数有误（51005)</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口时url地址为空(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060422</errorCode>
+        <message>网络无法连接，入会失败（51006）</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口：Failed to connect/failed to connect(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060423</errorCode>
+        <message>入会失败（51007)</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口：connect timed out(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060424</errorCode>
+        <message>入会失败（51008)</message>
+        <prefix>107</prefix>
+        <reason>调conference/startmeeting接口：request failed , reponse's code is : 404(开始会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060425</errorCode>
+        <message>入会参数有误（51009)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口是appid为空(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060432</errorCode>
+        <message>入会参数有误（51010)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口是secretKey为空(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060433</errorCode>
+        <message>入会参数有误（51011)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口是token为空(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060434</errorCode>
+        <message>入会参数有误（51012)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口是serviceId为空(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060435</errorCode>
+        <message>入会参数有误（51013)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口是confId为空(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51014</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060436</errorCode>
+        <message>入会参数有误（51014)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口是url地址为空(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51015</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060437</errorCode>
+        <message>网络无法连接，入会失败（51015)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口：Failed to connect/failed to connect(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51016</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060438</errorCode>
+        <message>入会失败（51016)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口：connect timed out(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51017</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060439</errorCode>
+        <message>入会失败（51017)</message>
+        <prefix>107</prefix>
+        <reason>调conference/joinmeeting接口：request failed , reponse's code is : 404(加入会议api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51018</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060440</errorCode>
+        <message>入会失败（51018)</message>
+        <prefix>107</prefix>
+        <reason>调sdk的ReqJoinConf接口时，ReqJoinConf回调超时没有回来</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51019</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060441</errorCode>
+        <message>入会失败（51019)</message>
+        <prefix>107</prefix>
+        <reason>调sdk的ReqJoinConf接口返回-1，（失败）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51020</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060448</errorCode>
+        <message>入会失败（51020)</message>
+        <prefix>107</prefix>
+        <reason>sdk</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51021</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060449</errorCode>
+        <message>入会失败（51021)</message>
+        <prefix>107</prefix>
+        <reason>调sdk的TermSelfExitGroupMeetingRoom取消等候接口超时，没有回调回来</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51022</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060450</errorCode>
+        <message>入会失败（51022)</message>
+        <prefix>107</prefix>
+        <reason>调sdk的TermSelfExitGroupMeetingRoom取消等候接口返回-1，（失败）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51023</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060451</errorCode>
+        <message>入会失败（51023)</message>
+        <prefix>107</prefix>
+        <reason>收到sdk的OndIndTerJoinedGroupMeetingRoom同意进入等待会议接口时，m_gmrid!=0或m_gmrtype!=0,入会失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF51024</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16060452</errorCode>
+        <message>主持人未入会(51024)</message>
+        <prefix>107</prefix>
+        <reason>主持人设置：主持人未入会，其他人无法入会</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080897</errorCode>
+        <message>强制静音失败，请重试（56001）</message>
+        <prefix>107</prefix>
+        <reason>主持人强制静音，调sdk的ForceMuteAudio接口返回-1，强制静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080898</errorCode>
+        <message>强制静音失败，请重试（56002）</message>
+        <prefix>107</prefix>
+        <reason>主持人强制静音，调sdk的ForceMuteAudio接口超时，没有收到回调，强制静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080899</errorCode>
+        <message>取消强制静音失败，请重试（56003）</message>
+        <prefix>107</prefix>
+        <reason>主持人取消强制静音，调sdk的ForceMuteAudio接口返回-1，取消强制静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080900</errorCode>
+        <message>取消强制静音失败，请重试（56004）</message>
+        <prefix>107</prefix>
+        <reason>主持人取消强制静音，调sdk的ForceMuteAudio接口超时，没有收到回调，取消强制静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080901</errorCode>
+        <message>放下所有举手失败，请重试（56005）</message>
+        <prefix>107</prefix>
+        <reason>主持人放下所有参会人的举手，调sdk的PutAllHandDown接口返回-1，放下所有举手失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080902</errorCode>
+        <message>放下所有举手失败，请重试（56006）</message>
+        <prefix>107</prefix>
+        <reason>放下所有举手失败,请重试（56006）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080903</errorCode>
+        <message>同意举手发言失败，请重试（56007）</message>
+        <prefix>107</prefix>
+        <reason>同意举手发言，调sdk的RspWhoHandUp接口返回-1，同意举手发言失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080904</errorCode>
+        <message>同意举手发言失败，请重试（56008）</message>
+        <prefix>107</prefix>
+        <reason>同意举手发言，调sdk的RspWhoHandUp接口超时，没有收到回调，同意举手发言失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080905</errorCode>
+        <message>拒绝举手发言失败，请重试（56009）</message>
+        <prefix>107</prefix>
+        <reason>拒绝举手发言，调sdk的RspWhoHandUp接口返回-1，拒绝举手发言失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080912</errorCode>
+        <message>拒绝举手发言失败，请重试（56010）</message>
+        <prefix>107</prefix>
+        <reason>拒绝举手发言，调sdk的RspWhoHandUp接口超时，没有收到回调，拒绝举手发言失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080913</errorCode>
+        <message>静音失败，请重试（56011）</message>
+        <prefix>107</prefix>
+        <reason>静音，调sdk的MuteAudio接口返回-1，静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080914</errorCode>
+        <message>静音失败，请重试（56012）</message>
+        <prefix>107</prefix>
+        <reason>静音，调sdk的MuteAudio接口超时，没有收到回调，静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080915</errorCode>
+        <message>取消静音失败，请重试（56013）</message>
+        <prefix>107</prefix>
+        <reason>取消静音，调sdk的UnMuteAudio接口返回-1，取消静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56014</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080916</errorCode>
+        <message>取消静音失败，请重试（56014）</message>
+        <prefix>107</prefix>
+        <reason>取消静音，调sdk的UnMuteAudio接口超时，没有收到回调，取消静音失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56015</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080917</errorCode>
+        <message>举手失败，请重试（56015）</message>
+        <prefix>107</prefix>
+        <reason>举手，调sdk的HandUp接口返回-1，举手失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56016</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080918</errorCode>
+        <message>举手失败，请重试（56016）</message>
+        <prefix>107</prefix>
+        <reason>举手，调sdk的HandUp接口超时，没有收到回调，举手失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56017</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080919</errorCode>
+        <message>手放下失败，请重试（56017）</message>
+        <prefix>107</prefix>
+        <reason>放下手，调sdk的HandUp接口返回-1，放下手失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF56018</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16080920</errorCode>
+        <message>手放下失败，请重试（56018）</message>
+        <prefix>107</prefix>
+        <reason>放下手，调sdk的HandUp接口超时，没有收到回调，放下手失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59001</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093185</errorCode>
+        <message>加载失败（59001）</message>
+        <prefix>107</prefix>
+        <reason>会中邀请时confId为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59002</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093186</errorCode>
+        <message>加载失败（59002）</message>
+        <prefix>107</prefix>
+        <reason>原生与js绑定失败</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59003</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093187</errorCode>
+        <message>邀请参数有误（59003）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口时url地址为空（邀请新的与会人api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59004</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093188</errorCode>
+        <message>邀请参数有误（59004）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口时appId为空（邀请新的与会人api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093189</errorCode>
+        <message>邀请参数有误（59005）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口时token为空（邀请新的与会人api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59006</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093190</errorCode>
+        <message>邀请参数有误（59006）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口时confId为空（邀请新的与会人api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59007</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093191</errorCode>
+        <message>邀请参数有误（59007）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口时participantsStr为空（邀请新的与会人api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59008</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093192</errorCode>
+        <message>网络无法连接，邀请失败（59008）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口：Failed to connect/failed to connect(邀请新的与会人api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093193</errorCode>
+        <message>邀请失败，请重试（59009）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口：connect timed out(邀请新的与会人api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093200</errorCode>
+        <message>邀请失败，请重试（59010）</message>
+        <prefix>107</prefix>
+        <reason>调conference/invite接口：request failed , reponse's code is : 404(邀请新的与会人api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093201</errorCode>
+        <message>邀请参数有误（59011）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时url地址为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093202</errorCode>
+        <message>邀请参数有误（59012）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时appId为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093203</errorCode>
+        <message>邀请参数有误（59013）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时secretKey为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59014</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093204</errorCode>
+        <message>邀请参数有误（59014）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时token为空(拨号邀请api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59015</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093205</errorCode>
+        <message>邀请参数有误（59015）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时confId为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59016</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093206</errorCode>
+        <message>邀请参数有误（59016）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时terminal.protocolType为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59017</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093207</errorCode>
+        <message>邀请参数有误（59017）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时terminal.deviceType为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59018</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093208</errorCode>
+        <message>邀请参数有误（59018）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时terminal.bandwidth为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59019</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093209</errorCode>
+        <message>邀请参数有误（59019）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口时terminal.ip为空（拨号邀请api）</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59020</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093216</errorCode>
+        <message>网络无法连接，邀请失败（59020）							）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口：Failed to connect/failed to connect(拨号邀请api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59021</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093217</errorCode>
+        <message>邀请失败，请重试（59021）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口：connect timed out(拨号邀请api)</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF59022</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16093218</errorCode>
+        <message>邀请失败，请重试（59022）</message>
+        <prefix>107</prefix>
+        <reason>调terminal/invite接口：request failed , reponse's code is : 404(拨号邀请api)</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020009</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131081</errorCode>
+        <message>版本不匹配（20009）</message>
+        <prefix>100</prefix>
+        <reason>接口不存在</reason>
+    </errCode>
+    <errCode>
+        <accept>调用者</accept>
+        <code>1000x020010</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>131088</errorCode>
+        <message>时间类型错误（20010）</message>
+        <prefix>100</prefix>
+        <reason>时间格式无无效</reason>
+    </errCode>
+    <errCode>
+        <accept>ter</accept>
+        <code>1090x0D0001</code>
+        <description>OnRspJoinConf param error</description>
+        <englishdec></englishdec>
+        <errorCode>851969</errorCode>
+        <message></message>
+        <prefix>109</prefix>
+        <reason>加入会议返回参数错误</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF60005</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16121861</errorCode>
+        <message>请输入会议号(60005)</message>
+        <prefix>107</prefix>
+        <reason>未选择随机会议号时，没有输入会议号，会议号为空</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF61012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16125970</errorCode>
+        <message>会议开始时间需大于当前时间（61012）</message>
+        <prefix>107</prefix>
+        <reason>预约会议、编辑会议时，开始时间小于当前时间，点击确认，提示没带编码</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13011</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806481</errorCode>
+        <message>下载新版本失败（13011）</message>
+        <prefix>107</prefix>
+        <reason>调用下载接口apk失败：404</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13012</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806482</errorCode>
+        <message>请求超时，下载新版本失败（13012）</message>
+        <prefix>107</prefix>
+        <reason>调用下载apk接口失败：请求超时</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF13013</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>15806483</errorCode>
+        <message>网络无法连接，下载新版本失败（13013）</message>
+        <prefix>107</prefix>
+        <reason>调用下载接口失败：网络无法连接</reason>
     </errCode>
 </errCodes>

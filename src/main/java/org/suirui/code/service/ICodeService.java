@@ -11,7 +11,9 @@ public interface ICodeService {
     void deleteById(int id);
     Errcode findById(Integer id);
     void editErrorCode(Errcode errcode);
+    void  updateErrorByPrefix(int codeType,int prefix);
     List<Errcode> findByAll();
     List<Errcode> findBySearch(String searchTxt);
     int selectByCode(String code);
+
 }

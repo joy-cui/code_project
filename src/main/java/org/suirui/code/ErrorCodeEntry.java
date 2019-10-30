@@ -11,20 +11,15 @@ public class ErrorCodeEntry {
 
     private String description;
 
+    private String englishdec;
+
     private String message;
 
     private String accept;
 
+
 //    private Integer codetype;
     private Integer errorCode;
-
-//    public Integer getId() {
-//        return id;
-//    }
-//
-//    public void setId(Integer id) {
-//        this.id = id;
-//    }
 
     public Integer getPrefix() {
         return prefix;
@@ -39,7 +34,7 @@ public class ErrorCodeEntry {
     }
 
     public void setCode(String code) {
-        this.code = code == null ? null : code.trim();
+        this.code = code;
     }
 
     public String getReason() {
@@ -47,7 +42,7 @@ public class ErrorCodeEntry {
     }
 
     public void setReason(String reason) {
-        this.reason = reason == null ? null : reason.trim();
+        this.reason = reason;
     }
 
     public String getDescription() {
@@ -55,7 +50,15 @@ public class ErrorCodeEntry {
     }
 
     public void setDescription(String description) {
-        this.description = description == null ? null : description.trim();
+        this.description = description == null ? "" : description.trim();
+    }
+
+    public String getEnglishdec() {
+        return englishdec;
+    }
+
+    public void setEnglishdec(String englishdec) {
+        this.englishdec = englishdec == null ? "" : englishdec.trim();
     }
 
     public String getMessage() {
@@ -63,7 +66,7 @@ public class ErrorCodeEntry {
     }
 
     public void setMessage(String message) {
-        this.message = message == null ? null : message.trim();
+        this.message = message == null ? "" : message.trim();
     }
 
     public String getAccept() {
@@ -71,24 +74,28 @@ public class ErrorCodeEntry {
     }
 
     public void setAccept(String accept) {
-        this.accept = accept == null ? null : accept.trim();
+        this.accept = accept;
     }
 
-//    public Integer getCodetype() {
-//        return codetype;
-//    }
-//
-//    public void setCodetype(Integer codetype) {
-//        this.codetype = codetype;
-
-//    }
-
     public Integer getErrorCode() {
-
         return errorCode;
     }
 
     public void setErrorCode(Integer errorCode) {
         this.errorCode = errorCode;
+    }
+
+    @Override
+    public String toString() {
+        return "ErrorCodeEntry{" +
+                "prefix=" + prefix +
+                ", code='" + code + '\'' +
+                ", reason='" + reason + '\'' +
+                ", description='" + description + '\'' +
+                ", englishdec='" + englishdec + '\'' +
+                ", message='" + message + '\'' +
+                ", accept='" + accept + '\'' +
+                ", errorCode=" + errorCode +
+                '}';
     }
 }

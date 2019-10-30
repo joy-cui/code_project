@@ -1,5 +1,7 @@
 package org.suirui.code.pojo;
 
+import org.suirui.code.util.PublicUtil;
+
 public class Errcode {
     private Integer id;
 
@@ -10,6 +12,7 @@ public class Errcode {
     private String reason;
 
     private String description;
+    private String englishdec;
 
     private String message;
 
@@ -40,7 +43,7 @@ public class Errcode {
     }
 
     public void setCode(String code) {
-        this.code = code == null ? null : code.trim();
+        this.code = code == null ? "" : code.trim();
     }
 
     public String getReason() {
@@ -48,7 +51,7 @@ public class Errcode {
     }
 
     public void setReason(String reason) {
-        this.reason = reason == null ? null : reason.trim();
+        this.reason  = PublicUtil.trimStr(reason);
     }
 
     public String getDescription() {
@@ -56,7 +59,7 @@ public class Errcode {
     }
 
     public void setDescription(String description) {
-        this.description = description == null ? null : description.trim();
+        this.description = PublicUtil.trimStr(description);
     }
 
     public String getMessage() {
@@ -64,7 +67,7 @@ public class Errcode {
     }
 
     public void setMessage(String message) {
-        this.message = message == null ? null : message.trim();
+        this.message = PublicUtil.trimStr(message);
     }
 
     public String getAccept() {
@@ -72,7 +75,7 @@ public class Errcode {
     }
 
     public void setAccept(String accept) {
-        this.accept = accept == null ? null : accept.trim();
+        this.accept  = PublicUtil.trimStr(accept);
     }
 
     public Integer getCodetype() {
@@ -83,4 +86,11 @@ public class Errcode {
         this.codetype = codetype;
     }
 
+    public String getEnglishdec() {
+        return englishdec;
+    }
+
+    public void setEnglishdec(String englishdec) {
+        this.englishdec  = PublicUtil.trimStr(englishdec);
+    }
 }

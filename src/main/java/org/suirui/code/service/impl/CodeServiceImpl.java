@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import org.suirui.code.mapper.ErrcodeMapper;
 import org.suirui.code.pojo.Errcode;
 import org.suirui.code.service.ICodeService;
+import org.suirui.code.util.PublicUtil;
 
 import java.util.List;
 @Service
@@ -20,7 +21,14 @@ public class CodeServiceImpl implements ICodeService {
 
     @Override
     public List<Errcode> findByErrorType(int codeType) {
-        return errcodeMapper.selectByCodeType(codeType);
+        return  PublicUtil.setList(errcodeMapper.selectByCodeType(codeType));
+    }
+    @Override
+    public void updateErrorByPrefix(int codeType,int prefix){
+        Errcode errcode =new Errcode();
+        errcode.setPrefix(prefix);
+        errcode.setCodetype(codeType);
+        errcodeMapper.updateErrorByPrefix(errcode);
     }
 
     @Override
@@ -31,6 +39,7 @@ public class CodeServiceImpl implements ICodeService {
     @Override
     public Errcode findById(Integer id) {
         return errcodeMapper.findById(id);
+
     }
 
     @Override
@@ -38,19 +47,23 @@ public class CodeServiceImpl implements ICodeService {
         errcodeMapper.editErrorCode(errcode);
     }
 
+
+
     @Override
     public List<Errcode> findByAll() {
-        return errcodeMapper.findByAll();
+        return PublicUtil.setList(errcodeMapper.findByAll());
     }
 
     @Override
     public List<Errcode> findBySearch(String searchTxt) {
-        return errcodeMapper.findBySearch(searchTxt);
+        return PublicUtil.setList(errcodeMapper.findBySearch(searchTxt));
     }
 
     @Override
     public int selectByCode(String code) {
         return errcodeMapper.selectByCode(code);
     }
+
+
 
 }

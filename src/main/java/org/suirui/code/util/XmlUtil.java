@@ -3,6 +3,7 @@ package org.suirui.code.util;
 import org.apache.commons.logging.LogFactory;
 import org.suirui.code.CodeEntry;
 import org.suirui.code.ErrorCodeEntry;
+import org.suirui.code.contant.Configure;
 import org.suirui.code.pojo.Errcode;
 
 import javax.xml.bind.JAXBContext;
@@ -10,6 +11,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import java.io.*;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class XmlUtil {
     private static final org.apache.commons.logging.Log logger= LogFactory.getLog(XmlUtil.class);
@@ -40,7 +42,9 @@ public class XmlUtil {
         StringWriter sw = new StringWriter();
         try {
             // 利用jdk中自带的转换类实现
-            JAXBContext context = JAXBContext.newInstance(obj.getClass());
+            CodeEntry errcode=(CodeEntry) obj;
+//            logger.error("....exportXml....xmlStr: "+errcode.toString());
+            JAXBContext context = JAXBContext.newInstance(errcode.getClass());
 
             Marshaller marshaller = context.createMarshaller();
             // 格式化xml输出的格式
