@@ -19,7 +19,7 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <!--spring版本配置-->
     <!-- spring版本 -->
-    <springVersion>4.3.1.RELEASE</springVersion>
+    <springVersion>5.2.4.RELEASE</springVersion>
     <!-- mybatis版本 -->
     <mybatis.version>3.2.6</mybatis.version>
     <mysqlVersion>5.1.6</mysqlVersion>
