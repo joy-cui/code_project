@@ -3,989 +3,995 @@
 		{
 			"reason":"消息参数错误,拒绝加入会议","code":"1020x040000","prefix":102,"description":"msg param error","errorCode":262144,"message":"参数错误加入会议失败（40000）","englishdec":"","accept":"ter"
 		},{
-			"reason":"获取会议信息超时,拒绝加入会议","code":"1020x040001","prefix":102,"description":"devmgr confinfo timeout","errorCode":262145,"message":"获取信息超时加入会议失败（40001）","accept":"ter"
+			"reason":"获取会议信息超时,拒绝加入会议","code":"1020x040001","prefix":102,"description":"devmgr confinfo timeout","errorCode":262145,"message":"获取信息超时加入会议失败（40001）","englishdec":"","accept":"ter"
 		},{
-			"reason":"当前系统负载参数为空或加密长度错误,拒绝加入会议","code":"1020x040002","prefix":102,"description":"systemload param is null","errorCode":262146,"message":"加入会议失败（40002）","accept":"ter"
+			"reason":"当前系统负载参数为空或加密长度错误,拒绝加入会议","code":"1020x040002","prefix":102,"description":"systemload param is null","errorCode":262146,"message":"加入会议失败（40002）","englishdec":"","accept":"ter"
 		},{
-			"reason":"当前系统负载信息解密失败,拒绝加入会议","code":"1020x040003","prefix":102,"description":"decrypt cursystemload error","errorCode":262147,"message":"加入会议失败（40003）","accept":"ter"
+			"reason":"当前系统负载信息解密失败,拒绝加入会议","code":"1020x040003","prefix":102,"description":"decrypt cursystemload error","errorCode":262147,"message":"加入会议失败（40003）","englishdec":"","accept":"ter"
 		},{
-			"reason":"授权时间已经到期,拒绝加入会议","code":"1020x040004","prefix":102,"description":"licence time expring","errorCode":262148,"message":"授权时间到期加入会议失败（40004）","accept":"ter"
+			"reason":"授权时间已经到期,拒绝加入会议","code":"1020x040004","prefix":102,"description":"licence time expring","errorCode":262148,"message":"授权时间到期加入会议失败（40004）","englishdec":"","accept":"ter"
 		},{
-			"reason":"超出sr终端系统授权数,拒绝加入会议","code":"1020x040005","prefix":102,"description":"exceed srcount licence","errorCode":262149,"message":"超出终端授权数加入会议失败（40005）","accept":"ter"
+			"reason":"超出sr终端系统授权数,拒绝加入会议","code":"1020x040005","prefix":102,"description":"exceed srcount licence","errorCode":262149,"message":"超出终端授权数加入会议失败（40005）","englishdec":"","accept":"ter"
 		},{
-			"reason":"超出标准终端系统授权数,拒绝加入会议","code":"1020x040006","prefix":102,"description":"exceed stdcount licence","errorCode":262150,"message":"超出终端授权数加入会议失败（40006）","accept":"ter"
+			"reason":"超出标准终端系统授权数,拒绝加入会议","code":"1020x040006","prefix":102,"description":"exceed stdcount licence","errorCode":262150,"message":"超出终端授权数加入会议失败（40006）","englishdec":"","accept":"ter"
 		},{
-			"reason":"密码错误,拒绝加入会议","code":"1020x040007","prefix":102,"description":"password wrong","errorCode":262151,"message":"密码错误加入会议失败（40007）","accept":"ter"
+			"reason":"密码错误,拒绝加入会议","code":"1020x040007","prefix":102,"description":"password wrong","errorCode":262151,"message":"密码错误加入会议失败（40007）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议被设定自动录制,但系统没有录制授权,拒绝加入会议","code":"1020x040008","prefix":102,"description":"sys not have rec licence","errorCode":262152,"message":"无录制授权加入会议失败（40008）","accept":"ter"
+			"reason":"会议被设定自动录制,但系统没有录制授权,拒绝加入会议","code":"1020x040008","prefix":102,"description":"sys not have rec licence","errorCode":262152,"message":"无录制授权加入会议失败（40008）","englishdec":"","accept":"ter"
 		},{
-			"reason":"主席（会议创建者）未入会,拒绝加入会议","code":"1020x040009","prefix":102,"description":"chair first","errorCode":262153,"message":"主持人未入会加入会议失败（40009）","accept":"ter"
+			"reason":"主席（会议创建者）未入会,拒绝加入会议","code":"1020x040009","prefix":102,"description":"chair first","errorCode":262153,"message":"主持人未入会加入会议失败（40009）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议被锁定,拒绝加入会议","code":"1020x04000A","prefix":102,"description":"conf is locked","errorCode":262154,"message":"会议锁定加入会议失败（4000A）","accept":"ter"
+			"reason":"会议被锁定,拒绝加入会议","code":"1020x04000A","prefix":102,"description":"conf is locked","errorCode":262154,"message":"会议锁定加入会议失败（4000A）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议的通道已经分配完,拒绝加入会议","code":"1020x04000B","prefix":102,"description":"channelid full","errorCode":262155,"message":"加入会议失败（4000B）","accept":"ter"
+			"reason":"会议的通道已经分配完,拒绝加入会议","code":"1020x04000B","prefix":102,"description":"channelid full","errorCode":262155,"message":"加入会议失败（4000B）","englishdec":"","accept":"ter"
 		},{
-			"reason":"超出单会议最大终端数授权限制,拒绝加入会议","code":"1020x04000C","prefix":102,"description":"exceed maxternumperconf licence","errorCode":262156,"message":"超出授权数加入会议失败（4000C）","accept":"ter"
+			"reason":"超出单会议最大终端数授权限制,拒绝加入会议","code":"1020x04000C","prefix":102,"description":"exceed maxternumperconf licence","errorCode":262156,"message":"超出授权数加入会议失败（4000C）","englishdec":"","accept":"ter"
 		},{
-			"reason":"超出会议最大终端数配置,拒绝加入会议","code":"1020x04000D","prefix":102,"description":"exceed maxternum config","errorCode":262157,"message":"加入会议失败（4000D）","accept":"ter"
+			"reason":"超出会议最大终端数配置,拒绝加入会议","code":"1020x04000D","prefix":102,"description":"exceed maxternum config","errorCode":262157,"message":"加入会议失败（4000D）","englishdec":"","accept":"ter"
 		},{
-			"reason":"召开会议时没有可用的netmp,拒绝加入会议","code":"1020x04000E","prefix":102,"description":"less netmp1","errorCode":262158,"message":"加入会议失败（4000E）","accept":"ter"
+			"reason":"召开会议时没有可用的netmp,拒绝加入会议","code":"1020x04000E","prefix":102,"description":"less netmp1","errorCode":262158,"message":"加入会议失败（4000E）","englishdec":"","accept":"ter"
 		},{
-			"reason":"没有可用的mp","code":"1020x04000F","prefix":102,"description":"less mp","errorCode":262159,"message":"没有可用的MP服务（4000F）","accept":"ter"
+			"reason":"没有可用的mp","code":"1020x04000F","prefix":102,"description":"less mp","errorCode":262159,"message":"没有可用的MP服务（4000F）","englishdec":"","accept":"ter"
 		},{
-			"reason":"netmp","code":"1020x040010","prefix":102,"description":"netmprsp isok but mpi not create","errorCode":262160,"message":"媒体处理实例未创建（40010）","accept":"ter"
+			"reason":"netmp","code":"1020x040010","prefix":102,"description":"netmprsp isok but mpi not create","errorCode":262160,"message":"媒体处理实例未创建（40010）","englishdec":"","accept":"ter"
 		},{
-			"reason":"netmp","code":"1020x040011","prefix":102,"description":"netmprsp isok not find mpi","errorCode":262161,"message":"未找到媒体处理实例（40011）","accept":"ter"
+			"reason":"netmp","code":"1020x040011","prefix":102,"description":"netmprsp isok not find mpi","errorCode":262161,"message":"未找到媒体处理实例（40011）","englishdec":"","accept":"ter"
 		},{
-			"reason":"netmp","code":"1020x040012","prefix":102,"description":"offline netmp create conf timeout","errorCode":262162,"message":"创建会议超时（40012）","accept":"ter"
+			"reason":"netmp","code":"1020x040012","prefix":102,"description":"offline netmp create conf timeout","errorCode":262162,"message":"创建会议超时（40012）","englishdec":"","accept":"ter"
 		},{
-			"reason":"netmp","code":"1020x040013","prefix":102,"description":"online netmp create conf timeout","errorCode":262163,"message":"创建会议超时（40013）","accept":"ter"
+			"reason":"netmp","code":"1020x040013","prefix":102,"description":"online netmp create conf timeout","errorCode":262163,"message":"创建会议超时（40013）","englishdec":"","accept":"ter"
 		},{
-			"reason":"mp","code":"1020x040014","prefix":102,"description":"mp create mpi timeout","errorCode":262164,"message":"创建媒体处理实例超时（40014）","accept":"ter"
+			"reason":"mp","code":"1020x040014","prefix":102,"description":"mp create mpi timeout","errorCode":262164,"message":"创建媒体处理实例超时（40014）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议还未召开(标准终端)","code":"1020x040015","prefix":102,"description":"conf not start","errorCode":262165,"message":"会议未开始（40015）","accept":"ter"
+			"reason":"会议还未召开(标准终端)","code":"1020x040015","prefix":102,"description":"conf not start","errorCode":262165,"message":"会议未开始（40015）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议正在结束","code":"1020x040016","prefix":102,"description":"conf is ending","errorCode":262166,"message":"会议正在结束（40016）","accept":"ter"
+			"reason":"会议正在结束","code":"1020x040016","prefix":102,"description":"conf is ending","errorCode":262166,"message":"会议正在结束（40016）","englishdec":"","accept":"ter"
 		},{
-			"reason":"crs","code":"1020x040017","prefix":102,"description":"crs stopping rec","errorCode":262167,"message":"录制服务正在停止录制（40017）","accept":"ter"
+			"reason":"crs","code":"1020x040017","prefix":102,"description":"crs stopping rec","errorCode":262167,"message":"录制服务正在停止录制（40017）","englishdec":"","accept":"ter"
 		},{
-			"reason":"终端入会时mp已经成功创建mpi,但未找到媒体处理实例","code":"1020x040018","prefix":102,"description":"less mpi","errorCode":262168,"message":"未找到媒体处理实例（40018）","accept":"ter"
+			"reason":"终端入会时mp已经成功创建mpi,但未找到媒体处理实例","code":"1020x040018","prefix":102,"description":"less mpi","errorCode":262168,"message":"未找到媒体处理实例（40018）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议已经在netmp上召开,但未能找到合适的netmp接受该终端加入此混会议","code":"1020x040019","prefix":102,"description":"not find netmp to join this mixconf","errorCode":262169,"message":"加入会议失败（40019）","accept":"ter"
+			"reason":"会议已经在netmp上召开,但未能找到合适的netmp接受该终端加入此混会议","code":"1020x040019","prefix":102,"description":"not find netmp to join this mixconf","errorCode":262169,"message":"加入会议失败（40019）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议已经在netmp上召开,但未能找到合适的netmp接受该终端加入此普通会议","code":"1020x04001A","prefix":102,"description":"not find netmp to join this normalconf","errorCode":262170,"message":"加入会议失败（4001A）","accept":"ter"
+			"reason":"会议已经在netmp上召开,但未能找到合适的netmp接受该终端加入此普通会议","code":"1020x04001A","prefix":102,"description":"not find netmp to join this normalconf","errorCode":262170,"message":"加入会议失败（4001A）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议已经召开,请求入会时没有可用的netmp","code":"1020x04001B","prefix":102,"description":"less netmp4","errorCode":262171,"message":"没有可用的netmp服务（4001B）","accept":"ter"
+			"reason":"会议已经召开,请求入会时没有可用的netmp","code":"1020x04001B","prefix":102,"description":"less netmp4","errorCode":262171,"message":"没有可用的netmp服务（4001B）","englishdec":"","accept":"ter"
 		},{
-			"reason":"没有该会议(会议不存在)","code":"1020x04001C","prefix":102,"description":"mc has no confid","errorCode":262172,"message":"会议不存在（4001C）","accept":"ter"
+			"reason":"没有该会议(会议不存在)","code":"1020x04001C","prefix":102,"description":"mc has no confid","errorCode":262172,"message":"会议不存在（4001C）","englishdec":"","accept":"ter"
 		},{
-			"reason":"请求消息没有发起者类型","code":"1020x04001D","prefix":102,"description":"req msg has no sponsortype","errorCode":262173,"message":"没有发起者类型（4001D）","accept":"ter"
+			"reason":"请求消息没有发起者类型","code":"1020x04001D","prefix":102,"description":"req msg has no sponsortype","errorCode":262173,"message":"没有发起者类型（4001D）","englishdec":"","accept":"ter"
 		},{
-			"reason":"请求消息中发起者类型错误","code":"1020x04001E","prefix":102,"description":"req msg sponsortype error","errorCode":262174,"message":"发起者类型错误（4001E）","accept":"ter"
+			"reason":"请求消息中发起者类型错误","code":"1020x04001E","prefix":102,"description":"req msg sponsortype error","errorCode":262174,"message":"发起者类型错误（4001E）","englishdec":"","accept":"ter"
 		},{
-			"reason":"请求消息中终端id号错误","code":"1020x04001F","prefix":102,"description":"req msg terid error","errorCode":262175,"message":"终端ID号错误（4001F）","accept":"ter"
+			"reason":"请求消息中终端id号错误","code":"1020x04001F","prefix":102,"description":"req msg terid error","errorCode":262175,"message":"终端ID号错误（4001F）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：crs服务故障迁移超时","code":"1020x040020","prefix":102,"description":"crs reopen timeout","errorCode":262176,"message":"录制服务故障迁移超时（40020）","accept":"ter"
+			"reason":"会议录制状态：crs服务故障迁移超时","code":"1020x040020","prefix":102,"description":"crs reopen timeout","errorCode":262176,"message":"录制服务故障迁移超时（40020）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：crs创建会议超时","code":"1020x040021","prefix":102,"description":"crs create conf timeout","errorCode":262177,"message":"录制服务创建会议超时（40021）","accept":"ter"
+			"reason":"会议录制状态：crs创建会议超时","code":"1020x040021","prefix":102,"description":"crs create conf timeout","errorCode":262177,"message":"录制服务创建会议超时（40021）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：开启录制超时","code":"1020x040022","prefix":102,"description":"start rec timeout","errorCode":262178,"message":"开启录制超时（40022）","accept":"ter"
+			"reason":"会议录制状态：开启录制超时","code":"1020x040022","prefix":102,"description":"start rec timeout","errorCode":262178,"message":"开启录制超时（40022）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：正常结束录制超时","code":"1020x040023","prefix":102,"description":"stop rec timeout","errorCode":262179,"message":"结束录制超时（40023）","accept":"ter"
+			"reason":"会议录制状态：正常结束录制超时","code":"1020x040023","prefix":102,"description":"stop rec timeout","errorCode":262179,"message":"结束录制超时（40023）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：结束会议时结束录制超时","code":"1020x040024","prefix":102,"description":"end conf stop rec timeout","errorCode":262180,"message":"结束录制超时（40024）","accept":"ter"
+			"reason":"会议录制状态：结束会议时结束录制超时","code":"1020x040024","prefix":102,"description":"end conf stop rec timeout","errorCode":262180,"message":"结束录制超时（40024）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：服务异常时结束录制超时","code":"1020x040025","prefix":102,"description":"dev error stop rec timeout","errorCode":262181,"message":"结束录制超时（40025）","accept":"ter"
+			"reason":"会议录制状态：服务异常时结束录制超时","code":"1020x040025","prefix":102,"description":"dev error stop rec timeout","errorCode":262181,"message":"结束录制超时（40025）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：会议为空时结束录制超时","code":"1020x040026","prefix":102,"description":"conf empty stop rec timeout","errorCode":262182,"message":"结束录制超时（40026）","accept":"ter"
+			"reason":"会议录制状态：会议为空时结束录制超时","code":"1020x040026","prefix":102,"description":"conf empty stop rec timeout","errorCode":262182,"message":"结束录制超时（40026）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：crs故障迁移失败","code":"1020x040027","prefix":102,"description":"crs reopen error","errorCode":262183,"message":"录制服务故障迁移失败（40027）","accept":"ter"
+			"reason":"会议录制状态：crs故障迁移失败","code":"1020x040027","prefix":102,"description":"crs reopen error","errorCode":262183,"message":"录制服务故障迁移失败（40027）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：crs创建会议失败","code":"1020x040028","prefix":102,"description":"crs create conf failed","errorCode":262184,"message":"录制服务创建会议失败（40028）","accept":"ter"
+			"reason":"会议录制状态：crs创建会议失败","code":"1020x040028","prefix":102,"description":"crs create conf failed","errorCode":262184,"message":"录制服务创建会议失败（40028）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：crs服务网络异常","code":"1020x040029","prefix":102,"description":"crs closed socket","errorCode":262185,"message":"录制服务网络异常（40029）","accept":"ter"
+			"reason":"会议录制状态：crs服务网络异常","code":"1020x040029","prefix":102,"description":"crs closed socket","errorCode":262185,"message":"录制服务网络异常（40029）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：系统不支持录制(没有录制授权)","code":"1020x04002A","prefix":102,"description":"sys not sup rec","errorCode":262186,"message":"没有录制授权（4002A）","accept":"ter"
+			"reason":"会议录制状态：系统不支持录制(没有录制授权)","code":"1020x04002A","prefix":102,"description":"sys not sup rec","errorCode":262186,"message":"没有录制授权（4002A）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：超出录制授权","code":"1020x04002B","prefix":102,"description":"exceed reccount licence","errorCode":262187,"message":"超出录制授权（4002B）","accept":"ter"
+			"reason":"会议录制状态：超出录制授权","code":"1020x04002B","prefix":102,"description":"exceed reccount licence","errorCode":262187,"message":"超出录制授权（4002B）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：没有媒体处理实例","code":"1020x04002C","prefix":102,"description":"not have mpiinfo","errorCode":262188,"message":"录制没有媒体处理实例（4002C）","accept":"ter"
+			"reason":"会议录制状态：没有媒体处理实例","code":"1020x04002C","prefix":102,"description":"not have mpiinfo","errorCode":262188,"message":"录制没有媒体处理实例（4002C）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：没有录制屏","code":"1020x04002D","prefix":102,"description":"not have rec scr","errorCode":262189,"message":"没有录制屏（4002D）","accept":"ter"
+			"reason":"会议录制状态：没有录制屏","code":"1020x04002D","prefix":102,"description":"not have rec scr","errorCode":262189,"message":"没有录制屏（4002D）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：crs创建会议失败，无法开启录制(开启直播时设置开启录制)","code":"1020x04002E","prefix":102,"description":"crs create conf failed can't start rec","errorCode":262190,"message":"录制服务创建失败（4002E）","accept":"ter"
+			"reason":"会议录制状态：crs创建会议失败，无法开启录制(开启直播时设置开启录制)","code":"1020x04002E","prefix":102,"description":"crs create conf failed can't start rec","errorCode":262190,"message":"录制服务创建失败（4002E）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议录制状态：没有可用的crs创建会议","code":"1020x04002F","prefix":102,"description":"not find crs create conf","errorCode":262191,"message":"没有可用的录制服务创建会议（4002F）","accept":"ter"
+			"reason":"会议录制状态：没有可用的crs创建会议","code":"1020x04002F","prefix":102,"description":"not find crs create conf","errorCode":262191,"message":"没有可用的录制服务创建会议（4002F）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：crs服务故障迁移超时","code":"1020x040030","prefix":102,"description":"crs reopen timeout","errorCode":262192,"message":"直播服务故障迁移超时（40030）","accept":"ter"
+			"reason":"会议直播状态：crs服务故障迁移超时","code":"1020x040030","prefix":102,"description":"crs reopen timeout","errorCode":262192,"message":"直播服务故障迁移超时（40030）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：crs创建会议超时","code":"1020x040031","prefix":102,"description":"crs create conf timeout","errorCode":262193,"message":"直播创建会议超时（40031）","accept":"ter"
+			"reason":"会议直播状态：crs创建会议超时","code":"1020x040031","prefix":102,"description":"crs create conf timeout","errorCode":262193,"message":"直播创建会议超时（40031）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：开启直播超时","code":"1020x040032","prefix":102,"description":"start live timeout","errorCode":262194,"message":"开启直播超时（40032）","accept":"ter"
+			"reason":"会议直播状态：开启直播超时","code":"1020x040032","prefix":102,"description":"start live timeout","errorCode":262194,"message":"开启直播超时（40032）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：crs故障迁移失败","code":"1020x040033","prefix":102,"description":"crs reopen error","errorCode":262195,"message":"故障迁移失败（40033）","accept":"ter"
+			"reason":"会议直播状态：crs故障迁移失败","code":"1020x040033","prefix":102,"description":"crs reopen error","errorCode":262195,"message":"故障迁移失败（40033）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：crs创建会议失败","code":"1020x040034","prefix":102,"description":"crs create conf failed","errorCode":262196,"message":"创建会议失败（40034）","accept":"ter"
+			"reason":"会议直播状态：crs创建会议失败","code":"1020x040034","prefix":102,"description":"crs create conf failed","errorCode":262196,"message":"创建会议失败（40034）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：crs服务网络异常","code":"1020x040035","prefix":102,"description":"crs closed socket","errorCode":262197,"message":"服务网络异常（40035）","accept":"ter"
+			"reason":"会议直播状态：crs服务网络异常","code":"1020x040035","prefix":102,"description":"crs closed socket","errorCode":262197,"message":"服务网络异常（40035）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：系统不支持直播(没有直播授权)","code":"1020x040036","prefix":102,"description":"sys not sup live","errorCode":262198,"message":"没有直播授权（40036）","accept":"ter"
+			"reason":"会议直播状态：系统不支持直播(没有直播授权)","code":"1020x040036","prefix":102,"description":"sys not sup live","errorCode":262198,"message":"没有直播授权（40036）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：超出直播授权","code":"1020x040037","prefix":102,"description":"exceed livecount licence","errorCode":262199,"message":"超出直播授权（40037）","accept":"ter"
+			"reason":"会议直播状态：超出直播授权","code":"1020x040037","prefix":102,"description":"exceed livecount licence","errorCode":262199,"message":"超出直播授权（40037）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：没有媒体处理实例","code":"1020x040038","prefix":102,"description":"not have mpiinfo","errorCode":262200,"message":"没有媒体处理实例（40038）","accept":"ter"
+			"reason":"会议直播状态：没有媒体处理实例","code":"1020x040038","prefix":102,"description":"not have mpiinfo","errorCode":262200,"message":"没有媒体处理实例（40038）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：没有直播屏","code":"1020x040039","prefix":102,"description":"not have live scr","errorCode":262201,"message":"没有直播屏（40039）","accept":"ter"
+			"reason":"会议直播状态：没有直播屏","code":"1020x040039","prefix":102,"description":"not have live scr","errorCode":262201,"message":"没有直播屏（40039）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：srs服务不在线","code":"1020x04003A","prefix":102,"description":"srssvr is offline","errorCode":262202,"message":"直播服务不在线（4003A）","accept":"ter"
+			"reason":"会议直播状态：srs服务不在线","code":"1020x04003A","prefix":102,"description":"srssvr is offline","errorCode":262202,"message":"直播服务不在线（4003A）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：没有可选的srs服务","code":"1020x04003B","prefix":102,"description":"choose srssvr failed","errorCode":262203,"message":"没有可用的直播服务（4003B）","accept":"ter"
+			"reason":"会议直播状态：没有可选的srs服务","code":"1020x04003B","prefix":102,"description":"choose srssvr failed","errorCode":262203,"message":"没有可用的直播服务（4003B）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议直播状态：没有可用的crs创建会议","code":"1020x04003C","prefix":102,"description":"not find crs create conf","errorCode":262204,"message":"没有可用的录制服务（4003C）","accept":"ter"
+			"reason":"会议直播状态：没有可用的crs创建会议","code":"1020x04003C","prefix":102,"description":"not find crs create conf","errorCode":262204,"message":"没有可用的录制服务（4003C）","englishdec":"","accept":"ter"
 		},{
-			"reason":"回复终端获取双流令牌结果：获取令牌超时","code":"1020x04003D","prefix":102,"description":"timeout","errorCode":262205,"message":"获取超时（4003D）","accept":"ter"
+			"reason":"回复终端获取双流令牌结果：获取令牌超时","code":"1020x04003D","prefix":102,"description":"timeout","errorCode":262205,"message":"获取超时（4003D）","englishdec":"","accept":"ter"
 		},{
-			"reason":"回复终端获取双流令牌结果：令牌已经在你手上","code":"1020x04003E","prefix":102,"description":"request itself","errorCode":262206,"message":"令牌已存在（4003E）","accept":"ter"
+			"reason":"回复终端获取双流令牌结果：令牌已经在你手上","code":"1020x04003E","prefix":102,"description":"request itself","errorCode":262206,"message":"令牌已存在（4003E）","englishdec":"","accept":"ter"
 		},{
-			"reason":"回复终端获取双流令牌结果：当前令牌在网关侧(标准终端)，不管此刻申请终端是标准终端还是SR终端都直接拒绝","code":"1020x04003F","prefix":102,"description":"stdter is being shared","errorCode":262207,"message":"令牌在网关侧申请终端被拒绝（4003F）","accept":"ter"
+			"reason":"回复终端获取双流令牌结果：当前令牌在网关侧(标准终端)，不管此刻申请终端是标准终端还是SR终端都直接拒绝","code":"1020x04003F","prefix":102,"description":"stdter is being shared","errorCode":262207,"message":"令牌在网关侧申请终端被拒绝（4003F）","englishdec":"","accept":"ter"
 		},{
-			"reason":"回复终端获取双流令牌结果：当前已经有人在申请令牌","code":"1020x040040","prefix":102,"description":"another is request","errorCode":262208,"message":"当前已有人申请（40040）","accept":"ter"
+			"reason":"回复终端获取双流令牌结果：当前已经有人在申请令牌","code":"1020x040040","prefix":102,"description":"another is request","errorCode":262208,"message":"当前已有人申请（40040）","englishdec":"","accept":"ter"
 		},{
-			"reason":"回复终端获取双流令牌结果：当前令牌回复拒绝转移令牌消息中没有明确描述拒绝原因时mc自行填入原因","code":"1020x040041","prefix":102,"description":"reject","errorCode":262209,"message":"拒绝转移（40041）","accept":"ter"
+			"reason":"回复终端获取双流令牌结果：当前令牌回复拒绝转移令牌消息中没有明确描述拒绝原因时mc自行填入原因","code":"1020x040041","prefix":102,"description":"reject","errorCode":262209,"message":"拒绝转移（40041）","englishdec":"","accept":"ter"
 		},{
-			"reason":"终端请求创建的屏，mp创建屏幕超时","code":"1020x040042","prefix":102,"description":"mp creat screen timeout","errorCode":262210,"message":"创建屏幕超时（40042）","accept":"ter"
+			"reason":"终端请求创建的屏，mp创建屏幕超时","code":"1020x040042","prefix":102,"description":"mp creat screen timeout","errorCode":262210,"message":"创建屏幕超时（40042）","englishdec":"","accept":"ter"
 		},{
-			"reason":"终端请求创建的屏，屏幕数已经分配完","code":"1020x040043","prefix":102,"description":"mp screen full","errorCode":262211,"message":"屏幕数已经分配完（40043）","accept":"ter"
+			"reason":"终端请求创建的屏，屏幕数已经分配完","code":"1020x040043","prefix":102,"description":"mp screen full","errorCode":262211,"message":"屏幕数已经分配完（40043）","englishdec":"","accept":"ter"
 		},{
-			"reason":"告诉其它终端，某终端离开会议原因：网络异常","code":"1020x040044","prefix":102,"description":"client network error","errorCode":262212,"message":"网络异常终端离会（40044）","accept":"ter"
+			"reason":"告诉其它终端，某终端离开会议原因：网络异常","code":"1020x040044","prefix":102,"description":"client network error","errorCode":262212,"message":"网络异常终端离会（40044）","englishdec":"","accept":"ter"
 		},{
-			"reason":"告诉其它终端，某终端离开会议原因：netmp故障迁移超时,再次迁移失败","code":"1020x040045","prefix":102,"description":"reopen netmp timeout, transfer again error","errorCode":262213,"message":"故障再次迁移失败（40045）","accept":"ter"
+			"reason":"告诉其它终端，某终端离开会议原因：netmp故障迁移超时,再次迁移失败","code":"1020x040045","prefix":102,"description":"reopen netmp timeout, transfer again error","errorCode":262213,"message":"故障再次迁移失败（40045）","englishdec":"","accept":"ter"
 		},{
-			"reason":"告诉其它终端，某终端离开会议原因：netmp故障迁移失败","code":"1020x040046","prefix":102,"description":"netmp error,reopen error","errorCode":262214,"message":"故障迁移失败（40046）","accept":"ter"
+			"reason":"告诉其它终端，某终端离开会议原因：netmp故障迁移失败","code":"1020x040046","prefix":102,"description":"netmp error,reopen error","errorCode":262214,"message":"故障迁移失败（40046）","englishdec":"","accept":"ter"
 		},{
-			"reason":"主动告诉某终端自行下线原因：ccs会控删除参会人","code":"1020x040047","prefix":102,"description":"ccs del participants","errorCode":262215,"message":"会控删除参会人（40047）","accept":"ter"
+			"reason":"主动告诉某终端自行下线原因：ccs会控删除参会人","code":"1020x040047","prefix":102,"description":"ccs del participants","errorCode":262215,"message":"会控删除参会人（40047）","englishdec":"","accept":"ter"
 		},{
-			"reason":"主动告诉某终端自行下线原因：主席删除参会人","code":"1020x040048","prefix":102,"description":"chair del participants","errorCode":262216,"message":"主持人删除参会人（40048）","accept":"ter"
+			"reason":"主动告诉某终端自行下线原因：主席删除参会人","code":"1020x040048","prefix":102,"description":"chair del participants","errorCode":262216,"message":"主持人删除参会人（40048）","englishdec":"","accept":"ter"
 		},{
-			"reason":"主动告诉某终端自行下线原因：ccs会控挂断终端","code":"1020x040049","prefix":102,"description":"ccs drop ter","errorCode":262217,"message":"会控移除终端（40049）","accept":"ter"
+			"reason":"主动告诉某终端自行下线原因：ccs会控挂断终端","code":"1020x040049","prefix":102,"description":"ccs drop ter","errorCode":262217,"message":"会控移除终端（40049）","englishdec":"","accept":"ter"
 		},{
-			"reason":"主动告诉某终端自行下线原因：主席挂断终端","code":"1020x04004A","prefix":102,"description":"Chair drop ter","errorCode":262218,"message":"主持人移除终端（4004A）","accept":"ter"
+			"reason":"主动告诉某终端自行下线原因：主席挂断终端","code":"1020x04004A","prefix":102,"description":"Chair drop ter","errorCode":262218,"message":"主持人移除终端（4004A）","englishdec":"","accept":"ter"
 		},{
-			"reason":"主动告诉某终端自行下线原因：同名终端入会","code":"1020x04004B","prefix":102,"description":"ter Join Conf twice","errorCode":262219,"message":"同名终端入会（4004B）","accept":"ter"
+			"reason":"主动告诉某终端自行下线原因：同名终端入会","code":"1020x04004B","prefix":102,"description":"ter Join Conf twice","errorCode":262219,"message":"同名终端入会（4004B）","englishdec":"","accept":"ter"
 		},{
-			"reason":"ccs","code":"1020x04004C","prefix":102,"description":"ccs close conf","errorCode":262220,"message":"会控结束该会议（4004C）","accept":"ter"
+			"reason":"ccs","code":"1020x04004C","prefix":102,"description":"ccs close conf","errorCode":262220,"message":"会控结束该会议（4004C）","englishdec":"","accept":"ter"
 		},{
-			"reason":"(devmgr","code":"1020x04004D","prefix":102,"description":"mc close conf","errorCode":262221,"message":"设备管理器断开，结束会议（4004D）","accept":"ter"
+			"reason":"(devmgr","code":"1020x04004D","prefix":102,"description":"mc close conf","errorCode":262221,"message":"设备管理器断开，结束会议（4004D）","englishdec":"","accept":"ter"
 		},{
-			"reason":"主席结束某会议","code":"1020x04004E","prefix":102,"description":"chair close conf","errorCode":262222,"message":"主持人结束会议（4004E）","accept":"ter"
+			"reason":"主席结束某会议","code":"1020x04004E","prefix":102,"description":"chair close conf","errorCode":262222,"message":"主持人结束会议（4004E）","englishdec":"","accept":"ter"
 		},{
-			"reason":"relayserver","code":"1020x04004F","prefix":102,"description":"relaysvr proc tjc timeout","errorCode":262223,"message":"relayserver","accept":"ter"
+			"reason":"relayserver","code":"1020x04004F","prefix":102,"description":"relaysvr proc tjc timeout","errorCode":262223,"message":"relayserver","englishdec":"","accept":"ter"
 		},{
-			"reason":"没有可用的relayserver","code":"1020x040050","prefix":102,"description":"less relaysvr","errorCode":262224,"message":"没有可用的relayserver服务（40050）","accept":"ter"
+			"reason":"没有可用的relayserver","code":"1020x040050","prefix":102,"description":"less relaysvr","errorCode":262224,"message":"没有可用的relayserver服务（40050）","englishdec":"","accept":"ter"
 		},{
-			"reason":"mp","code":"1020x040051","prefix":102,"description":"in waitmpters this ter relatednetmpid error","errorCode":262225,"message":"关联MP服务错误（40051）","accept":"ter"
+			"reason":"mp","code":"1020x040051","prefix":102,"description":"in waitmpters this ter relatednetmpid error","errorCode":262225,"message":"关联MP服务错误（40051）","englishdec":"","accept":"ter"
 		},{
-			"reason":"直播推送失败","code":"1080x0A0000","prefix":108,"description":"The current live url may be wrong","errorCode":655360,"message":"直播推送失败（A0000）","accept":"mc"
+			"reason":"直播推送失败","code":"1080x0A0000","prefix":108,"description":"The current live url may be wrong","errorCode":655360,"message":"直播推送失败（A0000）","englishdec":"","accept":"mc"
 		},{
-			"reason":"录制参数错误","code":"1090x0D0006","prefix":109,"description":"Record ChannelParameter Error","errorCode":851974,"message":"录制参数错误（D0000）","accept":"ter"
+			"reason":"录制参数错误","code":"1090x0D0006","prefix":109,"description":"Record ChannelParameter Error","errorCode":851974,"message":"录制参数错误（D0000）","englishdec":"","accept":"ter"
 		},{
-			"reason":"直播参数错误","code":"1090x0D0004","prefix":109,"description":"Live ChannelParameter Error","errorCode":851972,"message":"直播参数错误（D0001）","accept":"ter"
+			"reason":"直播参数错误","code":"1090x0D0004","prefix":109,"description":"Live ChannelParameter Error","errorCode":851972,"message":"直播参数错误（D0001）","englishdec":"","accept":"ter"
 		},{
-			"reason":"直播设置地址错误","code":"1090x0D0005","prefix":109,"description":"Live URL Error","errorCode":851973,"message":"直播设置地址错误（D0002）","accept":"ter"
+			"reason":"直播设置地址错误","code":"1090x0D0005","prefix":109,"description":"Live URL Error","errorCode":851973,"message":"直播设置地址错误（D0002）","englishdec":"","accept":"ter"
 		},{
-			"reason":"请求终端列表超时","code":"1090x0D0002","prefix":109,"description":"ReqConfTermList timeout","errorCode":851970,"message":"终端列表请求超时（D0003）","accept":"ter"
+			"reason":"请求终端列表超时","code":"1090x0D0002","prefix":109,"description":"ReqConfTermList timeout","errorCode":851970,"message":"终端列表请求超时（D0003）","englishdec":"","accept":"ter"
 		},{
-			"reason":"同账号终端加入被踢","code":"1090x0D0007","prefix":109,"description":"ter Join Conf twice","errorCode":851975,"message":"账号重复登陆下线（D0004）","accept":"ter"
+			"reason":"同账号终端加入被踢","code":"1090x0D0007","prefix":109,"description":"ter Join Conf twice","errorCode":851975,"message":"账号重复登陆下线（D0004）","englishdec":"","accept":"ter"
 		},{
-			"reason":"加入会议超时","code":"1090x0D0000","prefix":109,"description":"OnRspJoinConf timeout","errorCode":851968,"message":"加入会议超时（D0005）","accept":"ter"
+			"reason":"加入会议超时","code":"1090x0D0000","prefix":109,"description":"OnRspJoinConf timeout","errorCode":851968,"message":"加入会议超时（D0005）","englishdec":"","accept":"ter"
 		},{
-			"reason":"请求桌面共享超时","code":"1090x0D0003","prefix":109,"description":"ReqSendAssistantVideo Timeout","errorCode":851971,"message":"请求桌面共享超时（D0006）","accept":"ter"
+			"reason":"请求桌面共享超时","code":"1090x0D0003","prefix":109,"description":"ReqSendAssistantVideo Timeout","errorCode":851971,"message":"请求桌面共享超时（D0006）","englishdec":"","accept":"ter"
 		},{
-			"reason":"redis","code":"1010x030000","prefix":101,"description":"redis disconnect","errorCode":196608,"message":"redis","accept":"mc"
+			"reason":"redis","code":"1010x030000","prefix":101,"description":"redis disconnect","errorCode":196608,"message":"redis","englishdec":"","accept":"mc"
 		},{
-			"reason":"序列号错误","code":"1010x030001","prefix":101,"description":"serial error","errorCode":196609,"message":"序列号错误（30001）","accept":"mc"
+			"reason":"序列号错误","code":"1010x030001","prefix":101,"description":"serial error","errorCode":196609,"message":"序列号错误（30001）","englishdec":"","accept":"mc"
 		},{
-			"reason":"更新数据库设备参数失败","code":"1010x030002","prefix":101,"description":"update device db param error","errorCode":196610,"message":"数据库设备参数失败（30002）","accept":"mc"
+			"reason":"更新数据库设备参数失败","code":"1010x030002","prefix":101,"description":"update device db param error","errorCode":196610,"message":"数据库设备参数失败（30002）","englishdec":"","accept":"mc"
 		},{
-			"reason":"分配设备编号失败","code":"1010x030003","prefix":101,"description":"generate deviceid error","errorCode":196611,"message":"分配设备编号失败（30003）","accept":"mc"
+			"reason":"分配设备编号失败","code":"1010x030003","prefix":101,"description":"generate deviceid error","errorCode":196611,"message":"分配设备编号失败（30003）","englishdec":"","accept":"mc"
 		},{
-			"reason":"获取设备编号失败","code":"1010x030004","prefix":101,"description":"get deviceid error","errorCode":196612,"message":"获取设备编号失败（30004）","accept":"mc"
+			"reason":"获取设备编号失败","code":"1010x030004","prefix":101,"description":"get deviceid error","errorCode":196612,"message":"获取设备编号失败（30004）","englishdec":"","accept":"mc"
 		},{
-			"reason":"设备参数插入数据库失败","code":"1010x030005","prefix":101,"description":"insert into device param error","errorCode":196613,"message":"设备参数插入数据库失败（30005）","accept":"mc"
+			"reason":"设备参数插入数据库失败","code":"1010x030005","prefix":101,"description":"insert into device param error","errorCode":196613,"message":"设备参数插入数据库失败（30005）","englishdec":"","accept":"mc"
 		},{
-			"reason":"会议不在mysql数据库中","code":"1010x030006","prefix":101,"description":"conference is not exist","errorCode":196614,"message":"会议不在mysql数据库中（30006）","accept":"mc"
+			"reason":"会议不在mysql数据库中","code":"1010x030006","prefix":101,"description":"conference is not exist","errorCode":196614,"message":"会议不在mysql数据库中（30006）","englishdec":"","accept":"mc"
 		},{
-			"reason":"会议所选mc不在redis中","code":"1010x030007","prefix":101,"description":"choose mc not in redis","errorCode":196615,"message":"会议所选mc不在redis中（30007）","accept":"mc"
+			"reason":"会议所选mc不在redis中","code":"1010x030007","prefix":101,"description":"choose mc not in redis","errorCode":196615,"message":"会议所选mc不在redis中（30007）","englishdec":"","accept":"mc"
 		},{
-			"reason":"注册消息中地址类型为空","code":"1010x030008","prefix":101,"description":"nettype is null","errorCode":196616,"message":"注册消息中地址类型为空（30008）","accept":"mc"
+			"reason":"注册消息中地址类型为空","code":"1010x030008","prefix":101,"description":"nettype is null","errorCode":196616,"message":"注册消息中地址类型为空（30008）","englishdec":"","accept":"mc"
 		},{
-			"reason":"内网地址错误","code":"1010x030009","prefix":101,"description":"ipaddr_in is error","errorCode":196617,"message":"内网地址错误（30009）","accept":"mc"
+			"reason":"内网地址错误","code":"1010x030009","prefix":101,"description":"ipaddr_in is error","errorCode":196617,"message":"内网地址错误（30009）","englishdec":"","accept":"mc"
 		},{
-			"reason":"外网地址错误","code":"1010x03000A","prefix":101,"description":"ipaddr_out is error","errorCode":196618,"message":"外网地址错误（3000A）","accept":"mc"
+			"reason":"外网地址错误","code":"1010x03000A","prefix":101,"description":"ipaddr_out is error","errorCode":196618,"message":"外网地址错误（3000A）","englishdec":"","accept":"mc"
 		},{
-			"reason":"vpn","code":"1010x03000B","prefix":101,"description":"ipaddr_vpn is error","errorCode":196619,"message":"vpn","accept":"mc"
+			"reason":"vpn","code":"1010x03000B","prefix":101,"description":"ipaddr_vpn is error","errorCode":196619,"message":"vpn","englishdec":"","accept":"mc"
 		},{
-			"reason":"注册消息中地址类型错误","code":"1010x03000C","prefix":101,"description":"nettype is error","errorCode":196620,"message":"注册消息中地址类型错误(3000C)","accept":"mc"
+			"reason":"注册消息中地址类型错误","code":"1010x03000C","prefix":101,"description":"nettype is error","errorCode":196620,"message":"注册消息中地址类型错误(3000C)","englishdec":"","accept":"mc"
 		},{
-			"reason":"域名信息不在redis中","code":"1010x03000D","prefix":101,"description":"domainname not in redis","errorCode":196621,"message":"域名信息不在redis中(3000D)","accept":"mc"
+			"reason":"域名信息不在redis中","code":"1010x03000D","prefix":101,"description":"domainname not in redis","errorCode":196621,"message":"域名信息不在redis中(3000D)","englishdec":"","accept":"mc"
 		},{
-			"reason":"域名信息不在当前hosts配置文件中","code":"1010x03000E","prefix":101,"description":"domainname not in hosts file","errorCode":196622,"message":"域名信息不在当前hosts配置文件中(3000E)","accept":"mc"
+			"reason":"域名信息不在当前hosts配置文件中","code":"1010x03000E","prefix":101,"description":"domainname not in hosts file","errorCode":196622,"message":"域名信息不在当前hosts配置文件中(3000E)","englishdec":"","accept":"mc"
 		},{
-			"reason":"域名在redis中,但不在当前内存,再次加载hosts中域名信息更新内存，对比更新内存中域名对应ip后同步至hosts文件时未找到域名信息","code":"1010x03000F","prefix":101,"description":"not find domainname in hosts file","errorCode":196623,"message":"未找到域名信息（3000F）","accept":"mc"
+			"reason":"域名在redis中,但不在当前内存,再次加载hosts中域名信息更新内存，对比更新内存中域名对应ip后同步至hosts文件时未找到域名信息","code":"1010x03000F","prefix":101,"description":"not find domainname in hosts file","errorCode":196623,"message":"未找到域名信息（3000F）","englishdec":"","accept":"mc"
 		},{
-			"reason":"域名在redis中,也在当前内存，更新内存中域名对应ip后同步至hosts文件时未找到域名信息","code":"1010x030010","prefix":101,"description":"update ip to hosts file failed","errorCode":196624,"message":"未找到域名信息（30010）","accept":"mc"
+			"reason":"域名在redis中,也在当前内存，更新内存中域名对应ip后同步至hosts文件时未找到域名信息","code":"1010x030010","prefix":101,"description":"update ip to hosts file failed","errorCode":196624,"message":"未找到域名信息（30010）","englishdec":"","accept":"mc"
 		},{
-			"reason":"域名对应ip更新完成，但重启nginx失败","code":"1010x030011","prefix":101,"description":"domainname ip have change reload nginx failed","errorCode":196625,"message":"重启nginx失败（30011）","accept":"mc"
+			"reason":"域名对应ip更新完成，但重启nginx失败","code":"1010x030011","prefix":101,"description":"domainname ip have change reload nginx failed","errorCode":196625,"message":"重启nginx失败（30011）","englishdec":"","accept":"mc"
 		},{
-			"reason":"登录超时","code":"1000x020001","prefix":100,"description":"","errorCode":131073,"message":"登陆超时（20001）","englishdec":"english","accept":"调用者"
+			"reason":"登录超时","code":"1000x020001","prefix":100,"description":"","errorCode":131073,"message":"登陆超时（20001）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"服务器错误","code":"1000x020002","prefix":100,"errorCode":131074,"message":"服务器错误（20002）","accept":"调用者"
+			"reason":"服务器错误","code":"1000x020002","prefix":100,"description":"","errorCode":131074,"message":"服务器错误（20002）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"无效的 token","code":"1000x020003","prefix":100,"errorCode":131075,"message":"无效的令牌（20003）","accept":"调用者"
+			"reason":"无效的 token","code":"1000x020003","prefix":100,"description":"","errorCode":131075,"message":"无效的令牌（20003）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户不存在","code":"1000x020004","prefix":100,"errorCode":131076,"message":"用户不存在（20004）","accept":"调用者"
+			"reason":"用户不存在","code":"1000x020004","prefix":100,"description":"","errorCode":131076,"message":"用户不存在（20004）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"appid","code":"1000x020005","prefix":100,"errorCode":131077,"message":"应用程序编号错误（20005）","accept":"调用者"
+			"reason":"appid","code":"1000x020005","prefix":100,"description":"","errorCode":131077,"message":"应用程序编号错误（20005）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"成员信息无效","code":"1000x020006","prefix":100,"errorCode":131078,"message":"信息无效（20006）","accept":"调用者"
+			"reason":"成员信息无效","code":"1000x020006","prefix":100,"description":"","errorCode":131078,"message":"信息无效（20006）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"appid","code":"1000x020007","prefix":100,"errorCode":131079,"message":"应用程序软件编号为空（20007）","accept":"调用者"
+			"reason":"appid","code":"1000x020007","prefix":100,"description":"","errorCode":131079,"message":"应用程序软件编号为空（20007）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"secretKey","code":"1000x020008","prefix":100,"errorCode":131080,"message":"密码为空(20008)","accept":"调用者"
+			"reason":"secretKey","code":"1000x020008","prefix":100,"description":"","errorCode":131080,"message":"密码为空(20008)","englishdec":"","accept":"调用者"
 		},{
-			"reason":"appid","code":"1000x020100","prefix":100,"errorCode":131328,"message":"应用程序软件编号为空（20100）","accept":"调用者"
+			"reason":"appid","code":"1000x020100","prefix":100,"description":"","errorCode":131328,"message":"应用程序软件编号为空（20100）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"非法的appid","code":"1000x020101","prefix":100,"errorCode":131329,"message":"非法的应用程序软件编号（20101）","accept":"调用者"
+			"reason":"非法的appid","code":"1000x020101","prefix":100,"description":"","errorCode":131329,"message":"非法的应用程序软件编号（20101）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"不合法的邮箱地址","code":"1000x020103","prefix":100,"errorCode":131331,"message":"邮箱地址错误（20103）","accept":"调用者"
+			"reason":"不合法的邮箱地址","code":"1000x020103","prefix":100,"description":"","errorCode":131331,"message":"邮箱地址错误（20103）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"不合法的手机号码","code":"1000x020104","prefix":100,"errorCode":131332,"message":"手机号码错误（20104）","accept":"调用者"
+			"reason":"不合法的手机号码","code":"1000x020104","prefix":100,"description":"","errorCode":131332,"message":"手机号码错误（20104）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"该邮箱已存在(根据APPID一起判断)","code":"1000x020105","prefix":100,"errorCode":131333,"message":"邮箱已经存在（20105）","accept":"调用者"
+			"reason":"该邮箱已存在(根据APPID一起判断)","code":"1000x020105","prefix":100,"description":"","errorCode":131333,"message":"邮箱已经存在（20105）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"该手机已存在（根据APPID一起判断）","code":"1000x020106","prefix":100,"errorCode":131334,"message":"手机号已经存在（20106）","accept":"调用者"
+			"reason":"该手机已存在（根据APPID一起判断）","code":"1000x020106","prefix":100,"description":"","errorCode":131334,"message":"手机号已经存在（20106）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"无效的secretKey","code":"1000x020107","prefix":100,"errorCode":131335,"message":"密码无效（20107）","accept":"调用者"
+			"reason":"无效的secretKey","code":"1000x020107","prefix":100,"description":"","errorCode":131335,"message":"密码无效（20107）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"UID","code":"1000x020108","prefix":100,"errorCode":131336,"message":"用户身份证明为空（20108）","accept":"调用者"
+			"reason":"UID","code":"1000x020108","prefix":100,"description":"","errorCode":131336,"message":"用户身份证明为空（20108）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"nickname","code":"1000x020109","prefix":100,"errorCode":131337,"message":"昵称为空（20109）","accept":"调用者"
+			"reason":"nickname","code":"1000x020109","prefix":100,"description":"","errorCode":131337,"message":"昵称为空（20109）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"账号长度过长","code":"1000x02010A","prefix":100,"errorCode":131338,"message":"账号长度过长（2010A）","accept":"调用者"
+			"reason":"账号长度过长","code":"1000x02010A","prefix":100,"description":"","errorCode":131338,"message":"账号长度过长（2010A）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"账号已存在","code":"1000x02010B","prefix":100,"errorCode":131339,"message":"账号已存在（2010B）","accept":"调用者"
+			"reason":"账号已存在","code":"1000x02010B","prefix":100,"description":"","errorCode":131339,"message":"账号已存在（2010B）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"sip","code":"1000x02010C","prefix":100,"errorCode":131340,"message":"sip","accept":"调用者"
+			"reason":"sip","code":"1000x02010C","prefix":100,"description":"","errorCode":131340,"message":"sip","englishdec":"","accept":"调用者"
 		},{
-			"reason":"该账号已冻结","code":"1000x020201","prefix":100,"errorCode":131585,"message":"该账号已冻结（20201）","accept":"调用者"
+			"reason":"该账号已冻结","code":"1000x020201","prefix":100,"description":"","errorCode":131585,"message":"该账号已冻结（20201）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"错误的密码","code":"1000x020202","prefix":100,"errorCode":131586,"message":"账号密码错误（20202）","accept":"调用者"
+			"reason":"错误的密码","code":"1000x020202","prefix":100,"description":"","errorCode":131586,"message":"账号密码错误（20202）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"该账号已冻结/终端未授权","code":"1000x020203","prefix":100,"errorCode":131587,"message":"账号已冻结或未授权（20203）","accept":"调用者"
+			"reason":"该账号已冻结/终端未授权","code":"1000x020203","prefix":100,"description":"","errorCode":131587,"message":"账号已冻结或未授权（20203）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户唯一标识为空","code":"1000x020204","prefix":100,"errorCode":131588,"message":"用户唯一标识为空（20204）","accept":"调用者"
+			"reason":"用户唯一标识为空","code":"1000x020204","prefix":100,"description":"","errorCode":131588,"message":"用户唯一标识为空（20204）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户不存在或终端未注册","code":"1000x020205","prefix":100,"errorCode":131589,"message":"用户不存在或终端未注册（20205）","accept":"调用者"
+			"reason":"用户不存在或终端未注册","code":"1000x020205","prefix":100,"description":"","errorCode":131589,"message":"用户不存在或终端未注册（20205）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"修改密码时原有密码错误","code":"1000x020206","prefix":100,"errorCode":131590,"message":"原有密码错误（20206）","accept":"调用者"
+			"reason":"修改密码时原有密码错误","code":"1000x020206","prefix":100,"description":"","errorCode":131590,"message":"原有密码错误（20206）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户类型不匹配","code":"1000x020207","prefix":100,"errorCode":131591,"message":"用户类型不匹配（20207）","accept":"调用者"
+			"reason":"用户类型不匹配","code":"1000x020207","prefix":100,"description":"","errorCode":131591,"message":"用户类型不匹配（20207）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"设备未注册","code":"1000x020208","prefix":100,"errorCode":131592,"message":"设备未注册（20208）","accept":"调用者"
+			"reason":"设备未注册","code":"1000x020208","prefix":100,"description":"","errorCode":131592,"message":"设备未注册（20208）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"开始时间为空","code":"1000x020300","prefix":100,"errorCode":131840,"message":"开始时间为空（20300）","accept":"调用者"
+			"reason":"开始时间为空","code":"1000x020300","prefix":100,"description":"","errorCode":131840,"message":"开始时间为空（20300）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"开始时间格式有误","code":"1000x020301","prefix":100,"errorCode":131841,"message":"开始时间格式有误（20301）","accept":"调用者"
+			"reason":"开始时间格式有误","code":"1000x020301","prefix":100,"description":"","errorCode":131841,"message":"开始时间格式有误（20301）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"开始时间小于当前时间","code":"1000x020302","prefix":100,"errorCode":131842,"message":"开始时间小于当前时间（20302）","accept":"调用者"
+			"reason":"开始时间小于当前时间","code":"1000x020302","prefix":100,"description":"","errorCode":131842,"message":"开始时间小于当前时间（20302）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"结束时间为空","code":"1000x020303","prefix":100,"errorCode":131843,"message":"结束时间为空（20303）","accept":"调用者"
+			"reason":"结束时间为空","code":"1000x020303","prefix":100,"description":"","errorCode":131843,"message":"结束时间为空（20303）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"结束时间格式有误","code":"1000x020304","prefix":100,"errorCode":131844,"message":"结束时间格式有误（20304）","accept":"调用者"
+			"reason":"结束时间格式有误","code":"1000x020304","prefix":100,"description":"","errorCode":131844,"message":"结束时间格式有误（20304）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"结束时间小于等于开始时间","code":"1000x020305","prefix":100,"errorCode":131845,"message":"结束时间小于等于开始时间（20305）","accept":"调用者"
+			"reason":"结束时间小于等于开始时间","code":"1000x020305","prefix":100,"description":"","errorCode":131845,"message":"结束时间小于等于开始时间（20305）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"专属会议号重复","code":"1000x020306","prefix":100,"errorCode":131846,"message":"会议号重复（20306）","accept":"调用者"
+			"reason":"专属会议号重复","code":"1000x020306","prefix":100,"description":"","errorCode":131846,"message":"会议号重复（20306）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议正在召开中","code":"1000x020307","prefix":100,"errorCode":131847,"message":"会议正在召开中（20307）","accept":"调用者"
+			"reason":"会议正在召开中","code":"1000x020307","prefix":100,"description":"","errorCode":131847,"message":"会议正在召开中（20307）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"无效的op参数","code":"1000x020308","prefix":100,"errorCode":131848,"message":"无效的参数（20308）","accept":"调用者"
+			"reason":"无效的op参数","code":"1000x020308","prefix":100,"description":"","errorCode":131848,"message":"无效的参数（20308）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"应用无im","code":"1000x020309","prefix":100,"errorCode":131849,"message":"应用无即时通讯（20309）","accept":"调用者"
+			"reason":"应用无im","code":"1000x020309","prefix":100,"description":"","errorCode":131849,"message":"应用无即时通讯（20309）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"时间戳格式有误","code":"1000x02030A","prefix":100,"errorCode":131850,"message":"时间类型错误（2030A）","accept":"调用者"
+			"reason":"时间戳格式有误","code":"1000x02030A","prefix":100,"description":"","errorCode":131850,"message":"时间类型错误（2030A）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"密码为空","code":"1000x02030C","prefix":100,"errorCode":131852,"message":"密码为空（2030C）","accept":"调用者"
+			"reason":"密码为空","code":"1000x02030C","prefix":100,"description":"","errorCode":131852,"message":"密码为空（2030C）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议未开始","code":"1000x02030D","prefix":100,"errorCode":131853,"message":"会议未开始（2030D）","accept":"调用者"
+			"reason":"会议未开始","code":"1000x02030D","prefix":100,"description":"","errorCode":131853,"message":"会议未开始（2030D）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议不存在","code":"1000x020400","prefix":100,"errorCode":132096,"message":"会议不存在（20400）","accept":"调用者"
+			"reason":"会议不存在","code":"1000x020400","prefix":100,"description":"","errorCode":132096,"message":"会议不存在（20400）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议已结束","code":"1000x020401","prefix":100,"errorCode":132097,"message":"会议已结束（20401）","accept":"调用者"
+			"reason":"会议已结束","code":"1000x020401","prefix":100,"description":"","errorCode":132097,"message":"会议已结束（20401）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议已删除","code":"1000x020402","prefix":100,"errorCode":132098,"message":"会议已删除（20402）","accept":"调用者"
+			"reason":"会议已删除","code":"1000x020402","prefix":100,"description":"","errorCode":132098,"message":"会议已删除（20402）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"参会密码不正确","code":"1000x020403","prefix":100,"errorCode":132099,"message":"参会密码不正确（20403）","accept":"调用者"
+			"reason":"参会密码不正确","code":"1000x020403","prefix":100,"description":"","errorCode":132099,"message":"参会密码不正确（20403）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"临时账号资源紧张，请稍后再试","code":"1000x020404","prefix":100,"errorCode":132100,"message":"临时账号资源紧张，请稍后再试（20404）","accept":"调用者"
+			"reason":"临时账号资源紧张，请稍后再试","code":"1000x020404","prefix":100,"description":"","errorCode":132100,"message":"临时账号资源紧张，请稍后再试（20404）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"不是自己的会议","code":"1000x020405","prefix":100,"errorCode":132101,"message":"不是自己的会议（20405）","accept":"调用者"
+			"reason":"不是自己的会议","code":"1000x020405","prefix":100,"description":"","errorCode":132101,"message":"不是自己的会议（20405）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"serviceid","code":"1000x020406","prefix":100,"errorCode":132102,"message":"服务ID为空（20406）","accept":"调用者"
+			"reason":"serviceid","code":"1000x020406","prefix":100,"description":"","errorCode":132102,"message":"服务ID为空（20406）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议ID为空","code":"1000x020407","prefix":100,"errorCode":132103,"message":"会议ID为空（20407）","accept":"调用者"
+			"reason":"会议ID为空","code":"1000x020407","prefix":100,"description":"","errorCode":132103,"message":"会议ID为空（20407）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"thirdAudioId","code":"1000x020408","prefix":100,"errorCode":132104,"message":"声音ID位数为12位（20408）","accept":"调用者"
+			"reason":"thirdAudioId","code":"1000x020408","prefix":100,"description":"","errorCode":132104,"message":"声音ID位数为12位（20408）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户重复加入会议","code":"1000x020409","prefix":100,"errorCode":132105,"message":"用户重复加入会议（20409）","accept":"调用者"
+			"reason":"用户重复加入会议","code":"1000x020409","prefix":100,"description":"","errorCode":132105,"message":"用户重复加入会议（20409）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"id3","code":"1000x02040A","prefix":100,"errorCode":132106,"message":"ID","accept":"调用者"
+			"reason":"id3","code":"1000x02040A","prefix":100,"description":"","errorCode":132106,"message":"ID","englishdec":"","accept":"调用者"
 		},{
-			"reason":"version3","code":"1000x02040B","prefix":100,"errorCode":132107,"message":"版本不存在（2040B）","accept":"调用者"
+			"reason":"version3","code":"1000x02040B","prefix":100,"description":"","errorCode":132107,"message":"版本不存在（2040B）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"subject","code":"1000x02040C","prefix":100,"errorCode":132108,"message":"主题不存在（2040C）","accept":"调用者"
+			"reason":"subject","code":"1000x02040C","prefix":100,"description":"","errorCode":132108,"message":"主题不存在（2040C）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"不允许匿名加入会","code":"1000x02040D","prefix":100,"errorCode":132109,"message":"不允许匿名加入会（2040D）","accept":"调用者"
+			"reason":"不允许匿名加入会","code":"1000x02040D","prefix":100,"description":"","errorCode":132109,"message":"不允许匿名加入会（2040D）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"网关不存在","code":"1000x02040E","prefix":100,"errorCode":132110,"message":"网关不存在（2040E）","accept":"调用者"
+			"reason":"网关不存在","code":"1000x02040E","prefix":100,"description":"","errorCode":132110,"message":"网关不存在（2040E）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"非法设备","code":"1000x02040F","prefix":100,"errorCode":132111,"message":"非法设备（2040F）","accept":"调用者"
+			"reason":"非法设备","code":"1000x02040F","prefix":100,"description":"","errorCode":132111,"message":"非法设备（2040F）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户没有媒体处理器集群","code":"1000x020410","prefix":100,"errorCode":132112,"message":"用户没有媒体处理器集群（20410）","accept":"调用者"
+			"reason":"用户没有媒体处理器集群","code":"1000x020410","prefix":100,"description":"","errorCode":132112,"message":"用户没有媒体处理器集群（20410）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"没有可用的relayserver","code":"1000x020411","prefix":100,"errorCode":132113,"message":"没有可用的relayserver服务（20411）","accept":"调用者"
+			"reason":"没有可用的relayserver","code":"1000x020411","prefix":100,"description":"","errorCode":132113,"message":"没有可用的relayserver服务（20411）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"通讯录id为空","code":"1000x020500","prefix":100,"errorCode":132352,"message":"通讯录id为空（20500）","accept":"调用者"
+			"reason":"通讯录id为空","code":"1000x020500","prefix":100,"description":"","errorCode":132352,"message":"通讯录id为空（20500）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"部门id为空","code":"1000x020501","prefix":100,"errorCode":132353,"message":"部门id为空（20501）","accept":"调用者"
+			"reason":"部门id为空","code":"1000x020501","prefix":100,"description":"","errorCode":132353,"message":"部门id为空（20501）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"查询内容为空","code":"1000x020502","prefix":100,"errorCode":132354,"message":"查询内容为空（20502）","accept":"调用者"
+			"reason":"查询内容为空","code":"1000x020502","prefix":100,"description":"","errorCode":132354,"message":"查询内容为空（20502）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户不属于该通讯录","code":"1000x020503","prefix":100,"errorCode":132355,"message":"用户不属于该通讯录（20503）","accept":"调用者"
+			"reason":"用户不属于该通讯录","code":"1000x020503","prefix":100,"description":"","errorCode":132355,"message":"用户不属于该通讯录（20503）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"用户id为空","code":"1000x020504","prefix":100,"errorCode":132356,"message":"用户id为空（20504）","accept":"调用者"
+			"reason":"用户id为空","code":"1000x020504","prefix":100,"description":"","errorCode":132356,"message":"用户id为空（20504）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"呼叫参数不合法（呼叫类型为MCU时，呼叫参数不能为空）","code":"1000x020600","prefix":100,"errorCode":132608,"message":"呼叫参数不合法（20600）","accept":"调用者"
+			"reason":"呼叫参数不合法（呼叫类型为MCU时，呼叫参数不能为空）","code":"1000x020600","prefix":100,"description":"","errorCode":132608,"message":"呼叫参数不合法（20600）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"设备UUID不能为空","code":"1000x020601","prefix":100,"errorCode":132609,"message":"设备用户ID不能为空（20601）","accept":"调用者"
+			"reason":"设备UUID不能为空","code":"1000x020601","prefix":100,"description":"","errorCode":132609,"message":"设备用户ID不能为空（20601）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"设备信息已存在","code":"1000x020602","prefix":100,"errorCode":132610,"message":"设备信息已存在（20602）","accept":"调用者"
+			"reason":"设备信息已存在","code":"1000x020602","prefix":100,"description":"","errorCode":132610,"message":"设备信息已存在（20602）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"设备名称为空","code":"1000x020603","prefix":100,"errorCode":132611,"message":"设备名称为空（20603）","accept":"调用者"
+			"reason":"设备名称为空","code":"1000x020603","prefix":100,"description":"","errorCode":132611,"message":"设备名称为空（20603）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"手机号为空","code":"1000x020700","prefix":100,"errorCode":132864,"message":"手机号为空（20700）","accept":"调用者"
+			"reason":"手机号为空","code":"1000x020700","prefix":100,"description":"","errorCode":132864,"message":"手机号为空（20700）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"请求类型为空","code":"1000x020701","prefix":100,"errorCode":132865,"message":"请求类型为空（20701）","accept":"调用者"
+			"reason":"请求类型为空","code":"1000x020701","prefix":100,"description":"","errorCode":132865,"message":"请求类型为空（20701）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"手机号不存在","code":"1000x020702","prefix":100,"errorCode":132866,"message":"手机号不存在（20702）","accept":"调用者"
+			"reason":"手机号不存在","code":"1000x020702","prefix":100,"description":"","errorCode":132866,"message":"手机号不存在（20702）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"发送过于频繁","code":"1000x020703","prefix":100,"errorCode":132867,"message":"发送过于频繁（20703）","accept":"调用者"
+			"reason":"发送过于频繁","code":"1000x020703","prefix":100,"description":"","errorCode":132867,"message":"发送过于频繁（20703）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"达到每天最大限度","code":"1000x020704","prefix":100,"errorCode":132868,"message":"达到每天最大限度（20704）","accept":"调用者"
+			"reason":"达到每天最大限度","code":"1000x020704","prefix":100,"description":"","errorCode":132868,"message":"达到每天最大限度（20704）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"短信发送失败","code":"1000x020705","prefix":100,"errorCode":132869,"message":"短信发送失败（20705）","accept":"调用者"
+			"reason":"短信发送失败","code":"1000x020705","prefix":100,"description":"","errorCode":132869,"message":"短信发送失败（20705）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"验证码为空","code":"1000x020706","prefix":100,"errorCode":132870,"message":"验证码为空（20706）","accept":"调用者"
+			"reason":"验证码为空","code":"1000x020706","prefix":100,"description":"","errorCode":132870,"message":"验证码为空（20706）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"验证码过期","code":"1000x020707","prefix":100,"errorCode":132871,"message":"验证码过期（20707）","accept":"调用者"
+			"reason":"验证码过期","code":"1000x020707","prefix":100,"description":"","errorCode":132871,"message":"验证码过期（20707）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"验证码不匹配","code":"1000x020708","prefix":100,"errorCode":132872,"message":"验证码不匹配（20708）","accept":"调用者"
+			"reason":"验证码不匹配","code":"1000x020708","prefix":100,"description":"","errorCode":132872,"message":"验证码不匹配（20708）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"mp","code":"1020x040052","prefix":102,"description":"create mpi timeout, reopen mpi error","errorCode":262226,"message":"MP","accept":"ter"
+			"reason":"mp","code":"1020x040052","prefix":102,"description":"create mpi timeout, reopen mpi error","errorCode":262226,"message":"MP","englishdec":"","accept":"ter"
 		},{
-			"reason":"mp","code":"1020x040053","prefix":102,"description":"create screen timeout, reopen mpi error","errorCode":262227,"message":"MP","accept":"ter"
+			"reason":"mp","code":"1020x040053","prefix":102,"description":"create screen timeout, reopen mpi error","errorCode":262227,"message":"MP","englishdec":"","accept":"ter"
 		},{
-			"reason":"mp","code":"1020x040054","prefix":102,"description":"create mpi fail, and reopen mpi error","errorCode":262228,"message":"MP","accept":"ter"
+			"reason":"mp","code":"1020x040054","prefix":102,"description":"create mpi fail, and reopen mpi error","errorCode":262228,"message":"MP","englishdec":"","accept":"ter"
 		},{
-			"reason":"mp","code":"1020x040055","prefix":102,"description":"create screen fail, and reopen mpi error","errorCode":262229,"message":"MP","accept":"ter"
+			"reason":"mp","code":"1020x040055","prefix":102,"description":"create screen fail, and reopen mpi error","errorCode":262229,"message":"MP","englishdec":"","accept":"ter"
 		},{
-			"reason":"没有可用的mp服务,故障迁移失败","code":"1020x040056","prefix":102,"description":"less mp,reopen mp error","errorCode":262230,"message":"无可用的MP,故障迁移失败（40056）","accept":"ter"
+			"reason":"没有可用的mp服务,故障迁移失败","code":"1020x040056","prefix":102,"description":"less mp,reopen mp error","errorCode":262230,"message":"无可用的MP,故障迁移失败（40056）","englishdec":"","accept":"ter"
 		},{
-			"reason":"终端心跳超时","code":"1020x040057","prefix":102,"description":"Ter HeartBeat Stopped","errorCode":262231,"message":"终端心跳超时（40057）","accept":"ter"
+			"reason":"终端心跳超时","code":"1020x040057","prefix":102,"description":"Ter HeartBeat Stopped","errorCode":262231,"message":"终端心跳超时（40057）","englishdec":"","accept":"ter"
 		},{
-			"reason":"等待获取会议信息","code":"1020x040058","prefix":102,"description":"waiting get confinfo","errorCode":262232,"message":"正在获取会议信息（40058）","accept":"ter"
+			"reason":"等待获取会议信息","code":"1020x040058","prefix":102,"description":"waiting get confinfo","errorCode":262232,"message":"正在获取会议信息（40058）","englishdec":"","accept":"ter"
 		},{
-			"reason":"群发通知与会终端,某终端从主会场移到等候区","code":"1020x040059","prefix":102,"description":"exit main room then to waiting room","errorCode":262233,"message":"**","accept":"ter"
+			"reason":"群发通知与会终端,某终端从主会场移到等候区","code":"1020x040059","prefix":102,"description":"exit main room then to waiting room","errorCode":262233,"message":"**","englishdec":"","accept":"ter"
 		},{
-			"reason":"告诉某终端切换状态：你已经成功从等候区进入到主会场","code":"1020x04005A","prefix":102,"description":"join conf success","errorCode":262234,"message":"主持人已同意入会（4005A）","accept":"ter"
+			"reason":"告诉某终端切换状态：你已经成功从等候区进入到主会场","code":"1020x04005A","prefix":102,"description":"join conf success","errorCode":262234,"message":"主持人已同意入会（4005A）","englishdec":"","accept":"ter"
 		},{
-			"reason":"回复某终端你已经在等候区","code":"1020x04005B","prefix":102,"description":"already in waiting room","errorCode":262235,"message":"您已进入等候区（4005B）","accept":"ter"
+			"reason":"回复某终端你已经在等候区","code":"1020x04005B","prefix":102,"description":"already in waiting room","errorCode":262235,"message":"您已进入等候区（4005B）","englishdec":"","accept":"ter"
 		},{
-			"reason":"会议为空结束会议时,告诉等候区终端自行退出等候区","code":"1020x04005C","prefix":102,"description":"conf is empty","errorCode":262236,"message":"会议已结束（4005C）","accept":"ter"
+			"reason":"会议为空结束会议时,告诉等候区终端自行退出等候区","code":"1020x04005C","prefix":102,"description":"conf is empty","errorCode":262236,"message":"会议已结束（4005C）","englishdec":"","accept":"ter"
 		},{
-			"reason":"同账号终端已经入会,拒绝当前入会请求","code":"1020x04005D","prefix":102,"description":"same ter already in conf","errorCode":262237,"message":"您的账号已在其他地方入会，若有疑问，请联系管理员！（4005D）","accept":"ter"
+			"reason":"同账号终端已经入会,拒绝当前入会请求","code":"1020x04005D","prefix":102,"description":"same ter already in conf","errorCode":262237,"message":"您的账号已在其他地方入会，若有疑问，请联系管理员！（4005D）","englishdec":"","accept":"ter"
 		},{
-			"reason":"同账号终端入会,挂断已经在会的终端，被挂断的终端提示","code":"1020x04005E","prefix":102,"description":"same ter join conf","errorCode":262238,"message":"您的账号已在其他地方入会，若有疑问，请联系管理员！（4005E）","accept":"ter"
+			"reason":"同账号终端入会,挂断已经在会的终端，被挂断的终端提示","code":"1020x04005E","prefix":102,"description":"same ter join conf","errorCode":262238,"message":"您的账号已在其他地方入会，若有疑问，请联系管理员！（4005E）","englishdec":"","accept":"ter"
 		},{
-			"reason":"服务器设置不符合ip或域名规则","code":"1070x0E0001","prefix":107,"description":"判断服务器地址是否规则","errorCode":917505,"accept":"app"
+			"reason":"服务器设置不符合ip或域名规则","code":"1070x0E0001","prefix":107,"description":"判断服务器地址是否规则","errorCode":917505,"message":"","englishdec":"","accept":"app"
 		},{
-			"reason":"登录成功","code":"1000x020000","prefix":100,"errorCode":131072,"message":"登录成功（20000）","accept":"调用者"
+			"reason":"登录成功","code":"1000x020000","prefix":100,"description":"","errorCode":131072,"message":"登录成功（20000）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"域名不存在","code":"1000x020209","prefix":100,"errorCode":131593,"message":"企业标识错误（20209）","accept":"调用者"
+			"reason":"域名不存在","code":"1000x020209","prefix":100,"description":"","errorCode":131593,"message":"企业标识错误（20209）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"域名为上级域名，不能登录上级平台","code":"1000x02020A","prefix":100,"errorCode":131594,"message":"登录失败，企业标识错误（2020A）","accept":"调用者"
+			"reason":"域名为上级域名，不能登录上级平台","code":"1000x02020A","prefix":100,"description":"","errorCode":131594,"message":"登录失败，企业标识错误（2020A）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"网关呼叫参数不合法","code":"1000x02020B","prefix":100,"errorCode":131595,"message":"呼叫参数不合法（2020B）","accept":"调用者"
+			"reason":"网关呼叫参数不合法","code":"1000x02020B","prefix":100,"description":"","errorCode":131595,"message":"呼叫参数不合法（2020B）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"上下级平台网络不通","code":"1000x02020C","prefix":100,"errorCode":131596,"message":"上下级网络不通（2020C）","accept":"调用者"
+			"reason":"上下级平台网络不通","code":"1000x02020C","prefix":100,"description":"","errorCode":131596,"message":"上下级网络不通（2020C）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"UUID","code":"1000x02020D","prefix":100,"errorCode":131597,"message":"终端未授权（2020D）","accept":"调用者"
+			"reason":"UUID","code":"1000x02020D","prefix":100,"description":"","errorCode":131597,"message":"终端未授权（2020D）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议校验码为空","code":"1000x02030F","prefix":100,"errorCode":131855,"message":"会议校验码错误（2030F）","accept":"调用者"
+			"reason":"会议校验码为空","code":"1000x02030F","prefix":100,"description":"","errorCode":131855,"message":"会议校验码错误（2030F）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"修改、删除的不是自己的会","code":"1000x02030B","prefix":100,"errorCode":131851,"message":"修改或删除的非自己会议（2030B）","accept":"调用者"
+			"reason":"修改、删除的不是自己的会","code":"1000x02030B","prefix":100,"description":"","errorCode":131851,"message":"修改或删除的非自己会议（2030B）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"无法找到会议信息","code":"1000x02030E","prefix":100,"errorCode":131854,"message":"无法找到会议信息（2030E）","accept":"调用者"
+			"reason":"无法找到会议信息","code":"1000x02030E","prefix":100,"description":"","errorCode":131854,"message":"无法找到会议信息（2030E）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"无效的会议验证码","code":"1000x020310","prefix":100,"errorCode":131856,"message":"会议校验码错误（20310）","accept":"调用者"
+			"reason":"无效的会议验证码","code":"1000x020310","prefix":100,"description":"","errorCode":131856,"message":"会议校验码错误（20310）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"会议信息与会议验证码不匹配","code":"1000x020311","prefix":100,"errorCode":131857,"message":"会议校验码错误（20311）","accept":"调用者"
+			"reason":"会议信息与会议验证码不匹配","code":"1000x020311","prefix":100,"description":"","errorCode":131857,"message":"会议校验码错误（20311）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"数据同步参数错误","code":"1000x020312","prefix":100,"errorCode":131858,"message":"上下级数据同步参数错误（20312）","accept":"调用者"
+			"reason":"数据同步参数错误","code":"1000x020312","prefix":100,"description":"","errorCode":131858,"message":"上下级数据同步参数错误（20312）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"企业标识不存在","code":"1000x020313","prefix":100,"errorCode":131859,"message":"企业标识错误（20313）","accept":"调用者"
+			"reason":"企业标识不存在","code":"1000x020313","prefix":100,"description":"","errorCode":131859,"message":"企业标识错误（20313）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"数据同步验证错误?","code":"1000x020314","prefix":100,"errorCode":131860,"message":"上下级数据同步参数错误（20314）","accept":"调用者"
+			"reason":"数据同步验证错误?","code":"1000x020314","prefix":100,"description":"","errorCode":131860,"message":"上下级数据同步参数错误（20314）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"专属会议不能修改为一次性会议","code":"1000x020315","prefix":100,"errorCode":131861,"message":"专属会议无法修改为一次性会议（20315）","accept":"调用者"
+			"reason":"专属会议不能修改为一次性会议","code":"1000x020315","prefix":100,"description":"","errorCode":131861,"message":"专属会议无法修改为一次性会议（20315）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"专属会议不能删除","code":"1000x020316","prefix":100,"errorCode":131862,"message":"专属会议室无法删除（20316）","accept":"调用者"
+			"reason":"专属会议不能删除","code":"1000x020316","prefix":100,"description":"","errorCode":131862,"message":"专属会议室无法删除（20316）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"不能开启非本级会议","code":"1000x020412","prefix":100,"errorCode":132114,"message":"用户没有开启会议的权限（20412）","accept":"调用者"
+			"reason":"不能开启非本级会议","code":"1000x020412","prefix":100,"description":"","errorCode":132114,"message":"用户没有开启会议的权限（20412）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"监控点编码为空","code":"1000x020413","prefix":100,"errorCode":132115,"message":"监控参数为空入会失败（20413）","accept":"调用者"
+			"reason":"监控点编码为空","code":"1000x020413","prefix":100,"description":"","errorCode":132115,"message":"监控参数为空入会失败（20413）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"保存服务器地址时：参数为空（不关心具体哪个参数为空时使用）","code":"1070xF10001","prefix":107,"errorCode":15794177,"message":"服务器地址不能为空（10001）","accept":"app"
+			"reason":"保存服务器地址时：参数为空（不关心具体哪个参数为空时使用）","code":"1070xF10001","prefix":107,"description":"","errorCode":15794177,"message":"服务器地址不能为空（10001）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：参数格式错误（不关心具体哪个参数格式错误时使用）","code":"1070xF10002","prefix":107,"errorCode":15794178,"message":"服务器地址格式错误（10002）","accept":"app"
+			"reason":"保存服务器地址时：参数格式错误（不关心具体哪个参数格式错误时使用）","code":"1070xF10002","prefix":107,"description":"","errorCode":15794178,"message":"服务器地址格式错误（10002）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：自己的ip地址为空（eg：192.168.26.181）","code":"1070xF10003","prefix":107,"errorCode":15794179,"message":"服务器地址不能为空（10003）","accept":"app"
+			"reason":"保存服务器地址时：自己的ip地址为空（eg：192.168.26.181）","code":"1070xF10003","prefix":107,"description":"","errorCode":15794179,"message":"服务器地址不能为空（10003）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：自己的ip地址格式错误（eg：192.168.26.181）","code":"1070xF10004","prefix":107,"errorCode":15794180,"message":"服务器地址格式错误（10004）","accept":"app"
+			"reason":"保存服务器地址时：自己的ip地址格式错误（eg：192.168.26.181）","code":"1070xF10004","prefix":107,"description":"","errorCode":15794180,"message":"服务器地址格式错误（10004）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：代理的ip地址为空（eg：192.168.26.181）","code":"1070xF10005","prefix":107,"errorCode":15794181,"message":"代理服务器地址为空（10005）","accept":"app"
+			"reason":"保存服务器地址时：代理的ip地址为空（eg：192.168.26.181）","code":"1070xF10005","prefix":107,"description":"","errorCode":15794181,"message":"代理服务器地址为空（10005）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：代理的ip地址格式错误（eg：192.168.26.181）","code":"1070xF10006","prefix":107,"errorCode":15794182,"message":"代理服务器格式错误（10006）","accept":"app"
+			"reason":"保存服务器地址时：代理的ip地址格式错误（eg：192.168.26.181）","code":"1070xF10006","prefix":107,"description":"","errorCode":15794182,"message":"代理服务器格式错误（10006）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：代理域名为空（eg：pri1）","code":"1070xF10007","prefix":107,"errorCode":15794183,"message":"企业标识不能为空（10007）","accept":"app"
+			"reason":"保存服务器地址时：代理域名为空（eg：pri1）","code":"1070xF10007","prefix":107,"description":"","errorCode":15794183,"message":"企业标识不能为空（10007）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：代理域名格式错误（eg：pri1）","code":"1070xF10008","prefix":107,"errorCode":15794184,"message":"企业标识格式错误（10008）","accept":"app"
+			"reason":"保存服务器地址时：代理域名格式错误（eg：pri1）","code":"1070xF10008","prefix":107,"description":"","errorCode":15794184,"message":"企业标识格式错误（10008）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：自己的ip协议为空（eg：http/https）","code":"1070xF10009","prefix":107,"errorCode":15794185,"message":"服务器地址不能为空（10009）","accept":"app"
+			"reason":"保存服务器地址时：自己的ip协议为空（eg：http/https）","code":"1070xF10009","prefix":107,"description":"","errorCode":15794185,"message":"服务器地址不能为空（10009）","englishdec":"","accept":"app"
 		},{
-			"reason":"保存服务器地址时：代理的ip协议为空（eg：http/https）","code":"1070xF10010","prefix":107,"errorCode":15794192,"message":"代理服务器地址为空（10010）","accept":"app"
+			"reason":"保存服务器地址时：代理的ip协议为空（eg：http/https）","code":"1070xF10010","prefix":107,"description":"","errorCode":15794192,"message":"代理服务器地址为空（10010）","englishdec":"","accept":"app"
 		},{
-			"reason":"0xF11001","code":"1070xF11001","prefix":107,"errorCode":15798273,"message":"获取版本信息失败（11001）","accept":"app"
+			"reason":"0xF11001","code":"1070xF11001","prefix":107,"description":"","errorCode":15798273,"message":"获取版本信息失败（11001）","englishdec":"","accept":"app"
 		},{
-			"reason":"获取版本信息参数校验：secretKey为空","code":"1070xF11002","prefix":107,"errorCode":15798274,"message":"获取版本信息失败（11002）","accept":"app"
+			"reason":"获取版本信息参数校验：secretKey为空","code":"1070xF11002","prefix":107,"description":"","errorCode":15798274,"message":"获取版本信息失败（11002）","englishdec":"","accept":"app"
 		},{
-			"reason":"获取版本信息调用getVersion接口失败：请求超时","code":"1070xF11003","prefix":107,"errorCode":15798275,"message":"请求超时（11003）","accept":"app"
+			"reason":"获取版本信息调用getVersion接口失败：请求超时","code":"1070xF11003","prefix":107,"description":"","errorCode":15798275,"message":"请求超时（11003）","englishdec":"","accept":"app"
 		},{
-			"reason":"获取版本信息调用getVersion接口失败：网络无法连接","code":"1070xF11004","prefix":107,"errorCode":15798276,"message":"网络无法连接，获取版本信息失败（11004）","accept":"app"
+			"reason":"获取版本信息调用getVersion接口失败：网络无法连接","code":"1070xF11004","prefix":107,"description":"","errorCode":15798276,"message":"网络无法连接，获取版本信息失败（11004）","englishdec":"","accept":"app"
 		},{
-			"reason":"获取版本信息调用getVersion接口失败：404错误","code":"1070xF11005","prefix":107,"errorCode":15798277,"message":"获取版本信息失败（11005）","accept":"app"
+			"reason":"获取版本信息调用getVersion接口失败：404错误","code":"1070xF11005","prefix":107,"description":"","errorCode":15798277,"message":"获取版本信息失败（11005）","englishdec":"","accept":"app"
 		},{
-			"reason":"获取版本信息成功：版本信息version为空","code":"1070xF11006","prefix":107,"errorCode":15798278,"message":"版本信息相关参数为空（11006）","accept":"app"
+			"reason":"获取版本信息成功：版本信息version为空","code":"1070xF11006","prefix":107,"description":"","errorCode":15798278,"message":"版本信息相关参数为空（11006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口参数校验：url为空","code":"1070xF12001","prefix":107,"errorCode":15802369,"message":"获取配置文件失败！（12001）","accept":"app"
+			"reason":"调用获取配置文件接口参数校验：url为空","code":"1070xF12001","prefix":107,"description":"","errorCode":15802369,"message":"获取配置文件失败！（12001）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口参数校验：clientversion为空","code":"1070xF12002","prefix":107,"errorCode":15802370,"message":"获取配置文件失败！（12002）","accept":"app"
+			"reason":"调用获取配置文件接口参数校验：clientversion为空","code":"1070xF12002","prefix":107,"description":"","errorCode":15802370,"message":"获取配置文件失败！（12002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口参数校验：clienttype为空","code":"1070xF12003","prefix":107,"errorCode":15802371,"message":"获取配置文件失败！（12003）","accept":"app"
+			"reason":"调用获取配置文件接口参数校验：clienttype为空","code":"1070xF12003","prefix":107,"description":"","errorCode":15802371,"message":"获取配置文件失败！（12003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口参数校验：clientmodel为空","code":"1070xF12004","prefix":107,"errorCode":15802372,"message":"获取配置文件失败！（12004）","accept":"app"
+			"reason":"调用获取配置文件接口参数校验：clientmodel为空","code":"1070xF12004","prefix":107,"description":"","errorCode":15802372,"message":"获取配置文件失败！（12004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口失败：请求超时","code":"1070xF12005","prefix":107,"errorCode":15802373,"message":"获取配置文件失败！（12005）","accept":"app"
+			"reason":"调用获取配置文件接口失败：请求超时","code":"1070xF12005","prefix":107,"description":"","errorCode":15802373,"message":"获取配置文件失败！（12005）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口失败：网络无法连接","code":"1070xF12006","prefix":107,"errorCode":15802374,"message":"网络无法连接，获取配置文件失败！（12006）","accept":"app"
+			"reason":"调用获取配置文件接口失败：网络无法连接","code":"1070xF12006","prefix":107,"description":"","errorCode":15802374,"message":"网络无法连接，获取配置文件失败！（12006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口失败：404错误","code":"1070xF12007","prefix":107,"errorCode":15802375,"message":"获取配置文件失败！（12007）","accept":"app"
+			"reason":"调用获取配置文件接口失败：404错误","code":"1070xF12007","prefix":107,"description":"","errorCode":15802375,"message":"获取配置文件失败！（12007）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用获取配置文件接口成功：获取到的下载配置文件的url为空","code":"1070xF12008","prefix":107,"errorCode":15802376,"message":"配置文件相关参数为空（12008）","accept":"app"
+			"reason":"调用获取配置文件接口成功：获取到的下载配置文件的url为空","code":"1070xF12008","prefix":107,"description":"","errorCode":15802376,"message":"配置文件相关参数为空（12008）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口参数校验：url为空","code":"1070xF12101","prefix":107,"errorCode":15802625,"message":"调用配置文件失败（12101）","accept":"app"
+			"reason":"调用下载配置文件接口参数校验：url为空","code":"1070xF12101","prefix":107,"description":"","errorCode":15802625,"message":"调用配置文件失败（12101）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口失败：请求超时","code":"1070xF12102","prefix":107,"errorCode":15802626,"message":"请求超时（12102）","accept":"app"
+			"reason":"调用下载配置文件接口失败：请求超时","code":"1070xF12102","prefix":107,"description":"","errorCode":15802626,"message":"请求超时（12102）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口失败：网络无法连接","code":"1070xF12103","prefix":107,"errorCode":15802627,"message":"网络无法连接，获取配置文件失败（12103）","accept":"app"
+			"reason":"调用下载配置文件接口失败：网络无法连接","code":"1070xF12103","prefix":107,"description":"","errorCode":15802627,"message":"网络无法连接，获取配置文件失败（12103）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口失败：404错误","code":"1070xF12104","prefix":107,"errorCode":15802628,"message":"调用配置文件失败（12104）","accept":"app"
+			"reason":"调用下载配置文件接口失败：404错误","code":"1070xF12104","prefix":107,"description":"","errorCode":15802628,"message":"调用配置文件失败（12104）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：获取配置信息数据为空（整体数据）","code":"1070xF12105","prefix":107,"errorCode":15802629,"message":"配置文件相关参数为空（12105）","accept":"app"
+			"reason":"调用下载配置文件接口成功：获取配置信息数据为空（整体数据）","code":"1070xF12105","prefix":107,"description":"","errorCode":15802629,"message":"配置文件相关参数为空（12105）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：APP_ID为空","code":"1070xF12106","prefix":107,"errorCode":15802630,"message":"配置文件相关参数为空（12106）","accept":"app"
+			"reason":"调用下载配置文件接口成功：APP_ID为空","code":"1070xF12106","prefix":107,"description":"","errorCode":15802630,"message":"配置文件相关参数为空（12106）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：SecretKey为空","code":"1070xF12107","prefix":107,"errorCode":15802631,"message":"配置文件相关参数为空（12107）","accept":"app"
+			"reason":"调用下载配置文件接口成功：SecretKey为空","code":"1070xF12107","prefix":107,"description":"","errorCode":15802631,"message":"配置文件相关参数为空（12107）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：HttpsOrHttp(协议)为空","code":"1070xF12108","prefix":107,"errorCode":15802632,"message":"配置文件相关参数为空（12108）","accept":"app"
+			"reason":"调用下载配置文件接口成功：HttpsOrHttp(协议)为空","code":"1070xF12108","prefix":107,"description":"","errorCode":15802632,"message":"配置文件相关参数为空（12108）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：IsRecord（是否有录制）为空","code":"1070xF12109","prefix":107,"errorCode":15802633,"message":"配置文件相关参数为空（12109）","accept":"app"
+			"reason":"调用下载配置文件接口成功：IsRecord（是否有录制）为空","code":"1070xF12109","prefix":107,"description":"","errorCode":15802633,"message":"配置文件相关参数为空（12109）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：IsLive（是否有直播）为空","code":"1070xF12110","prefix":107,"errorCode":15802640,"message":"配置文件相关参数为空（12110）","accept":"app"
+			"reason":"调用下载配置文件接口成功：IsLive（是否有直播）为空","code":"1070xF12110","prefix":107,"description":"","errorCode":15802640,"message":"配置文件相关参数为空（12110）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：IsChat（是否有聊天）为空","code":"1070xF12111","prefix":107,"errorCode":15802641,"message":"配置文件相关参数为空（12111）","accept":"app"
+			"reason":"调用下载配置文件接口成功：IsChat（是否有聊天）为空","code":"1070xF12111","prefix":107,"description":"","errorCode":15802641,"message":"配置文件相关参数为空（12111）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：IsStatistic（是否有统计信息）为空","code":"1070xF12112","prefix":107,"errorCode":15802642,"message":"配置文件相关参数为空（12112）","accept":"app"
+			"reason":"调用下载配置文件接口成功：IsStatistic（是否有统计信息）为空","code":"1070xF12112","prefix":107,"description":"","errorCode":15802642,"message":"配置文件相关参数为空（12112）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：ShowLog（是否打印控制台日志）为空","code":"1070xF12113","prefix":107,"errorCode":15802643,"message":"配置文件相关参数为空（12113）","accept":"app"
+			"reason":"调用下载配置文件接口成功：ShowLog（是否打印控制台日志）为空","code":"1070xF12113","prefix":107,"description":"","errorCode":15802643,"message":"配置文件相关参数为空（12113）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：ShowError（是否打印堆栈信息）为空","code":"1070xF12114","prefix":107,"errorCode":15802644,"message":"配置文件相关参数为空（12114）","accept":"app"
+			"reason":"调用下载配置文件接口成功：ShowError（是否打印堆栈信息）为空","code":"1070xF12114","prefix":107,"description":"","errorCode":15802644,"message":"配置文件相关参数为空（12114）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载配置文件接口成功：LogLevel（日志级别）为空","code":"1070xF12115","prefix":107,"errorCode":15802645,"message":"配置文件相关参数为空（12115）","accept":"app"
+			"reason":"调用下载配置文件接口成功：LogLevel（日志级别）为空","code":"1070xF12115","prefix":107,"description":"","errorCode":15802645,"message":"配置文件相关参数为空（12115）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口参数校验：url为空","code":"1070xF13001","prefix":107,"errorCode":15806465,"message":"版本更新失败（13001）","accept":"app"
+			"reason":"调用版本更新接口参数校验：url为空","code":"1070xF13001","prefix":107,"description":"","errorCode":15806465,"message":"版本更新失败（13001）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口参数校验：versionNum为空","code":"1070xF13002","prefix":107,"errorCode":15806466,"message":"版本更新失败（13002）","accept":"app"
+			"reason":"调用版本更新接口参数校验：versionNum为空","code":"1070xF13002","prefix":107,"description":"","errorCode":15806466,"message":"版本更新失败（13002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口参数校验：clientType为空","code":"1070xF13003","prefix":107,"errorCode":15806467,"message":"版本更新失败（13003）","accept":"app"
+			"reason":"调用版本更新接口参数校验：clientType为空","code":"1070xF13003","prefix":107,"description":"","errorCode":15806467,"message":"版本更新失败（13003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口失败：请求超时","code":"1070xF13004","prefix":107,"errorCode":15806468,"message":"请求超时（13004）","accept":"app"
+			"reason":"调用版本更新接口失败：请求超时","code":"1070xF13004","prefix":107,"description":"","errorCode":15806468,"message":"请求超时（13004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口失败：网络无法连接","code":"1070xF13005","prefix":107,"errorCode":15806469,"message":"网络无法连接，版本更新失败（13005）","accept":"app"
+			"reason":"调用版本更新接口失败：网络无法连接","code":"1070xF13005","prefix":107,"description":"","errorCode":15806469,"message":"网络无法连接，版本更新失败（13005）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口失败：404错误","code":"1070xF13006","prefix":107,"errorCode":15806470,"message":"版本更新失败（13006）","accept":"app"
+			"reason":"调用版本更新接口失败：404错误","code":"1070xF13006","prefix":107,"description":"","errorCode":15806470,"message":"版本更新失败（13006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口成功：请求到的版本号为空","code":"1070xF13007","prefix":107,"errorCode":15806471,"message":"版本更新失败（13007）","accept":"app"
+			"reason":"调用版本更新接口成功：请求到的版本号为空","code":"1070xF13007","prefix":107,"description":"","errorCode":15806471,"message":"版本更新失败（13007）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用版本更新接口成功：获取当前版本号为空","code":"1070xF13008","prefix":107,"errorCode":15806472,"message":"版本更新失败（13008）","accept":"app"
+			"reason":"调用版本更新接口成功：获取当前版本号为空","code":"1070xF13008","prefix":107,"description":"","errorCode":15806472,"message":"版本更新失败（13008）","englishdec":"","accept":"app"
 		},{
-			"reason":"需要版本更新：版本更新url为空","code":"1070xF13009","prefix":107,"errorCode":15806473,"message":"配置文件相关参数为空（13009）","accept":"app"
+			"reason":"需要版本更新：版本更新url为空","code":"1070xF13009","prefix":107,"description":"","errorCode":15806473,"message":"配置文件相关参数为空（13009）","englishdec":"","accept":"app"
 		},{
-			"reason":"需要版本更新：跳转版本更新url失败","code":"1070xF13010","prefix":107,"errorCode":15806480,"message":"版本更新失败（13010）","accept":"app"
+			"reason":"需要版本更新：跳转版本更新url失败","code":"1070xF13010","prefix":107,"description":"","errorCode":15806480,"message":"版本更新失败（13010）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用参数校验：url为空","code":"1070xF14001","prefix":107,"errorCode":15810561,"message":"相关参数为空（14001）","accept":"app"
+			"reason":"登录接口调用参数校验：url为空","code":"1070xF14001","prefix":107,"description":"","errorCode":15810561,"message":"相关参数为空（14001）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用参数校验：account为空","code":"1070xF14002","prefix":107,"errorCode":15810562,"message":"相关参数为空（14002）","accept":"app"
+			"reason":"登录接口调用参数校验：account为空","code":"1070xF14002","prefix":107,"description":"","errorCode":15810562,"message":"相关参数为空（14002）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用参数校验：pwd为空","code":"1070xF14003","prefix":107,"errorCode":15810563,"message":"相关参数为空（14003）","accept":"app"
+			"reason":"登录接口调用参数校验：pwd为空","code":"1070xF14003","prefix":107,"description":"","errorCode":15810563,"message":"相关参数为空（14003）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用参数校验：type为空","code":"1070xF14004","prefix":107,"errorCode":15810564,"message":"相关参数为空（14004）","accept":"app"
+			"reason":"登录接口调用参数校验：type为空","code":"1070xF14004","prefix":107,"description":"","errorCode":15810564,"message":"相关参数为空（14004）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用参数校验：appId为空","code":"1070xF14005","prefix":107,"errorCode":15810565,"message":"相关参数为空（14005）","accept":"app"
+			"reason":"登录接口调用参数校验：appId为空","code":"1070xF14005","prefix":107,"description":"","errorCode":15810565,"message":"相关参数为空（14005）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用参数校验：companyID为空","code":"1070xF14006","prefix":107,"errorCode":15810566,"message":"相关参数为空（14006）","accept":"app"
+			"reason":"登录接口调用参数校验：companyID为空","code":"1070xF14006","prefix":107,"description":"","errorCode":15810566,"message":"相关参数为空（14006）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用失败：请求超时","code":"1070xF14007","prefix":107,"errorCode":15810567,"message":"请求超时（14007）","accept":"app"
+			"reason":"登录接口调用失败：请求超时","code":"1070xF14007","prefix":107,"description":"","errorCode":15810567,"message":"请求超时（14007）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用失败：网络无法连接","code":"1070xF14008","prefix":107,"errorCode":15810568,"message":"网络无法连接，登录失败（14008）","accept":"app"
+			"reason":"登录接口调用失败：网络无法连接","code":"1070xF14008","prefix":107,"description":"","errorCode":15810568,"message":"网络无法连接，登录失败（14008）","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用失败：404错误","code":"1070xF14009","prefix":107,"errorCode":15810569,"message":"登录失败(14009)","accept":"app"
+			"reason":"登录接口调用失败：404错误","code":"1070xF14009","prefix":107,"description":"","errorCode":15810569,"message":"登录失败(14009)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：登录成功返回信息为空（总数据）","code":"1070xF14010","prefix":107,"errorCode":15810576,"message":"相关参数为空(14010)","accept":"app"
+			"reason":"登录接口调用成功：登录成功返回信息为空（总数据）","code":"1070xF14010","prefix":107,"description":"","errorCode":15810576,"message":"相关参数为空(14010)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：account为空","code":"1070xF14011","prefix":107,"errorCode":15810577,"message":"相关参数为空(14011)","accept":"app"
+			"reason":"登录接口调用成功：account为空","code":"1070xF14011","prefix":107,"description":"","errorCode":15810577,"message":"相关参数为空(14011)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：email为空","code":"1070xF14012","prefix":107,"errorCode":15810578,"message":"相关参数为空(14012)","accept":"app"
+			"reason":"登录接口调用成功：email为空","code":"1070xF14012","prefix":107,"description":"","errorCode":15810578,"message":"相关参数为空(14012)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：phone为空","code":"1070xF14013","prefix":107,"errorCode":15810579,"message":"相关参数为空(14013)","accept":"app"
+			"reason":"登录接口调用成功：phone为空","code":"1070xF14013","prefix":107,"description":"","errorCode":15810579,"message":"相关参数为空(14013)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：companyID为空","code":"1070xF14014","prefix":107,"errorCode":15810580,"message":"相关参数为空(14014)","accept":"app"
+			"reason":"登录接口调用成功：companyID为空","code":"1070xF14014","prefix":107,"description":"","errorCode":15810580,"message":"相关参数为空(14014)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：nickName为空","code":"1070xF14015","prefix":107,"errorCode":15810581,"message":"相关参数为空(14015)","accept":"app"
+			"reason":"登录接口调用成功：nickName为空","code":"1070xF14015","prefix":107,"description":"","errorCode":15810581,"message":"相关参数为空(14015)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：suid为空","code":"1070xF14016","prefix":107,"errorCode":15810582,"message":"相关参数为空(14016)","accept":"app"
+			"reason":"登录接口调用成功：suid为空","code":"1070xF14016","prefix":107,"description":"","errorCode":15810582,"message":"相关参数为空(14016)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：stServer为空","code":"1070xF14017","prefix":107,"errorCode":15810583,"message":"相关参数为空(14017)","accept":"app"
+			"reason":"登录接口调用成功：stServer为空","code":"1070xF14017","prefix":107,"description":"","errorCode":15810583,"message":"相关参数为空(14017)","englishdec":"","accept":"app"
 		},{
-			"reason":"登录接口调用成功：token为空","code":"1070xF14018","prefix":107,"errorCode":15810584,"message":"相关参数为空(14018)","accept":"app"
+			"reason":"登录接口调用成功：token为空","code":"1070xF14018","prefix":107,"description":"","errorCode":15810584,"message":"相关参数为空(14018)","englishdec":"","accept":"app"
 		},{
-			"reason":"原生与js绑定失败","code":"1070xF40001","prefix":107,"errorCode":15990785,"message":"加载失败（40001）","accept":"app"
+			"reason":"原生与js绑定失败","code":"1070xF40001","prefix":107,"description":"","errorCode":15990785,"message":"加载失败（40001）","englishdec":"","accept":"app"
 		},{
-			"reason":"收到js的getServerInfo消息，原生将服务器信息传给js:服务器信息为空","code":"1070xF40002","prefix":107,"errorCode":15990786,"message":"加载失败（40002）","accept":"app"
+			"reason":"收到js的getServerInfo消息，原生将服务器信息传给js:服务器信息为空","code":"1070xF40002","prefix":107,"description":"","errorCode":15990786,"message":"加载失败（40002）","englishdec":"","accept":"app"
 		},{
-			"reason":"收到js的m_getCurrentVersion消息，原生将版本更新信息传给js：版本更新信息为空","code":"1070xF40003","prefix":107,"errorCode":15990787,"message":"加载失败（40003）","accept":"app"
+			"reason":"收到js的m_getCurrentVersion消息，原生将版本更新信息传给js：版本更新信息为空","code":"1070xF40003","prefix":107,"description":"","errorCode":15990787,"message":"加载失败（40003）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（昵称）：昵称输入长度超出限制","code":"1070xF40101","prefix":107,"errorCode":15991041,"message":"文本长度超出20个字符（40101）","accept":"app"
+			"reason":"修改个人信息（昵称）：昵称输入长度超出限制","code":"1070xF40101","prefix":107,"description":"","errorCode":15991041,"message":"文本长度超出20个字符（40101）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验appId为空","code":"1070xF40102","prefix":107,"errorCode":15991042,"message":"相关参数为空（40102）","accept":"app"
+			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验appId为空","code":"1070xF40102","prefix":107,"description":"","errorCode":15991042,"message":"相关参数为空（40102）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验secretKey为空","code":"1070xF40103","prefix":107,"errorCode":15991043,"message":"相关参数为空（40103）","accept":"app"
+			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验secretKey为空","code":"1070xF40103","prefix":107,"description":"","errorCode":15991043,"message":"相关参数为空（40103）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验token为空","code":"1070xF40104","prefix":107,"errorCode":15991044,"message":"相关参数为空（40104）","accept":"app"
+			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验token为空","code":"1070xF40104","prefix":107,"description":"","errorCode":15991044,"message":"相关参数为空（40104）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验nickname为空","code":"1070xF40105","prefix":107,"errorCode":15991045,"message":"相关参数为空（40105）","accept":"app"
+			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验nickname为空","code":"1070xF40105","prefix":107,"description":"","errorCode":15991045,"message":"相关参数为空（40105）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验url为空","code":"1070xF40106","prefix":107,"errorCode":15991046,"message":"相关参数为空（40106）","accept":"app"
+			"reason":"修改个人信息（昵称）：user/update restful接口调用参数校验url为空","code":"1070xF40106","prefix":107,"description":"","errorCode":15991046,"message":"相关参数为空（40106）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验appId为空","code":"1070xF40201","prefix":107,"errorCode":15991297,"message":"相关参数为空（40201)","accept":"app"
+			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验appId为空","code":"1070xF40201","prefix":107,"description":"","errorCode":15991297,"message":"相关参数为空（40201)","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验secretKey为空","code":"1070xF40202","prefix":107,"errorCode":15991298,"message":"相关参数为空（40202)","accept":"app"
+			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验secretKey为空","code":"1070xF40202","prefix":107,"description":"","errorCode":15991298,"message":"相关参数为空（40202)","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验token为空","code":"1070xF40203","prefix":107,"errorCode":15991299,"message":"相关参数为空（40203)","accept":"app"
+			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验token为空","code":"1070xF40203","prefix":107,"description":"","errorCode":15991299,"message":"相关参数为空（40203)","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验phone为空","code":"1070xF40204","prefix":107,"errorCode":15991300,"message":"相关参数为空（40204)","accept":"app"
+			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验phone为空","code":"1070xF40204","prefix":107,"description":"","errorCode":15991300,"message":"相关参数为空（40204)","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验url为空","code":"1070xF40205","prefix":107,"errorCode":15991301,"message":"相关参数为空（40205)","accept":"app"
+			"reason":"修改个人信息（手机号）：user/update restful接口调用参数校验url为空","code":"1070xF40205","prefix":107,"description":"","errorCode":15991301,"message":"相关参数为空（40205)","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验appId为空","code":"1070xF40301","prefix":107,"errorCode":15991553,"message":"相关参数为空（40301）","accept":"app"
+			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验appId为空","code":"1070xF40301","prefix":107,"description":"","errorCode":15991553,"message":"相关参数为空（40301）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验secretKey为空","code":"1070xF40302","prefix":107,"errorCode":15991554,"message":"相关参数为空（40302）","accept":"app"
+			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验secretKey为空","code":"1070xF40302","prefix":107,"description":"","errorCode":15991554,"message":"相关参数为空（40302）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验token为空","code":"1070xF40303","prefix":107,"errorCode":15991555,"message":"相关参数为空（40303）","accept":"app"
+			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验token为空","code":"1070xF40303","prefix":107,"description":"","errorCode":15991555,"message":"相关参数为空（40303）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验email为空","code":"1070xF40304","prefix":107,"errorCode":15991556,"message":"相关参数为空（40304）","accept":"app"
+			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验email为空","code":"1070xF40304","prefix":107,"description":"","errorCode":15991556,"message":"相关参数为空（40304）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验url为空","code":"1070xF40305","prefix":107,"errorCode":15991557,"message":"相关参数为空（40305）","accept":"app"
+			"reason":"修改个人信息（邮箱）：user/update restful接口调用参数校验url为空","code":"1070xF40305","prefix":107,"description":"","errorCode":15991557,"message":"相关参数为空（40305）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改专属会议号超出12个数字","code":"1070xF40306","prefix":107,"errorCode":15991558,"message":"输入框限制为12个数字（40306）","accept":"app"
+			"reason":"修改专属会议号超出12个数字","code":"1070xF40306","prefix":107,"description":"","errorCode":15991558,"message":"输入框限制为12个数字（40306）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息调用user/update restful接口请求异常：请求超时","code":"1070xF40401","prefix":107,"errorCode":15991809,"message":"请求超时（40401）","accept":"app"
+			"reason":"修改个人信息调用user/update restful接口请求异常：请求超时","code":"1070xF40401","prefix":107,"description":"","errorCode":15991809,"message":"请求超时（40401）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息调用user/update restful接口请求异常：404错误","code":"1070xF40402","prefix":107,"errorCode":15991810,"message":"修改信息失败（40402）","accept":"app"
+			"reason":"修改个人信息调用user/update restful接口请求异常：404错误","code":"1070xF40402","prefix":107,"description":"","errorCode":15991810,"message":"修改信息失败（40402）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息调用user/update restful接口请求异常：网络无法连接","code":"1070xF40403","prefix":107,"errorCode":15991811,"message":"网络无法连接，修改信息失败（40403）","accept":"app"
+			"reason":"修改个人信息调用user/update restful接口请求异常：网络无法连接","code":"1070xF40403","prefix":107,"description":"","errorCode":15991811,"message":"网络无法连接，修改信息失败（40403）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息调用getUpdateUserCallBack请求异常：请求超时","code":"1070xF40404","prefix":107,"errorCode":15991812,"message":"请求超时（40404）","accept":"app"
+			"reason":"修改个人信息调用getUpdateUserCallBack请求异常：请求超时","code":"1070xF40404","prefix":107,"description":"","errorCode":15991812,"message":"请求超时（40404）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：两次密码校验不一致","code":"1070xF40501","prefix":107,"errorCode":15992065,"message":"确认密码输入错误，请重新输入（40501）","accept":"app"
+			"reason":"修改个人信息（密码）：两次密码校验不一致","code":"1070xF40501","prefix":107,"description":"","errorCode":15992065,"message":"确认密码输入错误，请重新输入（40501）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验token为空","code":"1070xF40502","prefix":107,"errorCode":15992066,"message":"相关参数为空（40502）","accept":"app"
+			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验token为空","code":"1070xF40502","prefix":107,"description":"","errorCode":15992066,"message":"相关参数为空（40502）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验pwd为空","code":"1070xF40503","prefix":107,"errorCode":15992067,"message":"相关参数为空（40503）","accept":"app"
+			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验pwd为空","code":"1070xF40503","prefix":107,"description":"","errorCode":15992067,"message":"相关参数为空（40503）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验oldPwd为空","code":"1070xF40504","prefix":107,"errorCode":15992068,"message":"相关参数为空（40504）","accept":"app"
+			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验oldPwd为空","code":"1070xF40504","prefix":107,"description":"","errorCode":15992068,"message":"相关参数为空（40504）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验url为空","code":"1070xF40505","prefix":107,"errorCode":15992069,"message":"相关参数为空（40505）","accept":"app"
+			"reason":"修改个人信息（密码）：user/resetpwd restful接口调用参数校验url为空","code":"1070xF40505","prefix":107,"description":"","errorCode":15992069,"message":"相关参数为空（40505）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：user/resetpwd restful接口请求异常：请求超时","code":"1070xF40506","prefix":107,"errorCode":15992070,"message":"请求超时（40506）","accept":"app"
+			"reason":"修改个人信息（密码）：user/resetpwd restful接口请求异常：请求超时","code":"1070xF40506","prefix":107,"description":"","errorCode":15992070,"message":"请求超时（40506）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：user/resetpwd restful接口请求异常：404错误","code":"1070xF40507","prefix":107,"errorCode":15992071,"message":"修改密码失败（40507）","accept":"app"
+			"reason":"修改个人信息（密码）：user/resetpwd restful接口请求异常：404错误","code":"1070xF40507","prefix":107,"description":"","errorCode":15992071,"message":"修改密码失败（40507）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：user/resetpwd restful接口请求异常：网络无法连接","code":"1070xF40508","prefix":107,"errorCode":15992072,"message":"网络无法连接，修改密码失败（40508）","accept":"app"
+			"reason":"修改个人信息（密码）：user/resetpwd restful接口请求异常：网络无法连接","code":"1070xF40508","prefix":107,"description":"","errorCode":15992072,"message":"网络无法连接，修改密码失败（40508）","englishdec":"","accept":"app"
 		},{
-			"reason":"修改个人信息（密码）：resetPwdCallBack请求异常","code":"1070xF40509","prefix":107,"errorCode":15992073,"message":"请求异常（40509）","accept":"app"
+			"reason":"修改个人信息（密码）：resetPwdCallBack请求异常","code":"1070xF40509","prefix":107,"description":"","errorCode":15992073,"message":"请求异常（40509）","englishdec":"","accept":"app"
 		},{
-			"reason":"\"","code":"1070xF40601","prefix":107,"errorCode":15992321,"message":"加载失败（40601）","accept":"app"
+			"reason":"\"","code":"1070xF40601","prefix":107,"description":"","errorCode":15992321,"message":"加载失败（40601）","englishdec":"","accept":"app"
 		},{
-			"reason":"\"","code":"1070xF40701","prefix":107,"errorCode":15992577,"message":"加载失败（40701）","accept":"app"
+			"reason":"\"","code":"1070xF40701","prefix":107,"description":"","errorCode":15992577,"message":"加载失败（40701）","englishdec":"","accept":"app"
 		},{
-			"reason":"原生与js绑定失败","code":"1070xF60001","prefix":107,"errorCode":16121857,"message":"预约会议加载失败（60001）","accept":"app"
+			"reason":"原生与js绑定失败","code":"1070xF60001","prefix":107,"description":"","errorCode":16121857,"message":"预约会议加载失败（60001）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口时appId为空（创建会议api）","code":"1070xF60002","prefix":107,"errorCode":16121858,"message":"相关参数为空（60002）","accept":"app"
+			"reason":"调conference/create接口时appId为空（创建会议api）","code":"1070xF60002","prefix":107,"description":"","errorCode":16121858,"message":"相关参数为空（60002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口时token为空（创建会议api）","code":"1070xF60003","prefix":107,"errorCode":16121859,"message":"相关参数为空（60003）","accept":"app"
+			"reason":"调conference/create接口时token为空（创建会议api）","code":"1070xF60003","prefix":107,"description":"","errorCode":16121859,"message":"相关参数为空（60003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口时url地址为空（创建会议api）","code":"1070xF60004","prefix":107,"errorCode":16121860,"message":"相关参数为空（60004）","accept":"app"
+			"reason":"调conference/create接口时url地址为空（创建会议api）","code":"1070xF60004","prefix":107,"description":"","errorCode":16121860,"message":"相关参数为空（60004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口时会议主题为空（创建会议api）","code":"1070xF60006","prefix":107,"errorCode":16121862,"message":"请输入会议主题（60006）","accept":"app"
+			"reason":"调conference/create接口时会议主题为空（创建会议api）","code":"1070xF60006","prefix":107,"description":"","errorCode":16121862,"message":"请输入会议主题（60006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口时开始时间为空（创建会议api）","code":"1070xF60007","prefix":107,"errorCode":16121863,"message":"请选择开始时间（60007）","accept":"app"
+			"reason":"调conference/create接口时开始时间为空（创建会议api）","code":"1070xF60007","prefix":107,"description":"","errorCode":16121863,"message":"请选择开始时间（60007）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/list接口获取会议地点时appId为空（获取终端列表api）","code":"1070xF60008","prefix":107,"errorCode":16121864,"message":"相关参数为空（60008）","accept":"app"
+			"reason":"调terminal/list接口获取会议地点时appId为空（获取终端列表api）","code":"1070xF60008","prefix":107,"description":"","errorCode":16121864,"message":"相关参数为空（60008）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/list接口获取会议地点时token为空（获取终端列表api）","code":"1070xF60009","prefix":107,"errorCode":16121865,"message":"相关参数为空（60009）","accept":"app"
+			"reason":"调terminal/list接口获取会议地点时token为空（获取终端列表api）","code":"1070xF60009","prefix":107,"description":"","errorCode":16121865,"message":"相关参数为空（60009）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/list接口获取会议地点时url地址为空（获取终端列表api）","code":"1070xF60010","prefix":107,"errorCode":16121872,"message":"相关参数为空（60010）","accept":"app"
+			"reason":"调terminal/list接口获取会议地点时url地址为空（获取终端列表api）","code":"1070xF60010","prefix":107,"description":"","errorCode":16121872,"message":"相关参数为空（60010）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/list接口：Failed to connect/failed to connect（获取终端列表api）","code":"1070xF60011","prefix":107,"errorCode":16121873,"message":"网络无法连接，获取终端失败（60011）","accept":"app"
+			"reason":"调terminal/list接口：Failed to connect/failed to connect（获取终端列表api）","code":"1070xF60011","prefix":107,"description":"","errorCode":16121873,"message":"网络无法连接，获取终端失败（60011）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/list接口：connect timed out（获取终端列表api）","code":"1070xF60012","prefix":107,"errorCode":16121874,"message":"获取终端失败（60012）","accept":"app"
+			"reason":"调terminal/list接口：connect timed out（获取终端列表api）","code":"1070xF60012","prefix":107,"description":"","errorCode":16121874,"message":"获取终端失败（60012）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/list接口：request failed , reponse's code is : 404（获取终端列表api）","code":"1070xF60013","prefix":107,"errorCode":16121875,"message":"获取终端失败（60013）","accept":"app"
+			"reason":"调terminal/list接口：request failed , reponse's code is : 404（获取终端列表api）","code":"1070xF60013","prefix":107,"description":"","errorCode":16121875,"message":"获取终端失败（60013）","englishdec":"","accept":"app"
 		},{
-			"reason":"输入密码时，密码不符合密码规则(请设置四至八位数字或字母)       修改为4-6位数字","code":"1070xF60014","prefix":107,"errorCode":16121876,"message":"请输入4-6位数字(60014)","accept":"app"
+			"reason":"输入密码时，密码不符合密码规则(请设置四至八位数字或字母)       修改为4-6位数字","code":"1070xF60014","prefix":107,"description":"","errorCode":16121876,"message":"请输入4-6位数字(60014)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口：Failed to connect/failed to connect（创建会议api）","code":"1070xF60015","prefix":107,"errorCode":16121877,"message":"网络无法连接，创建会议失败（60015）","accept":"app"
+			"reason":"调conference/create接口：Failed to connect/failed to connect（创建会议api）","code":"1070xF60015","prefix":107,"description":"","errorCode":16121877,"message":"网络无法连接，创建会议失败（60015）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口：connect timed out（创建会议api）","code":"1070xF60016","prefix":107,"errorCode":16121878,"message":"创建会议失败（60016）","accept":"app"
+			"reason":"调conference/create接口：connect timed out（创建会议api）","code":"1070xF60016","prefix":107,"description":"","errorCode":16121878,"message":"创建会议失败（60016）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/create接口：request failed , reponse's code is : 404（创建会议api）","code":"1070xF60017","prefix":107,"errorCode":16121879,"message":"创建会议失败（60017）","accept":"app"
+			"reason":"调conference/create接口：request failed , reponse's code is : 404（创建会议api）","code":"1070xF60017","prefix":107,"description":"","errorCode":16121879,"message":"创建会议失败（60017）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时appId为空（修改会议api）","code":"1070xF61001","prefix":107,"errorCode":16125953,"message":"相关参数为空（61001）","accept":"app"
+			"reason":"调conference/update接口时appId为空（修改会议api）","code":"1070xF61001","prefix":107,"description":"","errorCode":16125953,"message":"相关参数为空（61001）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时token为空（修改会议api）","code":"1070xF61002","prefix":107,"errorCode":16125954,"message":"相关参数为空（61002）","accept":"app"
+			"reason":"调conference/update接口时token为空（修改会议api）","code":"1070xF61002","prefix":107,"description":"","errorCode":16125954,"message":"相关参数为空（61002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时secretKey为空（修改会议api）","code":"1070xF61003","prefix":107,"errorCode":16125955,"message":"相关参数为空（61003）","accept":"app"
+			"reason":"调conference/update接口时secretKey为空（修改会议api）","code":"1070xF61003","prefix":107,"description":"","errorCode":16125955,"message":"相关参数为空（61003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时serviceId为空（修改会议api）","code":"1070xF61004","prefix":107,"errorCode":16125956,"message":"相关参数为空（61004）","accept":"app"
+			"reason":"调conference/update接口时serviceId为空（修改会议api）","code":"1070xF61004","prefix":107,"description":"","errorCode":16125956,"message":"相关参数为空（61004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时confId为空（修改会议api）","code":"1070xF61005","prefix":107,"errorCode":16125957,"message":"相关参数为空（61005）","accept":"app"
+			"reason":"调conference/update接口时confId为空（修改会议api）","code":"1070xF61005","prefix":107,"description":"","errorCode":16125957,"message":"相关参数为空（61005）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时url地址为空（修改会议api）","code":"1070xF61006","prefix":107,"errorCode":16125958,"message":"相关参数为空（61006）","accept":"app"
+			"reason":"调conference/update接口时url地址为空（修改会议api）","code":"1070xF61006","prefix":107,"description":"","errorCode":16125958,"message":"相关参数为空（61006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时开始时间为空（修改会议api）","code":"1070xF61007","prefix":107,"errorCode":16125959,"message":"请输入开始时间(71007)","accept":"app"
+			"reason":"调conference/update接口时开始时间为空（修改会议api）","code":"1070xF61007","prefix":107,"description":"","errorCode":16125959,"message":"请输入开始时间(71007)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口时输入会议密码不符合规则(请设置四至八位数字或字母)（修改会议api）                              修改为4-6位","code":"1070xF61008","prefix":107,"errorCode":16125960,"message":"请输入4-6位数字(61008)","accept":"app"
+			"reason":"调conference/update接口时输入会议密码不符合规则(请设置四至八位数字或字母)（修改会议api）                              修改为4-6位","code":"1070xF61008","prefix":107,"description":"","errorCode":16125960,"message":"请输入4-6位数字(61008)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口：Failed to connect/failed to connect（修改会议api）","code":"1070xF61009","prefix":107,"errorCode":16125961,"message":"网络无法连接，修改会议失败（61009）","accept":"app"
+			"reason":"调conference/update接口：Failed to connect/failed to connect（修改会议api）","code":"1070xF61009","prefix":107,"description":"","errorCode":16125961,"message":"网络无法连接，修改会议失败（61009）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口：connect timed out（修改会议api）","code":"1070xF61010","prefix":107,"errorCode":16125968,"message":"修改会议失败（61010）","accept":"app"
+			"reason":"调conference/update接口：connect timed out（修改会议api）","code":"1070xF61010","prefix":107,"description":"","errorCode":16125968,"message":"修改会议失败（61010）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/update接口：request failed , reponse's code is : 404（修改会议api）","code":"1070xF61011","prefix":107,"errorCode":16125969,"message":"修改会议失败（61011）","accept":"app"
+			"reason":"调conference/update接口：request failed , reponse's code is : 404（修改会议api）","code":"1070xF61011","prefix":107,"description":"","errorCode":16125969,"message":"修改会议失败（61011）","englishdec":"","accept":"app"
 		},{
-			"reason":"原生与js绑定失败","code":"1070xF62001","prefix":107,"errorCode":16130049,"message":"会议列表加载失败（62001）","accept":"app"
+			"reason":"原生与js绑定失败","code":"1070xF62001","prefix":107,"description":"","errorCode":16130049,"message":"会议列表加载失败（62001）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/list接口时appId为空（获取会议列表api）","code":"1070xF62002","prefix":107,"errorCode":16130050,"message":"相关参数为空（62002）","accept":"app"
+			"reason":"调conference/list接口时appId为空（获取会议列表api）","code":"1070xF62002","prefix":107,"description":"","errorCode":16130050,"message":"相关参数为空（62002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/list接口时secretKey为空（获取会议列表api）","code":"1070xF62003","prefix":107,"errorCode":16130051,"message":"相关参数为空（62003）","accept":"app"
+			"reason":"调conference/list接口时secretKey为空（获取会议列表api）","code":"1070xF62003","prefix":107,"description":"","errorCode":16130051,"message":"相关参数为空（62003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/list接口时token为空（获取会议列表api）","code":"1070xF62004","prefix":107,"errorCode":16130052,"message":"相关参数为空（62004）","accept":"app"
+			"reason":"调conference/list接口时token为空（获取会议列表api）","code":"1070xF62004","prefix":107,"description":"","errorCode":16130052,"message":"相关参数为空（62004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/list接口时url地址为空（获取会议列表api）","code":"1070xF62005","prefix":107,"errorCode":16130053,"message":"相关参数为空（62005）","accept":"app"
+			"reason":"调conference/list接口时url地址为空（获取会议列表api）","code":"1070xF62005","prefix":107,"description":"","errorCode":16130053,"message":"相关参数为空（62005）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/list接口：Failed to connect/failed to connect（获取会议列表api）","code":"1070xF62006","prefix":107,"errorCode":16130054,"message":"网络无法连接，获取会议列表失败（62006）","accept":"app"
+			"reason":"调conference/list接口：Failed to connect/failed to connect（获取会议列表api）","code":"1070xF62006","prefix":107,"description":"","errorCode":16130054,"message":"网络无法连接，获取会议列表失败（62006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/list接口：connect timed out（获取会议列表api）","code":"1070xF62007","prefix":107,"errorCode":16130055,"message":"获取会议列表失败（62007）","accept":"app"
+			"reason":"调conference/list接口：connect timed out（获取会议列表api）","code":"1070xF62007","prefix":107,"description":"","errorCode":16130055,"message":"获取会议列表失败（62007）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/list接口：request failed , reponse's code is : 404（获取会议列表api）","code":"1070xF62008","prefix":107,"errorCode":16130056,"message":"获取会议列表失败（62008）","accept":"app"
+			"reason":"调conference/list接口：request failed , reponse's code is : 404（获取会议列表api）","code":"1070xF62008","prefix":107,"description":"","errorCode":16130056,"message":"获取会议列表失败（62008）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口时appId为空（删除会议api）","code":"1070xF62009","prefix":107,"errorCode":16130057,"message":"相关参数为空（62009）","accept":"app"
+			"reason":"调conference/delete接口时appId为空（删除会议api）","code":"1070xF62009","prefix":107,"description":"","errorCode":16130057,"message":"相关参数为空（62009）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口时secretKey为空（删除会议api）","code":"1070xF62010","prefix":107,"errorCode":16130064,"message":"相关参数为空（62010）","accept":"app"
+			"reason":"调conference/delete接口时secretKey为空（删除会议api）","code":"1070xF62010","prefix":107,"description":"","errorCode":16130064,"message":"相关参数为空（62010）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口时token为空（删除会议api）","code":"1070xF62011","prefix":107,"errorCode":16130065,"message":"相关参数为空（62011）","accept":"app"
+			"reason":"调conference/delete接口时token为空（删除会议api）","code":"1070xF62011","prefix":107,"description":"","errorCode":16130065,"message":"相关参数为空（62011）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口时confId为空（删除会议api）","code":"1070xF62012","prefix":107,"errorCode":16130066,"message":"相关参数为空（62012）","accept":"app"
+			"reason":"调conference/delete接口时confId为空（删除会议api）","code":"1070xF62012","prefix":107,"description":"","errorCode":16130066,"message":"相关参数为空（62012）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口时url地址为空（删除会议api）","code":"1070xF62013","prefix":107,"errorCode":16130067,"message":"相关参数为空（62013）","accept":"app"
+			"reason":"调conference/delete接口时url地址为空（删除会议api）","code":"1070xF62013","prefix":107,"description":"","errorCode":16130067,"message":"相关参数为空（62013）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口：Failed to connect/failed to connect（删除会议api）","code":"1070xF62014","prefix":107,"errorCode":16130068,"message":"网络无法连接，删除会议失败（62014）","accept":"app"
+			"reason":"调conference/delete接口：Failed to connect/failed to connect（删除会议api）","code":"1070xF62014","prefix":107,"description":"","errorCode":16130068,"message":"网络无法连接，删除会议失败（62014）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口：connect timed out（删除会议api）","code":"1070xF62015","prefix":107,"errorCode":16130069,"message":"删除会议失败（62015）","accept":"app"
+			"reason":"调conference/delete接口：connect timed out（删除会议api）","code":"1070xF62015","prefix":107,"description":"","errorCode":16130069,"message":"删除会议失败（62015）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/delete接口：request failed , reponse's code is : 404（删除会议api）","code":"1070xF62016","prefix":107,"errorCode":16130070,"message":"删除会议信息失败（62016）","accept":"app"
+			"reason":"调conference/delete接口：request failed , reponse's code is : 404（删除会议api）","code":"1070xF62016","prefix":107,"description":"","errorCode":16130070,"message":"删除会议信息失败（62016）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口时appId为空（获取会议信息api）","code":"1070xF62017","prefix":107,"errorCode":16130071,"message":"相关参数为空（62017）","accept":"app"
+			"reason":"调conference/get接口时appId为空（获取会议信息api）","code":"1070xF62017","prefix":107,"description":"","errorCode":16130071,"message":"相关参数为空（62017）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口时secretKey为空（获取会议信息api）","code":"1070xF62018","prefix":107,"errorCode":16130072,"message":"相关参数为空（62018）","accept":"app"
+			"reason":"调conference/get接口时secretKey为空（获取会议信息api）","code":"1070xF62018","prefix":107,"description":"","errorCode":16130072,"message":"相关参数为空（62018）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口时token为空（获取会议信息api）","code":"1070xF62019","prefix":107,"errorCode":16130073,"message":"相关参数为空（62019）","accept":"app"
+			"reason":"调conference/get接口时token为空（获取会议信息api）","code":"1070xF62019","prefix":107,"description":"","errorCode":16130073,"message":"相关参数为空（62019）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口时confId为空（获取会议信息api）","code":"1070xF62020","prefix":107,"errorCode":16130080,"message":"相关参数为空（62020）","accept":"app"
+			"reason":"调conference/get接口时confId为空（获取会议信息api）","code":"1070xF62020","prefix":107,"description":"","errorCode":16130080,"message":"相关参数为空（62020）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口时url地址为空（获取会议信息api）","code":"1070xF62021","prefix":107,"errorCode":16130081,"message":"相关参数为空（62021）","accept":"app"
+			"reason":"调conference/get接口时url地址为空（获取会议信息api）","code":"1070xF62021","prefix":107,"description":"","errorCode":16130081,"message":"相关参数为空（62021）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口：Failed to connect/failed to connect（获取会议信息api）","code":"1070xF62022","prefix":107,"errorCode":16130082,"message":"网络无法连接，获取会议信息失败（62022）","accept":"app"
+			"reason":"调conference/get接口：Failed to connect/failed to connect（获取会议信息api）","code":"1070xF62022","prefix":107,"description":"","errorCode":16130082,"message":"网络无法连接，获取会议信息失败（62022）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口：connect timed out（获取会议信息api）","code":"1070xF62023","prefix":107,"errorCode":16130083,"message":"获取会议信息失败（62023）","accept":"app"
+			"reason":"调conference/get接口：connect timed out（获取会议信息api）","code":"1070xF62023","prefix":107,"description":"","errorCode":16130083,"message":"获取会议信息失败（62023）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/get接口：request failed , reponse's code is : 404（获取会议信息api）","code":"1070xF62024","prefix":107,"errorCode":16130084,"message":"获取会议信息失败（62024）","accept":"app"
+			"reason":"调conference/get接口：request failed , reponse's code is : 404（获取会议信息api）","code":"1070xF62024","prefix":107,"description":"","errorCode":16130084,"message":"获取会议信息失败（62024）","englishdec":"","accept":"app"
 		},{
-			"reason":"原生与js绑定失败","code":"1070xF65001","prefix":107,"errorCode":16142337,"message":"加载通讯录失败（65001）","accept":"app"
+			"reason":"原生与js绑定失败","code":"1070xF65001","prefix":107,"description":"","errorCode":16142337,"message":"加载通讯录失败（65001）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/list接口时appId为空（获取通讯录信息api）","code":"1070xF65002","prefix":107,"errorCode":16142338,"message":"相关参数为空（65002）","accept":"app"
+			"reason":"调addrbook/list接口时appId为空（获取通讯录信息api）","code":"1070xF65002","prefix":107,"description":"","errorCode":16142338,"message":"相关参数为空（65002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/list接口时token为空（获取通讯录信息api）","code":"1070xF65003","prefix":107,"errorCode":16142339,"message":"相关参数为空（65003）","accept":"app"
+			"reason":"调addrbook/list接口时token为空（获取通讯录信息api）","code":"1070xF65003","prefix":107,"description":"","errorCode":16142339,"message":"相关参数为空（65003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/list接口时url地址为空（获取通讯录信息api）","code":"1070xF65004","prefix":107,"errorCode":16142340,"message":"相关参数为空（65004）","accept":"app"
+			"reason":"调addrbook/list接口时url地址为空（获取通讯录信息api）","code":"1070xF65004","prefix":107,"description":"","errorCode":16142340,"message":"相关参数为空（65004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/list接口：Failed to connect/failed to connect（获取通讯录信息api）","code":"1070xF65005","prefix":107,"errorCode":16142341,"message":"网络无法连接，加载通讯录失败（65005）","accept":"app"
+			"reason":"调addrbook/list接口：Failed to connect/failed to connect（获取通讯录信息api）","code":"1070xF65005","prefix":107,"description":"","errorCode":16142341,"message":"网络无法连接，加载通讯录失败（65005）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/list接口：connect timed out（获取通讯录信息api）","code":"1070xF65006","prefix":107,"errorCode":16142342,"message":"加载通讯录失败（65006）","accept":"app"
+			"reason":"调addrbook/list接口：connect timed out（获取通讯录信息api）","code":"1070xF65006","prefix":107,"description":"","errorCode":16142342,"message":"加载通讯录失败（65006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/list接口：request failed , reponse's code is : 404（获取通讯录信息api）","code":"1070xF65007","prefix":107,"errorCode":16142343,"message":"加载通讯录失败（65007）","accept":"app"
+			"reason":"调addrbook/list接口：request failed , reponse's code is : 404（获取通讯录信息api）","code":"1070xF65007","prefix":107,"description":"","errorCode":16142343,"message":"加载通讯录失败（65007）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口时appId为空（仅获取通讯录中子部门信息api）","code":"1070xF65008","prefix":107,"errorCode":16142344,"message":"相关参数为空（65008）","accept":"app"
+			"reason":"调addrbook/subgroups接口时appId为空（仅获取通讯录中子部门信息api）","code":"1070xF65008","prefix":107,"description":"","errorCode":16142344,"message":"相关参数为空（65008）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口时token为空（仅获取通讯录中子部门信息api）","code":"1070xF65009","prefix":107,"errorCode":16142345,"message":"相关参数为空（65009）","accept":"app"
+			"reason":"调addrbook/subgroups接口时token为空（仅获取通讯录中子部门信息api）","code":"1070xF65009","prefix":107,"description":"","errorCode":16142345,"message":"相关参数为空（65009）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口时secretKey为空（仅获取通讯录中子部门信息api）","code":"1070xF65010","prefix":107,"errorCode":16142352,"message":"相关参数为空（65010）","accept":"app"
+			"reason":"调addrbook/subgroups接口时secretKey为空（仅获取通讯录中子部门信息api）","code":"1070xF65010","prefix":107,"description":"","errorCode":16142352,"message":"相关参数为空（65010）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口时bookId为空（仅获取通讯录中子部门信息api）","code":"1070xF65011","prefix":107,"errorCode":16142353,"message":"相关参数为空（65011）","accept":"app"
+			"reason":"调addrbook/subgroups接口时bookId为空（仅获取通讯录中子部门信息api）","code":"1070xF65011","prefix":107,"description":"","errorCode":16142353,"message":"相关参数为空（65011）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口时url地址为空（仅获取通讯录中子部门信息api）","code":"1070xF65012","prefix":107,"errorCode":16142354,"message":"相关参数为空（65012）","accept":"app"
+			"reason":"调addrbook/subgroups接口时url地址为空（仅获取通讯录中子部门信息api）","code":"1070xF65012","prefix":107,"description":"","errorCode":16142354,"message":"相关参数为空（65012）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口：Failed to connect/failed to connect（仅获取通讯录中子部门信息api）","code":"1070xF65013","prefix":107,"errorCode":16142355,"message":"网络无法连接，加载用户失败（65013）","accept":"app"
+			"reason":"调addrbook/subgroups接口：Failed to connect/failed to connect（仅获取通讯录中子部门信息api）","code":"1070xF65013","prefix":107,"description":"","errorCode":16142355,"message":"网络无法连接，加载用户失败（65013）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口：connect timed out（仅获取通讯录中子部门信息api）","code":"1070xF65014","prefix":107,"errorCode":16142356,"message":"加载用户失败（65014）","accept":"app"
+			"reason":"调addrbook/subgroups接口：connect timed out（仅获取通讯录中子部门信息api）","code":"1070xF65014","prefix":107,"description":"","errorCode":16142356,"message":"加载用户失败（65014）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/subgroups接口：request failed , reponse's code is : 404（仅获取通讯录中子部门信息api）","code":"1070xF65015","prefix":107,"errorCode":16142357,"message":"加载用户失败（65015）","accept":"app"
+			"reason":"调addrbook/subgroups接口：request failed , reponse's code is : 404（仅获取通讯录中子部门信息api）","code":"1070xF65015","prefix":107,"description":"","errorCode":16142357,"message":"加载用户失败（65015）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口时appId为空（分页获取通讯录中成员信息api）","code":"1070xF65016","prefix":107,"errorCode":16142358,"message":"相关参数为空（65016）","accept":"app"
+			"reason":"调addrbook/submembers接口时appId为空（分页获取通讯录中成员信息api）","code":"1070xF65016","prefix":107,"description":"","errorCode":16142358,"message":"相关参数为空（65016）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口时token为空（分页获取通讯录中成员信息api）","code":"1070xF65017","prefix":107,"errorCode":16142359,"message":"相关参数为空（65017）","accept":"app"
+			"reason":"调addrbook/submembers接口时token为空（分页获取通讯录中成员信息api）","code":"1070xF65017","prefix":107,"description":"","errorCode":16142359,"message":"相关参数为空（65017）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口时secretKey为空（分页获取通讯录中成员信息api）","code":"1070xF65018","prefix":107,"errorCode":16142360,"message":"相关参数为空（65018）","accept":"app"
+			"reason":"调addrbook/submembers接口时secretKey为空（分页获取通讯录中成员信息api）","code":"1070xF65018","prefix":107,"description":"","errorCode":16142360,"message":"相关参数为空（65018）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口时bookId为空（分页获取通讯录中成员信息api）","code":"1070xF65019","prefix":107,"errorCode":16142361,"message":"相关参数为空（65019）","accept":"app"
+			"reason":"调addrbook/submembers接口时bookId为空（分页获取通讯录中成员信息api）","code":"1070xF65019","prefix":107,"description":"","errorCode":16142361,"message":"相关参数为空（65019）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口时url地址为空（分页获取通讯录中成员信息api）","code":"1070xF65020","prefix":107,"errorCode":16142368,"message":"相关参数为空（65020）","accept":"app"
+			"reason":"调addrbook/submembers接口时url地址为空（分页获取通讯录中成员信息api）","code":"1070xF65020","prefix":107,"description":"","errorCode":16142368,"message":"相关参数为空（65020）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口：Failed to connect/failed to connect（分页获取通讯录中成员信息api）","code":"1070xF65021","prefix":107,"errorCode":16142369,"message":"网络无法连接，加载用户失败（65021）","accept":"app"
+			"reason":"调addrbook/submembers接口：Failed to connect/failed to connect（分页获取通讯录中成员信息api）","code":"1070xF65021","prefix":107,"description":"","errorCode":16142369,"message":"网络无法连接，加载用户失败（65021）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口：connect timed out（分页获取通讯录中成员信息api）","code":"1070xF65022","prefix":107,"errorCode":16142370,"message":"加载用户失败（65022）","accept":"app"
+			"reason":"调addrbook/submembers接口：connect timed out（分页获取通讯录中成员信息api）","code":"1070xF65022","prefix":107,"description":"","errorCode":16142370,"message":"加载用户失败（65022）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/submembers接口：request failed , reponse's code is : 404（分页获取通讯录中成员信息api）","code":"1070xF65023","prefix":107,"errorCode":16142371,"message":"加载用户失败（65023）","accept":"app"
+			"reason":"调addrbook/submembers接口：request failed , reponse's code is : 404（分页获取通讯录中成员信息api）","code":"1070xF65023","prefix":107,"description":"","errorCode":16142371,"message":"加载用户失败（65023）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/detail接口时appId为空（获取用户详细信息api）","code":"1070xF65024","prefix":107,"errorCode":16142372,"message":"相关参数为空（65024）","accept":"app"
+			"reason":"调addrbook/detail接口时appId为空（获取用户详细信息api）","code":"1070xF65024","prefix":107,"description":"","errorCode":16142372,"message":"相关参数为空（65024）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/detail接口时token为空（获取用户详细信息api）","code":"1070xF65025","prefix":107,"errorCode":16142373,"message":"相关参数为空（65025）","accept":"app"
+			"reason":"调addrbook/detail接口时token为空（获取用户详细信息api）","code":"1070xF65025","prefix":107,"description":"","errorCode":16142373,"message":"相关参数为空（65025）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/detail接口时bookId为空（获取用户详细信息api）","code":"1070xF65026","prefix":107,"errorCode":16142374,"message":"相关参数为空（65026）","accept":"app"
+			"reason":"调addrbook/detail接口时bookId为空（获取用户详细信息api）","code":"1070xF65026","prefix":107,"description":"","errorCode":16142374,"message":"相关参数为空（65026）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/detail接口时url地址为空（获取用户详细信息api）","code":"1070xF65027","prefix":107,"errorCode":16142375,"message":"相关参数为空（65027）","accept":"app"
+			"reason":"调addrbook/detail接口时url地址为空（获取用户详细信息api）","code":"1070xF65027","prefix":107,"description":"","errorCode":16142375,"message":"相关参数为空（65027）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/detail接口：Failed to connect/failed to connect（获取用户详细信息api）","code":"1070xF65028","prefix":107,"errorCode":16142376,"message":"网络无法连接，获取用户信息失败（65028）","accept":"app"
+			"reason":"调addrbook/detail接口：Failed to connect/failed to connect（获取用户详细信息api）","code":"1070xF65028","prefix":107,"description":"","errorCode":16142376,"message":"网络无法连接，获取用户信息失败（65028）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/detail接口：connect timed out（获取用户详细信息api）","code":"1070xF65029","prefix":107,"errorCode":16142377,"message":"获取用户信息失败（65029）","accept":"app"
+			"reason":"调addrbook/detail接口：connect timed out（获取用户详细信息api）","code":"1070xF65029","prefix":107,"description":"","errorCode":16142377,"message":"获取用户信息失败（65029）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/detail接口：request failed , reponse's code is : 404（获取用户详细信息api）","code":"1070xF65030","prefix":107,"errorCode":16142384,"message":"获取用户信息失败（65030）","accept":"app"
+			"reason":"调addrbook/detail接口：request failed , reponse's code is : 404（获取用户详细信息api）","code":"1070xF65030","prefix":107,"description":"","errorCode":16142384,"message":"获取用户信息失败（65030）","englishdec":"","accept":"app"
 		},{
-			"reason":"拨打电话时，手机号为空","code":"1070xF65031","prefix":107,"errorCode":16142385,"message":"手机号为空，无法拨号（65031）","accept":"app"
+			"reason":"拨打电话时，手机号为空","code":"1070xF65031","prefix":107,"description":"","errorCode":16142385,"message":"手机号为空，无法拨号（65031）","englishdec":"","accept":"app"
 		},{
-			"reason":"发短信时，手机号为空","code":"1070xF65032","prefix":107,"errorCode":16142386,"message":"手机号为空，无法发送短信（65032）","accept":"app"
+			"reason":"发短信时，手机号为空","code":"1070xF65032","prefix":107,"description":"","errorCode":16142386,"message":"手机号为空，无法发送短信（65032）","englishdec":"","accept":"app"
 		},{
-			"reason":"发邮件时，邮箱地址为空","code":"1070xF65033","prefix":107,"errorCode":16142387,"message":"邮箱地址为空，无法发送邮件（65033）","accept":"app"
+			"reason":"发邮件时，邮箱地址为空","code":"1070xF65033","prefix":107,"description":"","errorCode":16142387,"message":"邮箱地址为空，无法发送邮件（65033）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口时appId为空(模糊查询通讯录下人员信息api)","code":"1070xF65034","prefix":107,"errorCode":16142388,"message":"相关参数为空（65034）","accept":"app"
+			"reason":"调addrbook/booksearch接口时appId为空(模糊查询通讯录下人员信息api)","code":"1070xF65034","prefix":107,"description":"","errorCode":16142388,"message":"相关参数为空（65034）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口时token为空(模糊查询通讯录下人员信息api)","code":"1070xF65035","prefix":107,"errorCode":16142389,"message":"相关参数为空（65035）","accept":"app"
+			"reason":"调addrbook/booksearch接口时token为空(模糊查询通讯录下人员信息api)","code":"1070xF65035","prefix":107,"description":"","errorCode":16142389,"message":"相关参数为空（65035）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口时bookId为空(模糊查询通讯录下人员信息api)","code":"1070xF65036","prefix":107,"errorCode":16142390,"message":"相关参数为空（65036）","accept":"app"
+			"reason":"调addrbook/booksearch接口时bookId为空(模糊查询通讯录下人员信息api)","code":"1070xF65036","prefix":107,"description":"","errorCode":16142390,"message":"相关参数为空（65036）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口时输入的查询内容(info)为空(模糊查询通讯录下人员信息api)","code":"1070xF65037","prefix":107,"errorCode":16142391,"message":"相关参数为空（65037）","accept":"app"
+			"reason":"调addrbook/booksearch接口时输入的查询内容(info)为空(模糊查询通讯录下人员信息api)","code":"1070xF65037","prefix":107,"description":"","errorCode":16142391,"message":"相关参数为空（65037）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口时url地址为空(模糊查询通讯录下人员信息api)","code":"1070xF65038","prefix":107,"errorCode":16142392,"message":"相关参数为空（65038）","accept":"app"
+			"reason":"调addrbook/booksearch接口时url地址为空(模糊查询通讯录下人员信息api)","code":"1070xF65038","prefix":107,"description":"","errorCode":16142392,"message":"相关参数为空（65038）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口：Failed to connect/failed to connect（模糊查询通讯录下人员信息api）","code":"1070xF65039","prefix":107,"errorCode":16142393,"message":"网络无法连接，搜索失败（65039）","accept":"app"
+			"reason":"调addrbook/booksearch接口：Failed to connect/failed to connect（模糊查询通讯录下人员信息api）","code":"1070xF65039","prefix":107,"description":"","errorCode":16142393,"message":"网络无法连接，搜索失败（65039）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口：connect timed out（模糊查询通讯录下人员信息api）","code":"1070xF65040","prefix":107,"errorCode":16142400,"message":"搜索失败（65040）","accept":"app"
+			"reason":"调addrbook/booksearch接口：connect timed out（模糊查询通讯录下人员信息api）","code":"1070xF65040","prefix":107,"description":"","errorCode":16142400,"message":"搜索失败（65040）","englishdec":"","accept":"app"
 		},{
-			"reason":"调addrbook/booksearch接口：request failed , reponse's code is : 404（模糊查询通讯录下人员信息api）","code":"1070xF65041","prefix":107,"errorCode":16142401,"message":"搜索失败（65041）","accept":"app"
+			"reason":"调addrbook/booksearch接口：request failed , reponse's code is : 404（模糊查询通讯录下人员信息api）","code":"1070xF65041","prefix":107,"description":"","errorCode":16142401,"message":"搜索失败（65041）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口时appid为空(会议是否有密码api)","code":"1070xF50001","prefix":107,"errorCode":16056321,"message":"入会参数有误（50001）","accept":"app"
+			"reason":"调conference/haspwd接口时appid为空(会议是否有密码api)","code":"1070xF50001","prefix":107,"description":"","errorCode":16056321,"message":"入会参数有误（50001）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口时secretKey为空(会议是否有密码api)","code":"1070xF50002","prefix":107,"errorCode":16056322,"message":"入会参数有误（50002）","accept":"app"
+			"reason":"调conference/haspwd接口时secretKey为空(会议是否有密码api)","code":"1070xF50002","prefix":107,"description":"","errorCode":16056322,"message":"入会参数有误（50002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口时token为空(会议是否有密码api)","code":"1070xF50003","prefix":107,"errorCode":16056323,"message":"入会参数有误（50003）","accept":"app"
+			"reason":"调conference/haspwd接口时token为空(会议是否有密码api)","code":"1070xF50003","prefix":107,"description":"","errorCode":16056323,"message":"入会参数有误（50003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口时confId为空(会议是否有密码api)","code":"1070xF50004","prefix":107,"errorCode":16056324,"message":"入会参数有误（50004）","accept":"app"
+			"reason":"调conference/haspwd接口时confId为空(会议是否有密码api)","code":"1070xF50004","prefix":107,"description":"","errorCode":16056324,"message":"入会参数有误（50004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口时url地址为空(会议是否有密码api)","code":"1070xF50005","prefix":107,"errorCode":16056325,"message":"入会参数有误（50005）","accept":"app"
+			"reason":"调conference/haspwd接口时url地址为空(会议是否有密码api)","code":"1070xF50005","prefix":107,"description":"","errorCode":16056325,"message":"入会参数有误（50005）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口：Failed to connect/failed to connect(会议是否有密码api)","code":"1070xF50006","prefix":107,"errorCode":16056326,"message":"网络无法连接，入会失败（50006）","accept":"app"
+			"reason":"调conference/haspwd接口：Failed to connect/failed to connect(会议是否有密码api)","code":"1070xF50006","prefix":107,"description":"","errorCode":16056326,"message":"网络无法连接，入会失败（50006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口：connect timed out(会议是否有密码api)","code":"1070xF50007","prefix":107,"errorCode":16056327,"message":"入会失败（50007）","accept":"app"
+			"reason":"调conference/haspwd接口：connect timed out(会议是否有密码api)","code":"1070xF50007","prefix":107,"description":"","errorCode":16056327,"message":"入会失败（50007）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/haspwd接口：request failed , reponse's code is : 404(会议是否有密码api)","code":"1070xF50008","prefix":107,"errorCode":16056328,"message":"入会失败（50008）","accept":"app"
+			"reason":"调conference/haspwd接口：request failed , reponse's code is : 404(会议是否有密码api)","code":"1070xF50008","prefix":107,"description":"","errorCode":16056328,"message":"入会失败（50008）","englishdec":"","accept":"app"
 		},{
-			"reason":"有会议密码时，弹出输入密码框，未输入密码点击“确定”，提示“密码不能为空”","code":"1070xF50009","prefix":107,"errorCode":16056329,"message":"密码不能为空(50009)","accept":"app"
+			"reason":"有会议密码时，弹出输入密码框，未输入密码点击“确定”，提示“密码不能为空”","code":"1070xF50009","prefix":107,"description":"","errorCode":16056329,"message":"密码不能为空(50009)","englishdec":"","accept":"app"
 		},{
-			"reason":"加入会议界面，点击历史记录，历史记录为空","code":"1070xF50010","prefix":107,"errorCode":16056336,"message":"没有历史记录(50010)","accept":"app"
+			"reason":"加入会议界面，点击历史记录，历史记录为空","code":"1070xF50010","prefix":107,"description":"","errorCode":16056336,"message":"没有历史记录(50010)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口时appid为空(开始会议api)","code":"1070xF51001","prefix":107,"errorCode":16060417,"message":"入会参数有误（51001)","accept":"app"
+			"reason":"调conference/startmeeting接口时appid为空(开始会议api)","code":"1070xF51001","prefix":107,"description":"","errorCode":16060417,"message":"入会参数有误（51001)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口时secretKey为空(开始会议api)","code":"1070xF51002","prefix":107,"errorCode":16060418,"message":"入会参数有误（51002)","accept":"app"
+			"reason":"调conference/startmeeting接口时secretKey为空(开始会议api)","code":"1070xF51002","prefix":107,"description":"","errorCode":16060418,"message":"入会参数有误（51002)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口时token为空(开始会议api)","code":"1070xF51003","prefix":107,"errorCode":16060419,"message":"入会参数有误（51003)","accept":"app"
+			"reason":"调conference/startmeeting接口时token为空(开始会议api)","code":"1070xF51003","prefix":107,"description":"","errorCode":16060419,"message":"入会参数有误（51003)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口时serviceId为空(开始会议api)","code":"1070xF51004","prefix":107,"errorCode":16060420,"message":"入会参数有误（51004)","accept":"app"
+			"reason":"调conference/startmeeting接口时serviceId为空(开始会议api)","code":"1070xF51004","prefix":107,"description":"","errorCode":16060420,"message":"入会参数有误（51004)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口时url地址为空(开始会议api)","code":"1070xF51005","prefix":107,"errorCode":16060421,"message":"入会参数有误（51005)","accept":"app"
+			"reason":"调conference/startmeeting接口时url地址为空(开始会议api)","code":"1070xF51005","prefix":107,"description":"","errorCode":16060421,"message":"入会参数有误（51005)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口：Failed to connect/failed to connect(开始会议api)","code":"1070xF51006","prefix":107,"errorCode":16060422,"message":"网络无法连接，入会失败（51006）","accept":"app"
+			"reason":"调conference/startmeeting接口：Failed to connect/failed to connect(开始会议api)","code":"1070xF51006","prefix":107,"description":"","errorCode":16060422,"message":"网络无法连接，入会失败（51006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口：connect timed out(开始会议api)","code":"1070xF51007","prefix":107,"errorCode":16060423,"message":"入会失败（51007)","accept":"app"
+			"reason":"调conference/startmeeting接口：connect timed out(开始会议api)","code":"1070xF51007","prefix":107,"description":"","errorCode":16060423,"message":"入会失败（51007)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/startmeeting接口：request failed , reponse's code is : 404(开始会议api)","code":"1070xF51008","prefix":107,"errorCode":16060424,"message":"入会失败（51008)","accept":"app"
+			"reason":"调conference/startmeeting接口：request failed , reponse's code is : 404(开始会议api)","code":"1070xF51008","prefix":107,"description":"","errorCode":16060424,"message":"入会失败（51008)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口是appid为空(加入会议api)","code":"1070xF51009","prefix":107,"errorCode":16060425,"message":"入会参数有误（51009)","accept":"app"
+			"reason":"调conference/joinmeeting接口是appid为空(加入会议api)","code":"1070xF51009","prefix":107,"description":"","errorCode":16060425,"message":"入会参数有误（51009)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口是secretKey为空(加入会议api)","code":"1070xF51010","prefix":107,"errorCode":16060432,"message":"入会参数有误（51010)","accept":"app"
+			"reason":"调conference/joinmeeting接口是secretKey为空(加入会议api)","code":"1070xF51010","prefix":107,"description":"","errorCode":16060432,"message":"入会参数有误（51010)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口是token为空(加入会议api)","code":"1070xF51011","prefix":107,"errorCode":16060433,"message":"入会参数有误（51011)","accept":"app"
+			"reason":"调conference/joinmeeting接口是token为空(加入会议api)","code":"1070xF51011","prefix":107,"description":"","errorCode":16060433,"message":"入会参数有误（51011)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口是serviceId为空(加入会议api)","code":"1070xF51012","prefix":107,"errorCode":16060434,"message":"入会参数有误（51012)","accept":"app"
+			"reason":"调conference/joinmeeting接口是serviceId为空(加入会议api)","code":"1070xF51012","prefix":107,"description":"","errorCode":16060434,"message":"入会参数有误（51012)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口是confId为空(加入会议api)","code":"1070xF51013","prefix":107,"errorCode":16060435,"message":"入会参数有误（51013)","accept":"app"
+			"reason":"调conference/joinmeeting接口是confId为空(加入会议api)","code":"1070xF51013","prefix":107,"description":"","errorCode":16060435,"message":"入会参数有误（51013)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口是url地址为空(加入会议api)","code":"1070xF51014","prefix":107,"errorCode":16060436,"message":"入会参数有误（51014)","accept":"app"
+			"reason":"调conference/joinmeeting接口是url地址为空(加入会议api)","code":"1070xF51014","prefix":107,"description":"","errorCode":16060436,"message":"入会参数有误（51014)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口：Failed to connect/failed to connect(加入会议api)","code":"1070xF51015","prefix":107,"errorCode":16060437,"message":"网络无法连接，入会失败（51015)","accept":"app"
+			"reason":"调conference/joinmeeting接口：Failed to connect/failed to connect(加入会议api)","code":"1070xF51015","prefix":107,"description":"","errorCode":16060437,"message":"网络无法连接，入会失败（51015)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口：connect timed out(加入会议api)","code":"1070xF51016","prefix":107,"errorCode":16060438,"message":"入会失败（51016)","accept":"app"
+			"reason":"调conference/joinmeeting接口：connect timed out(加入会议api)","code":"1070xF51016","prefix":107,"description":"","errorCode":16060438,"message":"入会失败（51016)","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/joinmeeting接口：request failed , reponse's code is : 404(加入会议api)","code":"1070xF51017","prefix":107,"errorCode":16060439,"message":"入会失败（51017)","accept":"app"
+			"reason":"调conference/joinmeeting接口：request failed , reponse's code is : 404(加入会议api)","code":"1070xF51017","prefix":107,"description":"","errorCode":16060439,"message":"入会失败（51017)","englishdec":"","accept":"app"
 		},{
-			"reason":"调sdk的ReqJoinConf接口时，ReqJoinConf回调超时没有回来","code":"1070xF51018","prefix":107,"errorCode":16060440,"message":"入会失败（51018)","accept":"app"
+			"reason":"调sdk的ReqJoinConf接口时，ReqJoinConf回调超时没有回来","code":"1070xF51018","prefix":107,"description":"","errorCode":16060440,"message":"入会失败（51018)","englishdec":"","accept":"app"
 		},{
-			"reason":"调sdk的ReqJoinConf接口返回-1，（失败）","code":"1070xF51019","prefix":107,"errorCode":16060441,"message":"入会失败（51019)","accept":"app"
+			"reason":"调sdk的ReqJoinConf接口返回-1，（失败）","code":"1070xF51019","prefix":107,"description":"","errorCode":16060441,"message":"入会失败（51019)","englishdec":"","accept":"app"
 		},{
-			"reason":"sdk","code":"1070xF51020","prefix":107,"errorCode":16060448,"message":"入会失败（51020)","accept":"app"
+			"reason":"sdk","code":"1070xF51020","prefix":107,"description":"","errorCode":16060448,"message":"入会失败（51020)","englishdec":"","accept":"app"
 		},{
-			"reason":"调sdk的TermSelfExitGroupMeetingRoom取消等候接口超时，没有回调回来","code":"1070xF51021","prefix":107,"errorCode":16060449,"message":"入会失败（51021)","accept":"app"
+			"reason":"调sdk的TermSelfExitGroupMeetingRoom取消等候接口超时，没有回调回来","code":"1070xF51021","prefix":107,"description":"","errorCode":16060449,"message":"入会失败（51021)","englishdec":"","accept":"app"
 		},{
-			"reason":"调sdk的TermSelfExitGroupMeetingRoom取消等候接口返回-1，（失败）","code":"1070xF51022","prefix":107,"errorCode":16060450,"message":"入会失败（51022)","accept":"app"
+			"reason":"调sdk的TermSelfExitGroupMeetingRoom取消等候接口返回-1，（失败）","code":"1070xF51022","prefix":107,"description":"","errorCode":16060450,"message":"入会失败（51022)","englishdec":"","accept":"app"
 		},{
-			"reason":"收到sdk的OndIndTerJoinedGroupMeetingRoom同意进入等待会议接口时，m_gmrid!=0或m_gmrtype!=0,入会失败","code":"1070xF51023","prefix":107,"errorCode":16060451,"message":"入会失败（51023)","accept":"app"
+			"reason":"收到sdk的OndIndTerJoinedGroupMeetingRoom同意进入等待会议接口时，m_gmrid!=0或m_gmrtype!=0,入会失败","code":"1070xF51023","prefix":107,"description":"","errorCode":16060451,"message":"入会失败（51023)","englishdec":"","accept":"app"
 		},{
-			"reason":"主持人设置：主持人未入会，其他人无法入会","code":"1070xF51024","prefix":107,"errorCode":16060452,"message":"主持人未入会(51024)","accept":"app"
+			"reason":"主持人设置：主持人未入会，其他人无法入会","code":"1070xF51024","prefix":107,"description":"","errorCode":16060452,"message":"主持人未入会(51024)","englishdec":"","accept":"app"
 		},{
-			"reason":"主持人强制静音，调sdk的ForceMuteAudio接口返回-1，强制静音失败","code":"1070xF56001","prefix":107,"errorCode":16080897,"message":"强制静音失败，请重试（56001）","accept":"app"
+			"reason":"主持人强制静音，调sdk的ForceMuteAudio接口返回-1，强制静音失败","code":"1070xF56001","prefix":107,"description":"","errorCode":16080897,"message":"强制静音失败，请重试（56001）","englishdec":"","accept":"app"
 		},{
-			"reason":"主持人强制静音，调sdk的ForceMuteAudio接口超时，没有收到回调，强制静音失败","code":"1070xF56002","prefix":107,"errorCode":16080898,"message":"强制静音失败，请重试（56002）","accept":"app"
+			"reason":"主持人强制静音，调sdk的ForceMuteAudio接口超时，没有收到回调，强制静音失败","code":"1070xF56002","prefix":107,"description":"","errorCode":16080898,"message":"强制静音失败，请重试（56002）","englishdec":"","accept":"app"
 		},{
-			"reason":"主持人取消强制静音，调sdk的ForceMuteAudio接口返回-1，取消强制静音失败","code":"1070xF56003","prefix":107,"errorCode":16080899,"message":"取消强制静音失败，请重试（56003）","accept":"app"
+			"reason":"主持人取消强制静音，调sdk的ForceMuteAudio接口返回-1，取消强制静音失败","code":"1070xF56003","prefix":107,"description":"","errorCode":16080899,"message":"取消强制静音失败，请重试（56003）","englishdec":"","accept":"app"
 		},{
-			"reason":"主持人取消强制静音，调sdk的ForceMuteAudio接口超时，没有收到回调，取消强制静音失败","code":"1070xF56004","prefix":107,"errorCode":16080900,"message":"取消强制静音失败，请重试（56004）","accept":"app"
+			"reason":"主持人取消强制静音，调sdk的ForceMuteAudio接口超时，没有收到回调，取消强制静音失败","code":"1070xF56004","prefix":107,"description":"","errorCode":16080900,"message":"取消强制静音失败，请重试（56004）","englishdec":"","accept":"app"
 		},{
-			"reason":"主持人放下所有参会人的举手，调sdk的PutAllHandDown接口返回-1，放下所有举手失败","code":"1070xF56005","prefix":107,"errorCode":16080901,"message":"放下所有举手失败，请重试（56005）","accept":"app"
+			"reason":"主持人放下所有参会人的举手，调sdk的PutAllHandDown接口返回-1，放下所有举手失败","code":"1070xF56005","prefix":107,"description":"","errorCode":16080901,"message":"放下所有举手失败，请重试（56005）","englishdec":"","accept":"app"
 		},{
-			"reason":"放下所有举手失败,请重试（56006）","code":"1070xF56006","prefix":107,"errorCode":16080902,"message":"放下所有举手失败，请重试（56006）","accept":"app"
+			"reason":"放下所有举手失败,请重试（56006）","code":"1070xF56006","prefix":107,"description":"","errorCode":16080902,"message":"放下所有举手失败，请重试（56006）","englishdec":"","accept":"app"
 		},{
-			"reason":"同意举手发言，调sdk的RspWhoHandUp接口返回-1，同意举手发言失败","code":"1070xF56007","prefix":107,"errorCode":16080903,"message":"同意举手发言失败，请重试（56007）","accept":"app"
+			"reason":"同意举手发言，调sdk的RspWhoHandUp接口返回-1，同意举手发言失败","code":"1070xF56007","prefix":107,"description":"","errorCode":16080903,"message":"同意举手发言失败，请重试（56007）","englishdec":"","accept":"app"
 		},{
-			"reason":"同意举手发言，调sdk的RspWhoHandUp接口超时，没有收到回调，同意举手发言失败","code":"1070xF56008","prefix":107,"errorCode":16080904,"message":"同意举手发言失败，请重试（56008）","accept":"app"
+			"reason":"同意举手发言，调sdk的RspWhoHandUp接口超时，没有收到回调，同意举手发言失败","code":"1070xF56008","prefix":107,"description":"","errorCode":16080904,"message":"同意举手发言失败，请重试（56008）","englishdec":"","accept":"app"
 		},{
-			"reason":"拒绝举手发言，调sdk的RspWhoHandUp接口返回-1，拒绝举手发言失败","code":"1070xF56009","prefix":107,"errorCode":16080905,"message":"拒绝举手发言失败，请重试（56009）","accept":"app"
+			"reason":"拒绝举手发言，调sdk的RspWhoHandUp接口返回-1，拒绝举手发言失败","code":"1070xF56009","prefix":107,"description":"","errorCode":16080905,"message":"拒绝举手发言失败，请重试（56009）","englishdec":"","accept":"app"
 		},{
-			"reason":"拒绝举手发言，调sdk的RspWhoHandUp接口超时，没有收到回调，拒绝举手发言失败","code":"1070xF56010","prefix":107,"errorCode":16080912,"message":"拒绝举手发言失败，请重试（56010）","accept":"app"
+			"reason":"拒绝举手发言，调sdk的RspWhoHandUp接口超时，没有收到回调，拒绝举手发言失败","code":"1070xF56010","prefix":107,"description":"","errorCode":16080912,"message":"拒绝举手发言失败，请重试（56010）","englishdec":"","accept":"app"
 		},{
-			"reason":"静音，调sdk的MuteAudio接口返回-1，静音失败","code":"1070xF56011","prefix":107,"errorCode":16080913,"message":"静音失败，请重试（56011）","accept":"app"
+			"reason":"静音，调sdk的MuteAudio接口返回-1，静音失败","code":"1070xF56011","prefix":107,"description":"","errorCode":16080913,"message":"静音失败，请重试（56011）","englishdec":"","accept":"app"
 		},{
-			"reason":"静音，调sdk的MuteAudio接口超时，没有收到回调，静音失败","code":"1070xF56012","prefix":107,"errorCode":16080914,"message":"静音失败，请重试（56012）","accept":"app"
+			"reason":"静音，调sdk的MuteAudio接口超时，没有收到回调，静音失败","code":"1070xF56012","prefix":107,"description":"","errorCode":16080914,"message":"静音失败，请重试（56012）","englishdec":"","accept":"app"
 		},{
-			"reason":"取消静音，调sdk的UnMuteAudio接口返回-1，取消静音失败","code":"1070xF56013","prefix":107,"errorCode":16080915,"message":"取消静音失败，请重试（56013）","accept":"app"
+			"reason":"取消静音，调sdk的UnMuteAudio接口返回-1，取消静音失败","code":"1070xF56013","prefix":107,"description":"","errorCode":16080915,"message":"取消静音失败，请重试（56013）","englishdec":"","accept":"app"
 		},{
-			"reason":"取消静音，调sdk的UnMuteAudio接口超时，没有收到回调，取消静音失败","code":"1070xF56014","prefix":107,"errorCode":16080916,"message":"取消静音失败，请重试（56014）","accept":"app"
+			"reason":"取消静音，调sdk的UnMuteAudio接口超时，没有收到回调，取消静音失败","code":"1070xF56014","prefix":107,"description":"","errorCode":16080916,"message":"取消静音失败，请重试（56014）","englishdec":"","accept":"app"
 		},{
-			"reason":"举手，调sdk的HandUp接口返回-1，举手失败","code":"1070xF56015","prefix":107,"errorCode":16080917,"message":"举手失败，请重试（56015）","accept":"app"
+			"reason":"举手，调sdk的HandUp接口返回-1，举手失败","code":"1070xF56015","prefix":107,"description":"","errorCode":16080917,"message":"举手失败，请重试（56015）","englishdec":"","accept":"app"
 		},{
-			"reason":"举手，调sdk的HandUp接口超时，没有收到回调，举手失败","code":"1070xF56016","prefix":107,"errorCode":16080918,"message":"举手失败，请重试（56016）","accept":"app"
+			"reason":"举手，调sdk的HandUp接口超时，没有收到回调，举手失败","code":"1070xF56016","prefix":107,"description":"","errorCode":16080918,"message":"举手失败，请重试（56016）","englishdec":"","accept":"app"
 		},{
-			"reason":"放下手，调sdk的HandUp接口返回-1，放下手失败","code":"1070xF56017","prefix":107,"errorCode":16080919,"message":"手放下失败，请重试（56017）","accept":"app"
+			"reason":"放下手，调sdk的HandUp接口返回-1，放下手失败","code":"1070xF56017","prefix":107,"description":"","errorCode":16080919,"message":"手放下失败，请重试（56017）","englishdec":"","accept":"app"
 		},{
-			"reason":"放下手，调sdk的HandUp接口超时，没有收到回调，放下手失败","code":"1070xF56018","prefix":107,"errorCode":16080920,"message":"手放下失败，请重试（56018）","accept":"app"
+			"reason":"放下手，调sdk的HandUp接口超时，没有收到回调，放下手失败","code":"1070xF56018","prefix":107,"description":"","errorCode":16080920,"message":"手放下失败，请重试（56018）","englishdec":"","accept":"app"
 		},{
-			"reason":"会中邀请时confId为空","code":"1070xF59001","prefix":107,"errorCode":16093185,"message":"加载失败（59001）","accept":"app"
+			"reason":"会中邀请时confId为空","code":"1070xF59001","prefix":107,"description":"","errorCode":16093185,"message":"加载失败（59001）","englishdec":"","accept":"app"
 		},{
-			"reason":"原生与js绑定失败","code":"1070xF59002","prefix":107,"errorCode":16093186,"message":"加载失败（59002）","accept":"app"
+			"reason":"原生与js绑定失败","code":"1070xF59002","prefix":107,"description":"","errorCode":16093186,"message":"加载失败（59002）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口时url地址为空（邀请新的与会人api）","code":"1070xF59003","prefix":107,"errorCode":16093187,"message":"邀请参数有误（59003）","accept":"app"
+			"reason":"调conference/invite接口时url地址为空（邀请新的与会人api）","code":"1070xF59003","prefix":107,"description":"","errorCode":16093187,"message":"邀请参数有误（59003）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口时appId为空（邀请新的与会人api）","code":"1070xF59004","prefix":107,"errorCode":16093188,"message":"邀请参数有误（59004）","accept":"app"
+			"reason":"调conference/invite接口时appId为空（邀请新的与会人api）","code":"1070xF59004","prefix":107,"description":"","errorCode":16093188,"message":"邀请参数有误（59004）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口时token为空（邀请新的与会人api）","code":"1070xF59005","prefix":107,"errorCode":16093189,"message":"邀请参数有误（59005）","accept":"app"
+			"reason":"调conference/invite接口时token为空（邀请新的与会人api）","code":"1070xF59005","prefix":107,"description":"","errorCode":16093189,"message":"邀请参数有误（59005）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口时confId为空（邀请新的与会人api）","code":"1070xF59006","prefix":107,"errorCode":16093190,"message":"邀请参数有误（59006）","accept":"app"
+			"reason":"调conference/invite接口时confId为空（邀请新的与会人api）","code":"1070xF59006","prefix":107,"description":"","errorCode":16093190,"message":"邀请参数有误（59006）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口时participantsStr为空（邀请新的与会人api）","code":"1070xF59007","prefix":107,"errorCode":16093191,"message":"邀请参数有误（59007）","accept":"app"
+			"reason":"调conference/invite接口时participantsStr为空（邀请新的与会人api）","code":"1070xF59007","prefix":107,"description":"","errorCode":16093191,"message":"邀请参数有误（59007）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口：Failed to connect/failed to connect(邀请新的与会人api)","code":"1070xF59008","prefix":107,"errorCode":16093192,"message":"网络无法连接，邀请失败（59008）","accept":"app"
+			"reason":"调conference/invite接口：Failed to connect/failed to connect(邀请新的与会人api)","code":"1070xF59008","prefix":107,"description":"","errorCode":16093192,"message":"网络无法连接，邀请失败（59008）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口：connect timed out(邀请新的与会人api)","code":"1070xF59009","prefix":107,"errorCode":16093193,"message":"邀请失败，请重试（59009）","accept":"app"
+			"reason":"调conference/invite接口：connect timed out(邀请新的与会人api)","code":"1070xF59009","prefix":107,"description":"","errorCode":16093193,"message":"邀请失败，请重试（59009）","englishdec":"","accept":"app"
 		},{
-			"reason":"调conference/invite接口：request failed , reponse's code is : 404(邀请新的与会人api)","code":"1070xF59010","prefix":107,"errorCode":16093200,"message":"邀请失败，请重试（59010）","accept":"app"
+			"reason":"调conference/invite接口：request failed , reponse's code is : 404(邀请新的与会人api)","code":"1070xF59010","prefix":107,"description":"","errorCode":16093200,"message":"邀请失败，请重试（59010）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时url地址为空（拨号邀请api）","code":"1070xF59011","prefix":107,"errorCode":16093201,"message":"邀请参数有误（59011）","accept":"app"
+			"reason":"调terminal/invite接口时url地址为空（拨号邀请api）","code":"1070xF59011","prefix":107,"description":"","errorCode":16093201,"message":"邀请参数有误（59011）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时appId为空（拨号邀请api）","code":"1070xF59012","prefix":107,"errorCode":16093202,"message":"邀请参数有误（59012）","accept":"app"
+			"reason":"调terminal/invite接口时appId为空（拨号邀请api）","code":"1070xF59012","prefix":107,"description":"","errorCode":16093202,"message":"邀请参数有误（59012）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时secretKey为空（拨号邀请api）","code":"1070xF59013","prefix":107,"errorCode":16093203,"message":"邀请参数有误（59013）","accept":"app"
+			"reason":"调terminal/invite接口时secretKey为空（拨号邀请api）","code":"1070xF59013","prefix":107,"description":"","errorCode":16093203,"message":"邀请参数有误（59013）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时token为空(拨号邀请api)","code":"1070xF59014","prefix":107,"errorCode":16093204,"message":"邀请参数有误（59014）","accept":"app"
+			"reason":"调terminal/invite接口时token为空(拨号邀请api)","code":"1070xF59014","prefix":107,"description":"","errorCode":16093204,"message":"邀请参数有误（59014）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时confId为空（拨号邀请api）","code":"1070xF59015","prefix":107,"errorCode":16093205,"message":"邀请参数有误（59015）","accept":"app"
+			"reason":"调terminal/invite接口时confId为空（拨号邀请api）","code":"1070xF59015","prefix":107,"description":"","errorCode":16093205,"message":"邀请参数有误（59015）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时terminal.protocolType为空（拨号邀请api）","code":"1070xF59016","prefix":107,"errorCode":16093206,"message":"邀请参数有误（59016）","accept":"app"
+			"reason":"调terminal/invite接口时terminal.protocolType为空（拨号邀请api）","code":"1070xF59016","prefix":107,"description":"","errorCode":16093206,"message":"邀请参数有误（59016）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时terminal.deviceType为空（拨号邀请api）","code":"1070xF59017","prefix":107,"errorCode":16093207,"message":"邀请参数有误（59017）","accept":"app"
+			"reason":"调terminal/invite接口时terminal.deviceType为空（拨号邀请api）","code":"1070xF59017","prefix":107,"description":"","errorCode":16093207,"message":"邀请参数有误（59017）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时terminal.bandwidth为空（拨号邀请api）","code":"1070xF59018","prefix":107,"errorCode":16093208,"message":"邀请参数有误（59018）","accept":"app"
+			"reason":"调terminal/invite接口时terminal.bandwidth为空（拨号邀请api）","code":"1070xF59018","prefix":107,"description":"","errorCode":16093208,"message":"邀请参数有误（59018）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口时terminal.ip为空（拨号邀请api）","code":"1070xF59019","prefix":107,"errorCode":16093209,"message":"邀请参数有误（59019）","accept":"app"
+			"reason":"调terminal/invite接口时terminal.ip为空（拨号邀请api）","code":"1070xF59019","prefix":107,"description":"","errorCode":16093209,"message":"邀请参数有误（59019）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口：Failed to connect/failed to connect(拨号邀请api)","code":"1070xF59020","prefix":107,"errorCode":16093216,"message":"网络无法连接，邀请失败（59020）\t\t\t\t\t\t\t）","accept":"app"
+			"reason":"调terminal/invite接口：Failed to connect/failed to connect(拨号邀请api)","code":"1070xF59020","prefix":107,"description":"","errorCode":16093216,"message":"网络无法连接，邀请失败（59020）\t\t\t\t\t\t\t）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口：connect timed out(拨号邀请api)","code":"1070xF59021","prefix":107,"errorCode":16093217,"message":"邀请失败，请重试（59021）","accept":"app"
+			"reason":"调terminal/invite接口：connect timed out(拨号邀请api)","code":"1070xF59021","prefix":107,"description":"","errorCode":16093217,"message":"邀请失败，请重试（59021）","englishdec":"","accept":"app"
 		},{
-			"reason":"调terminal/invite接口：request failed , reponse's code is : 404(拨号邀请api)","code":"1070xF59022","prefix":107,"errorCode":16093218,"message":"邀请失败，请重试（59022）","accept":"app"
+			"reason":"调terminal/invite接口：request failed , reponse's code is : 404(拨号邀请api)","code":"1070xF59022","prefix":107,"description":"","errorCode":16093218,"message":"邀请失败，请重试（59022）","englishdec":"","accept":"app"
 		},{
-			"reason":"接口不存在","code":"1000x020009","prefix":100,"errorCode":131081,"message":"版本不匹配（20009）","accept":"调用者"
+			"reason":"接口不存在","code":"1000x020009","prefix":100,"description":"","errorCode":131081,"message":"版本不匹配（20009）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"时间格式无无效","code":"1000x020010","prefix":100,"errorCode":131088,"message":"时间类型错误（20010）","accept":"调用者"
+			"reason":"时间格式无无效","code":"1000x020010","prefix":100,"description":"","errorCode":131088,"message":"时间类型错误（20010）","englishdec":"","accept":"调用者"
 		},{
-			"reason":"加入会议返回参数错误","code":"1090x0D0001","prefix":109,"description":"OnRspJoinConf param error","errorCode":851969,"accept":"ter"
+			"reason":"加入会议返回参数错误","code":"1090x0D0001","prefix":109,"description":"OnRspJoinConf param error","errorCode":851969,"message":"","englishdec":"","accept":"ter"
 		},{
-			"reason":"未选择随机会议号时，没有输入会议号，会议号为空","code":"1070xF60005","prefix":107,"errorCode":16121861,"message":"请输入会议号(60005)","accept":"app"
+			"reason":"未选择随机会议号时，没有输入会议号，会议号为空","code":"1070xF60005","prefix":107,"description":"","errorCode":16121861,"message":"请输入会议号(60005)","englishdec":"","accept":"app"
 		},{
-			"reason":"预约会议、编辑会议时，开始时间小于当前时间，点击确认，提示没带编码","code":"1070xF61012","prefix":107,"errorCode":16125970,"message":"会议开始时间需大于当前时间（61012）","accept":"app"
+			"reason":"预约会议、编辑会议时，开始时间小于当前时间，点击确认，提示没带编码","code":"1070xF61012","prefix":107,"description":"","errorCode":16125970,"message":"会议开始时间需大于当前时间（61012）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载接口apk失败：404","code":"1070xF13011","prefix":107,"errorCode":15806481,"message":"下载新版本失败（13011）","accept":"app"
+			"reason":"调用下载接口apk失败：404","code":"1070xF13011","prefix":107,"description":"","errorCode":15806481,"message":"下载新版本失败（13011）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载apk接口失败：请求超时","code":"1070xF13012","prefix":107,"errorCode":15806482,"message":"请求超时，下载新版本失败（13012）","accept":"app"
+			"reason":"调用下载apk接口失败：请求超时","code":"1070xF13012","prefix":107,"description":"","errorCode":15806482,"message":"请求超时，下载新版本失败（13012）","englishdec":"","accept":"app"
 		},{
-			"reason":"调用下载接口失败：网络无法连接","code":"1070xF13013","prefix":107,"errorCode":15806483,"message":"网络无法连接，下载新版本失败（13013）","accept":"app"
+			"reason":"调用下载接口失败：网络无法连接","code":"1070xF13013","prefix":107,"description":"","errorCode":15806483,"message":"网络无法连接，下载新版本失败（13013）","englishdec":"","accept":"app"
+		},{
+			"reason":"未安装邮箱","code":"1070xF65042","prefix":107,"description":"","errorCode":16142402,"message":"您未安装邮箱，无法发送邮件（65042）","englishdec":"","accept":"app"
+		},{
+			"reason":"Android pad不支持短信协议","code":"1070xF65043","prefix":107,"description":"","errorCode":16142403,"message":"该设备不支持短信功能 (65043)","englishdec":"","accept":"app"
+		},{
+			"reason":"","code":"1070xF65044","prefix":107,"description":"该设备不支持电话功能（65044）","errorCode":16142404,"message":"该设备不支持电话功能（65044）","englishdec":"","accept":"app"
 		}
 	]
 }

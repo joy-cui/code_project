@@ -1084,7 +1084,7 @@
         <accept>调用者</accept>
         <code>1000x020001</code>
         <description></description>
-        <englishdec>english</englishdec>
+        <englishdec></englishdec>
         <errorCode>131073</errorCode>
         <message>登陆超时（20001）</message>
         <prefix>100</prefix>
@@ -4929,5 +4929,35 @@
         <message>网络无法连接，下载新版本失败（13013）</message>
         <prefix>107</prefix>
         <reason>调用下载接口失败：网络无法连接</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65042</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142402</errorCode>
+        <message>您未安装邮箱，无法发送邮件（65042）</message>
+        <prefix>107</prefix>
+        <reason>未安装邮箱</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65043</code>
+        <description></description>
+        <englishdec></englishdec>
+        <errorCode>16142403</errorCode>
+        <message>该设备不支持短信功能 (65043)</message>
+        <prefix>107</prefix>
+        <reason>Android pad不支持短信协议</reason>
+    </errCode>
+    <errCode>
+        <accept>app</accept>
+        <code>1070xF65044</code>
+        <description>该设备不支持电话功能（65044）</description>
+        <englishdec></englishdec>
+        <errorCode>16142404</errorCode>
+        <message>该设备不支持电话功能（65044）</message>
+        <prefix>107</prefix>
+        <reason></reason>
     </errCode>
 </errCodes>
